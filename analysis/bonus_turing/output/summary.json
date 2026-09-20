@@ -1,0 +1,108 @@
+{
+  "n_nodes": 81,
+  "n_edges": 135,
+  "n_isolates": 11,
+  "isolates": [
+    "Charles Bachman",
+    "Stephen Cook",
+    "Jack Dongarra",
+    "Jim Gray (computer scientist)",
+    "Richard Hamming",
+    "William Kahan",
+    "Robert Metcalfe",
+    "Robin Milner",
+    "Judea Pearl",
+    "Leslie Valiant",
+    "James H. Wilkinson"
+  ],
+  "n_components": 16,
+  "giant_size": 59,
+  "top_in": [
+    [
+      "Donald Knuth",
+      8
+    ],
+    [
+      "John McCarthy (computer scientist)",
+      6
+    ],
+    [
+      "John Hopcroft",
+      5
+    ],
+    [
+      "Alan Kay",
+      5
+    ],
+    [
+      "Manuel Blum",
+      4
+    ],
+    [
+      "Silvio Micali",
+      4
+    ],
+    [
+      "Allen Newell",
+      4
+    ],
+    [
+      "Herbert A. Simon",
+      4
+    ],
+    [
+      "Leonard Adleman",
+      3
+    ],
+    [
+      "Yoshua Bengio",
+      3
+    ]
+  ],
+  "top_out": [
+    [
+      "John McCarthy (computer scientist)",
+      6
+    ],
+    [
+      "Ron Rivest",
+      5
+    ],
+    [
+      "Manuel Blum",
+      4
+    ],
+    [
+      "Edward Feigenbaum",
+      4
+    ],
+    [
+      "John Hopcroft",
+      4
+    ],
+    [
+      "Raj Reddy",
+      4
+    ],
+    [
+      "Leonard Adleman",
+      3
+    ],
+    [
+      "Edwin Catmull",
+      3
+    ],
+    [
+      "Edmund M. Clarke",
+      3
+    ],
+    [
+      "Robert W. Floyd",
+      3
+    ]
+  ],
+  "mean_in": 1.6666666666666667,
+  "mean_out": 1.6666666666666667,
+  "max_in": 8,
+  "max_out": 6
+}

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bonus: do famous engineers cite each other like superheroes do? | The Marvel Graph Diaries</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🕸️</text></svg>">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap">
+    <div>
+      <h1 class="site-title"><a href="../index.html">The Marvel Graph Diaries</a></h1>
+      <p class="site-tagline">One dense, hub-riddled little universe. Eight weeks. One dataset.</p>
+    </div>
+    <nav class="site-nav">
+      <a href="../index.html">Posts</a>
+      <a href="../about.html">About</a>
+      <a href="https://github.com/TSimona08/social-graph-interactions" target="_blank" rel="noopener">GitHub</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+<article class="post">
+
+  <h1>Bonus — do famous engineers cite each other like superheroes do?</h1>
+  <p class="post-meta">Posted 21 September 2026 · Side quest, outside the weekly numbering · Data: live Wikipedia API, crawled 2026‑09‑21</p>
+
+  <h2>What we asked</h2>
+  <p>
+    Week 1 was about the Marvel superheroes network — a dense little universe where
+    Spider-Man alone is linked to by a third of the other 302 characters. That got us
+    wondering: is that kind of runaway hub a property of <em>fictional celebrity</em>
+    specifically, or would we see the same shape in a network of real, famous people?
+    As a side quest (not this week's actual post), we picked a real-world category with
+    the same clean, closed structure as "Marvel Comics superheroes" — an actual award,
+    not a vague notion of fame — and built the same kind of network from scratch.
+  </p>
+
+  <div class="callout">
+    <strong>The category:</strong> <a href="https://en.wikipedia.org/wiki/Category:Turing_Award_laureates" target="_blank" rel="noopener">Category:Turing Award laureates</a>
+    — everyone who has won the "Nobel Prize of computing." Closed membership (you either won
+    the award or you didn't), no subjective "famous enough" judgment call, small enough to
+    look at whole.
+  </div>
+
+  <h2>What we did</h2>
+  <p>
+    Unlike week 1, there's no frozen snapshot for this — so we built the network ourselves,
+    live, via the Wikipedia API: fetched every page in the category, pulled each one's raw
+    wikitext, and extracted <code>[[Page name]]</code> links exactly as the course describes
+    the Marvel network being harvested. An edge <code>A → B</code> exists when laureate A's
+    Wikipedia article links to laureate B's.
+  </p>
+
+  <div class="stat-row">
+    <div class="stat-box"><span class="num">81</span><span class="label">laureates</span></div>
+    <div class="stat-box"><span class="num">135</span><span class="label">directed links</span></div>
+    <div class="stat-box"><span class="num">11</span><span class="label">isolated nodes</span></div>
+    <div class="stat-box"><span class="num">16</span><span class="label">connected components</span></div>
+    <div class="stat-box"><span class="num">73%</span><span class="label">in the giant component</span></div>
+  </div>
+
+  <h2>The headline finding: no Spider-Man here</h2>
+  <p>
+    In the Marvel network, the top in-degree was <strong>106</strong> (Spider-Man, out of 302
+    possible links — about a third of the whole network). Here, the single most-cited
+    laureate is <strong>Donald Knuth</strong>, and his in-degree is <strong>8</strong> — out of
+    80 possible. Average in-degree here is 1.67, versus 5.89 for the Marvel network,
+    on a category almost four times smaller.
+  </p>
+
+  <figure>
+    <img src="../assets/img/bonus-turing/degree_hist.png" alt="In-degree and out-degree histograms for Turing Award laureates">
+    <figcaption>Fig. 1 — In- and out-degree distributions for Turing Award laureates. No long tail: the max is 8, and most laureates have 0–2 links either way.</figcaption>
+  </figure>
+
+  <p>
+    Real, famous, decorated computer scientists cite each other in Wikipedia's prose far
+    less densely than fictional superheroes cite each other in their plot summaries. Our
+    read: Marvel's link density comes from a narrative device — shared universes,
+    crossovers, and team-ups are the entire point of the source material, so articles
+    <em>have to</em> cross-reference each other to explain the story. Biographical Wikipedia
+    articles about real scientists have no equivalent narrative pressure to mention other
+    laureates by name, even when the underlying professional relationships (advisor,
+    co-author, colleague) are just as real or realer.
+  </p>
+
+  <h2>Who's cited, who cites — and it's a much smaller cast</h2>
+  <table>
+    <thead><tr><th>Rank</th><th>Most cited (in-degree)</th><th>Cites others most (out-degree)</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td>Donald Knuth — 8</td><td>John McCarthy — 6</td></tr>
+      <tr><td>2</td><td>John McCarthy — 6</td><td>Ron Rivest — 5</td></tr>
+      <tr><td>3</td><td>John Hopcroft — 5</td><td>Manuel Blum — 4</td></tr>
+      <tr><td>4</td><td>Alan Kay — 5</td><td>Edward Feigenbaum — 4</td></tr>
+      <tr><td>5</td><td>Manuel Blum — 4</td><td>John Hopcroft — 4</td></tr>
+    </tbody>
+  </table>
+  <p>
+    Unlike week 1's split casts, several names appear on <em>both</em> leaderboards here
+    (McCarthy, Hopcroft, Manuel Blum) — with only 81 nodes and 135 edges, the same handful
+    of foundational, early-era figures (McCarthy essentially named the field of AI) end up
+    doing double duty as both hubs and connectors, because there simply isn't room for the
+    in- and out-degree elites to be two disjoint crowds the way they were among 303 Marvel
+    characters.
+  </p>
+
+  <h2>The islands: coherent research communities, not random gaps</h2>
+  <p>
+    Only 73% of laureates sit in the giant component — notably less connected than Marvel's
+    91%. The disconnected pieces are legible as real intellectual communities:
+  </p>
+  <ul>
+    <li><strong>Deep learning pioneers</strong> — Geoffrey Hinton, Yoshua Bengio, Yann LeCun, and Andrew Yao form their own 4-node island, densely linked to each other and to no one else in the category.</li>
+    <li><strong>Unix creators</strong> — Ken Thompson, Dennis Ritchie, and Fernando Corbató, another self-contained trio.</li>
+    <li><strong>Compiler optimization</strong> — John Cocke and Frances Allen, longtime IBM collaborators, linked only to each other.</li>
+    <li><strong>Reinforcement learning</strong> — Andrew Barto and Richard Sutton, co-authors of the field's foundational textbook.</li>
+  </ul>
+  <div class="callout surprise">
+    <strong>The surprise:</strong> every one of Marvel's outside-the-giant-component nodes was either
+    a fully isolated one-off character or one single unrelated clique (the Morituri squad).
+    Here we get <em>four separate small islands</em>, and each one maps cleanly onto a real
+    sub-community within computer science — deep learning, Unix, compilers, reinforcement
+    learning. The disconnection isn't noise; it's the actual shape of the field's sub-disciplines,
+    each clustering with itself and barely acknowledging the others in prose.
+  </div>
+
+  <h2>The isolates: giants who just don't get name-dropped</h2>
+  <p>
+    11 laureates have zero links in or out within the category: Charles Bachman, Stephen Cook,
+    Jack Dongarra, Jim Gray, Richard Hamming, William Kahan, Robert Metcalfe, Robin Milner,
+    Judea Pearl, Leslie Valiant, and James H. Wilkinson. Unlike Marvel's isolates (mostly
+    genuinely obscure one-off characters), several of these are towering, extremely famous
+    figures in their sub-fields (Hamming, Cook, Pearl) — they're just not the kind of figure
+    whose name gets casually dropped in another laureate's biography. Fame and Wikipedia
+    link-degree measure different things once you leave fiction behind.
+  </p>
+
+  <h2>The full picture</h2>
+  <figure>
+    <img src="../assets/img/bonus-turing/network.png" alt="Full network drawing of Turing Award laureates, showing the giant component, four small islands, and isolated nodes">
+    <figcaption>Fig. 2 — The Turing laureates network. Red = giant component (59 nodes), green = the four small research-community islands, gray = the 11 isolates. Node size = total degree.</figcaption>
+  </figure>
+
+  <h2>What surprised us</h2>
+  <ul>
+    <li>The complete absence of a Spider-Man-scale hub — even the most-cited laureate (Knuth, 8) reaches barely a tenth of the category, versus a third for Spider-Man.</li>
+    <li>Small components here are thematically coherent research communities, not random debris — a genuinely nice structural signal about how the field is organized.</li>
+    <li>Being isolated in this network says nothing about being unimportant — several isolates are giants of the field. Link-degree here tracks "gets name-dropped in others' bios," not "is famous."</li>
+  </ul>
+
+  <h2>A caveat on the crawl</h2>
+  <p>
+    We used <code>action=parse</code> + wikitext and a simple <code>[[...]]</code> regex rather
+    than the cleaner <code>prop=links</code> API endpoint, to mirror how the course said the
+    Marvel network's edges were harvested. This will pick up some links inside infoboxes,
+    "See also" sections, and citation templates that a stricter parse might exclude, and it
+    doesn't resolve redirects (so a link via an alternate name/spelling could be missed) —
+    worth keeping in mind before reading too much into any single edge.
+  </p>
+
+  <p>Full crawl + analysis code: <a href="https://github.com/TSimona08/social-graph-interactions/tree/main/analysis/bonus_turing" target="_blank" rel="noopener">analysis/bonus_turing/</a> in the repo.</p>
+
+  <a class="back-link" href="../index.html">← Back to all posts</a>
+</article>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>The Marvel Graph Diaries — a weekly data-story series for 02805 Social Graphs and Interactions, DTU.</p>
+  </div>
+</footer>
+
+</body>
+</html>

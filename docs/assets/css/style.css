@@ -134,6 +134,15 @@ main {
   margin-bottom: 10px;
 }
 
+.post-card .week-badge.bonus {
+  background: var(--accent-green);
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
 .post-card h2 {
   margin: 0 0 8px;
   font-size: 1.5rem;

@@ -1,0 +1,630 @@
+{
+  "category": "Category:Turing Award laureates",
+  "n_nodes": 81,
+  "n_edges": 135,
+  "nodes": [
+    "Leonard Adleman",
+    "Alfred Aho",
+    "Frances Allen",
+    "Charles Bachman",
+    "John Backus",
+    "Andrew Barto",
+    "Yoshua Bengio",
+    "Charles H. Bennett (physicist)",
+    "Tim Berners-Lee",
+    "Manuel Blum",
+    "Gilles Brassard",
+    "Fred Brooks",
+    "Edwin Catmull",
+    "Vint Cerf",
+    "Edmund M. Clarke",
+    "John Cocke (computer scientist)",
+    "Edgar F. Codd",
+    "Stephen Cook",
+    "Fernando J. Corbat\u00f3",
+    "Ole-Johan Dahl",
+    "Whitfield Diffie",
+    "Edsger W. Dijkstra",
+    "Jack Dongarra",
+    "E. Allen Emerson",
+    "Douglas Engelbart",
+    "Edward Feigenbaum",
+    "Robert W. Floyd",
+    "Shafi Goldwasser",
+    "Jim Gray (computer scientist)",
+    "Richard Hamming",
+    "Pat Hanrahan",
+    "Juris Hartmanis",
+    "Martin Hellman",
+    "John L. Hennessy",
+    "Geoffrey Hinton",
+    "Tony Hoare",
+    "John Hopcroft",
+    "Kenneth E. Iverson",
+    "William Kahan",
+    "Robert Kahn (computer scientist)",
+    "Richard M. Karp",
+    "Alan Kay",
+    "Donald Knuth",
+    "Leslie Lamport",
+    "Butler Lampson",
+    "Yann LeCun",
+    "Barbara Liskov",
+    "John McCarthy (computer scientist)",
+    "Robert Metcalfe",
+    "Silvio Micali",
+    "Robin Milner",
+    "Marvin Minsky",
+    "Peter Naur",
+    "Allen Newell",
+    "Kristen Nygaard",
+    "David Patterson (computer scientist)",
+    "Judea Pearl",
+    "Alan Perlis",
+    "Amir Pnueli",
+    "Michael O. Rabin",
+    "Raj Reddy",
+    "Dennis Ritchie",
+    "Ron Rivest",
+    "Dana Scott",
+    "Adi Shamir",
+    "Joseph Sifakis",
+    "Herbert A. Simon",
+    "Richard E. Stearns",
+    "Michael Stonebraker",
+    "Ivan Sutherland",
+    "Richard S. Sutton",
+    "Robert Tarjan",
+    "Charles P. Thacker",
+    "Ken Thompson",
+    "Jeffrey Ullman",
+    "Leslie Valiant",
+    "Avi Wigderson",
+    "Maurice Wilkes",
+    "James H. Wilkinson",
+    "Niklaus Wirth",
+    "Andrew Yao"
+  ],
+  "edges": [
+    [
+      "Leonard Adleman",
+      "Adi Shamir"
+    ],
+    [
+      "Leonard Adleman",
+      "Ron Rivest"
+    ],
+    [
+      "Leonard Adleman",
+      "Manuel Blum"
+    ],
+    [
+      "Alfred Aho",
+      "Jeffrey Ullman"
+    ],
+    [
+      "Alfred Aho",
+      "John Hopcroft"
+    ],
+    [
+      "Frances Allen",
+      "John Cocke (computer scientist)"
+    ],
+    [
+      "John Backus",
+      "Kenneth E. Iverson"
+    ],
+    [
+      "Andrew Barto",
+      "Richard S. Sutton"
+    ],
+    [
+      "Yoshua Bengio",
+      "Geoffrey Hinton"
+    ],
+    [
+      "Yoshua Bengio",
+      "Yann LeCun"
+    ],
+    [
+      "Charles H. Bennett (physicist)",
+      "Gilles Brassard"
+    ],
+    [
+      "Manuel Blum",
+      "Shafi Goldwasser"
+    ],
+    [
+      "Manuel Blum",
+      "Marvin Minsky"
+    ],
+    [
+      "Manuel Blum",
+      "Silvio Micali"
+    ],
+    [
+      "Manuel Blum",
+      "Leonard Adleman"
+    ],
+    [
+      "Gilles Brassard",
+      "Charles H. Bennett (physicist)"
+    ],
+    [
+      "Gilles Brassard",
+      "John Hopcroft"
+    ],
+    [
+      "Fred Brooks",
+      "Kenneth E. Iverson"
+    ],
+    [
+      "Edwin Catmull",
+      "Ivan Sutherland"
+    ],
+    [
+      "Edwin Catmull",
+      "Alan Kay"
+    ],
+    [
+      "Edwin Catmull",
+      "Pat Hanrahan"
+    ],
+    [
+      "Vint Cerf",
+      "Robert Kahn (computer scientist)"
+    ],
+    [
+      "Vint Cerf",
+      "Tim Berners-Lee"
+    ],
+    [
+      "Edmund M. Clarke",
+      "Allen Newell"
+    ],
+    [
+      "Edmund M. Clarke",
+      "Joseph Sifakis"
+    ],
+    [
+      "Edmund M. Clarke",
+      "E. Allen Emerson"
+    ],
+    [
+      "Fernando J. Corbat\u00f3",
+      "Ken Thompson"
+    ],
+    [
+      "Ole-Johan Dahl",
+      "Kristen Nygaard"
+    ],
+    [
+      "Whitfield Diffie",
+      "Martin Hellman"
+    ],
+    [
+      "Whitfield Diffie",
+      "John McCarthy (computer scientist)"
+    ],
+    [
+      "Edsger W. Dijkstra",
+      "Tony Hoare"
+    ],
+    [
+      "E. Allen Emerson",
+      "Joseph Sifakis"
+    ],
+    [
+      "E. Allen Emerson",
+      "Edmund M. Clarke"
+    ],
+    [
+      "Douglas Engelbart",
+      "Alan Kay"
+    ],
+    [
+      "Douglas Engelbart",
+      "Tim Berners-Lee"
+    ],
+    [
+      "Edward Feigenbaum",
+      "Herbert A. Simon"
+    ],
+    [
+      "Edward Feigenbaum",
+      "Raj Reddy"
+    ],
+    [
+      "Edward Feigenbaum",
+      "Donald Knuth"
+    ],
+    [
+      "Edward Feigenbaum",
+      "Niklaus Wirth"
+    ],
+    [
+      "Robert W. Floyd",
+      "Ron Rivest"
+    ],
+    [
+      "Robert W. Floyd",
+      "Robert Tarjan"
+    ],
+    [
+      "Robert W. Floyd",
+      "Donald Knuth"
+    ],
+    [
+      "Shafi Goldwasser",
+      "Silvio Micali"
+    ],
+    [
+      "Shafi Goldwasser",
+      "Manuel Blum"
+    ],
+    [
+      "Pat Hanrahan",
+      "Edwin Catmull"
+    ],
+    [
+      "Juris Hartmanis",
+      "Richard M. Karp"
+    ],
+    [
+      "Juris Hartmanis",
+      "Richard E. Stearns"
+    ],
+    [
+      "Martin Hellman",
+      "Whitfield Diffie"
+    ],
+    [
+      "John L. Hennessy",
+      "David Patterson (computer scientist)"
+    ],
+    [
+      "John L. Hennessy",
+      "Donald Knuth"
+    ],
+    [
+      "Geoffrey Hinton",
+      "Yann LeCun"
+    ],
+    [
+      "Geoffrey Hinton",
+      "Yoshua Bengio"
+    ],
+    [
+      "Tony Hoare",
+      "Edsger W. Dijkstra"
+    ],
+    [
+      "John Hopcroft",
+      "Jeffrey Ullman"
+    ],
+    [
+      "John Hopcroft",
+      "Alfred Aho"
+    ],
+    [
+      "John Hopcroft",
+      "Gilles Brassard"
+    ],
+    [
+      "John Hopcroft",
+      "Robert Tarjan"
+    ],
+    [
+      "Kenneth E. Iverson",
+      "Fred Brooks"
+    ],
+    [
+      "Robert Kahn (computer scientist)",
+      "Vint Cerf"
+    ],
+    [
+      "Richard M. Karp",
+      "John Hopcroft"
+    ],
+    [
+      "Richard M. Karp",
+      "Michael O. Rabin"
+    ],
+    [
+      "Richard M. Karp",
+      "John McCarthy (computer scientist)"
+    ],
+    [
+      "Alan Kay",
+      "Ivan Sutherland"
+    ],
+    [
+      "Alan Kay",
+      "Douglas Engelbart"
+    ],
+    [
+      "Alan Kay",
+      "Charles P. Thacker"
+    ],
+    [
+      "Donald Knuth",
+      "Ole-Johan Dahl"
+    ],
+    [
+      "Donald Knuth",
+      "Edsger W. Dijkstra"
+    ],
+    [
+      "Donald Knuth",
+      "Leslie Lamport"
+    ],
+    [
+      "Leslie Lamport",
+      "Donald Knuth"
+    ],
+    [
+      "Butler Lampson",
+      "Alan Kay"
+    ],
+    [
+      "Butler Lampson",
+      "Charles P. Thacker"
+    ],
+    [
+      "Yann LeCun",
+      "Geoffrey Hinton"
+    ],
+    [
+      "Yann LeCun",
+      "Yoshua Bengio"
+    ],
+    [
+      "Barbara Liskov",
+      "John McCarthy (computer scientist)"
+    ],
+    [
+      "John McCarthy (computer scientist)",
+      "Marvin Minsky"
+    ],
+    [
+      "John McCarthy (computer scientist)",
+      "Richard M. Karp"
+    ],
+    [
+      "John McCarthy (computer scientist)",
+      "Barbara Liskov"
+    ],
+    [
+      "John McCarthy (computer scientist)",
+      "Raj Reddy"
+    ],
+    [
+      "John McCarthy (computer scientist)",
+      "Herbert A. Simon"
+    ],
+    [
+      "John McCarthy (computer scientist)",
+      "Allen Newell"
+    ],
+    [
+      "Silvio Micali",
+      "Shafi Goldwasser"
+    ],
+    [
+      "Silvio Micali",
+      "Manuel Blum"
+    ],
+    [
+      "Marvin Minsky",
+      "Ivan Sutherland"
+    ],
+    [
+      "Marvin Minsky",
+      "Manuel Blum"
+    ],
+    [
+      "Marvin Minsky",
+      "John McCarthy (computer scientist)"
+    ],
+    [
+      "Peter Naur",
+      "John Backus"
+    ],
+    [
+      "Peter Naur",
+      "Donald Knuth"
+    ],
+    [
+      "Allen Newell",
+      "Herbert A. Simon"
+    ],
+    [
+      "Allen Newell",
+      "Alan Perlis"
+    ],
+    [
+      "Kristen Nygaard",
+      "Ole-Johan Dahl"
+    ],
+    [
+      "David Patterson (computer scientist)",
+      "John L. Hennessy"
+    ],
+    [
+      "Alan Perlis",
+      "Raj Reddy"
+    ],
+    [
+      "Alan Perlis",
+      "Donald Knuth"
+    ],
+    [
+      "Michael O. Rabin",
+      "Dana Scott"
+    ],
+    [
+      "Michael O. Rabin",
+      "John McCarthy (computer scientist)"
+    ],
+    [
+      "Raj Reddy",
+      "Herbert A. Simon"
+    ],
+    [
+      "Raj Reddy",
+      "Allen Newell"
+    ],
+    [
+      "Raj Reddy",
+      "Edward Feigenbaum"
+    ],
+    [
+      "Raj Reddy",
+      "John McCarthy (computer scientist)"
+    ],
+    [
+      "Dennis Ritchie",
+      "Ken Thompson"
+    ],
+    [
+      "Ron Rivest",
+      "Leonard Adleman"
+    ],
+    [
+      "Ron Rivest",
+      "Shafi Goldwasser"
+    ],
+    [
+      "Ron Rivest",
+      "Robert W. Floyd"
+    ],
+    [
+      "Ron Rivest",
+      "Adi Shamir"
+    ],
+    [
+      "Ron Rivest",
+      "Silvio Micali"
+    ],
+    [
+      "Dana Scott",
+      "Michael O. Rabin"
+    ],
+    [
+      "Adi Shamir",
+      "Leonard Adleman"
+    ],
+    [
+      "Adi Shamir",
+      "Ron Rivest"
+    ],
+    [
+      "Joseph Sifakis",
+      "Amir Pnueli"
+    ],
+    [
+      "Joseph Sifakis",
+      "E. Allen Emerson"
+    ],
+    [
+      "Joseph Sifakis",
+      "Edmund M. Clarke"
+    ],
+    [
+      "Herbert A. Simon",
+      "Allen Newell"
+    ],
+    [
+      "Herbert A. Simon",
+      "Edward Feigenbaum"
+    ],
+    [
+      "Herbert A. Simon",
+      "Donald Knuth"
+    ],
+    [
+      "Richard E. Stearns",
+      "Juris Hartmanis"
+    ],
+    [
+      "Michael Stonebraker",
+      "David Patterson (computer scientist)"
+    ],
+    [
+      "Michael Stonebraker",
+      "Edgar F. Codd"
+    ],
+    [
+      "Ivan Sutherland",
+      "Marvin Minsky"
+    ],
+    [
+      "Ivan Sutherland",
+      "Alan Kay"
+    ],
+    [
+      "Ivan Sutherland",
+      "Edwin Catmull"
+    ],
+    [
+      "Richard S. Sutton",
+      "Andrew Barto"
+    ],
+    [
+      "Robert Tarjan",
+      "Robert W. Floyd"
+    ],
+    [
+      "Robert Tarjan",
+      "Donald Knuth"
+    ],
+    [
+      "Robert Tarjan",
+      "John Hopcroft"
+    ],
+    [
+      "Charles P. Thacker",
+      "Alan Kay"
+    ],
+    [
+      "Charles P. Thacker",
+      "Butler Lampson"
+    ],
+    [
+      "Ken Thompson",
+      "Dennis Ritchie"
+    ],
+    [
+      "Jeffrey Ullman",
+      "Alfred Aho"
+    ],
+    [
+      "Jeffrey Ullman",
+      "John Hopcroft"
+    ],
+    [
+      "Avi Wigderson",
+      "Silvio Micali"
+    ],
+    [
+      "Maurice Wilkes",
+      "Peter Naur"
+    ],
+    [
+      "Niklaus Wirth",
+      "Fred Brooks"
+    ],
+    [
+      "Niklaus Wirth",
+      "Edward Feigenbaum"
+    ],
+    [
+      "Andrew Yao",
+      "Geoffrey Hinton"
+    ],
+    [
+      "Andrew Yao",
+      "Yoshua Bengio"
+    ]
+  ]
+}
