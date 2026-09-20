@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Week 1: Bootstrap — meet the network | The Marvel Graph Diaries</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🕸️</text></svg>">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap">
+    <div>
+      <h1 class="site-title"><a href="../index.html">The Marvel Graph Diaries</a></h1>
+      <p class="site-tagline">One dense, hub-riddled little universe. Eight weeks. One dataset.</p>
+    </div>
+    <nav class="site-nav">
+      <a href="../index.html">Posts</a>
+      <a href="../about.html">About</a>
+      <a href="https://github.com/TSimona08/social-graph-interactions" target="_blank" rel="noopener">GitHub</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+<article class="post">
+
+  <h1>Week 1 — Bootstrap: meet the network</h1>
+  <p class="post-meta">Posted 21 September 2026 · Week 1 of 8 · Data: <code>week1_edges.tsv</code> + <code>week1_nodes.tsv</code>, frozen 2026‑08‑26</p>
+
+  <h2>What we asked</h2>
+  <p>
+    Before doing anything clever, we wanted to just <em>look</em> at the thing: how many
+    characters link to how many others, who's the center of gravity, and — since the
+    assignment specifically dared us to — what's hiding outside the main mass of the network?
+    Are the isolated nodes boring dead ends, or is there a story there?
+  </p>
+
+  <h2>What we did</h2>
+  <p>
+    We loaded the week‑1 snapshot of Wikipedia's <em>Category:Marvel Comics superheroes</em>
+    as a directed graph in NetworkX — one node per character, one directed edge
+    <code>A → B</code> whenever A's article links to B's — keeping all 303 nodes from the
+    roster file even where they have zero edges (17 of them do). Then: degree distributions,
+    in vs. out degree, connected components, and a full layout of the network.
+  </p>
+
+  <div class="stat-row">
+    <div class="stat-box"><span class="num">303</span><span class="label">characters</span></div>
+    <div class="stat-box"><span class="num">1,784</span><span class="label">directed links</span></div>
+    <div class="stat-box"><span class="num">17</span><span class="label">isolated nodes</span></div>
+    <div class="stat-box"><span class="num">19</span><span class="label">connected components</span></div>
+    <div class="stat-box"><span class="num">91%</span><span class="label">in the giant component</span></div>
+  </div>
+
+  <h2>Degree distributions: linear and log–log</h2>
+  <p>
+    Average degree is low (≈5.9 in, ≈5.9 out — of course these match exactly, since every
+    edge contributes one in and one out), but the <em>distribution</em> is anything but
+    uniform. The linear histograms already show the classic heavy right tail:
+  </p>
+
+  <figure>
+    <img src="../assets/img/week1/degree_hist_linear.png" alt="Linear histograms of in-degree and out-degree">
+    <figcaption>Fig. 1 — In-degree (left) and out-degree (right), linear scale. Most characters have single-digit degree; a handful are enormous outliers.</figcaption>
+  </figure>
+
+  <p>
+    On a log–log scale the asymmetry between in- and out-degree becomes the real story:
+  </p>
+
+  <figure>
+    <img src="../assets/img/week1/degree_hist_loglog.png" alt="Log-log degree distributions of in-degree and out-degree">
+    <figcaption>Fig. 2 — Same distributions, log–log. In-degree stretches to 106; out-degree caps out at 28.</figcaption>
+  </figure>
+
+  <p>
+    In-degree has a much heavier, longer tail than out-degree (max in-degree <strong>106</strong>
+    vs. max out-degree <strong>28</strong>). That asymmetry makes sense once you think about what
+    each direction actually measures: <strong>out-degree is bounded by editorial effort</strong> —
+    how many links one human bothered to type into one article — so it never runs away.
+    <strong>In-degree is bounded by nothing but fame</strong> — it accumulates one mention at a
+    time across all 302 other articles, so a genuinely famous character can rack up mentions
+    far beyond what any single article links out to.
+  </p>
+
+  <h2>Who's linked to the most, and who links out the most — and why they're different people</h2>
+
+  <table>
+    <thead><tr><th>Rank</th><th>Most linked-to (in-degree)</th><th>Links out the most (out-degree)</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td>Spider-Man — 106</td><td>Betsy Braddock — 28</td></tr>
+      <tr><td>2</td><td>Hulk — 64</td><td>Cloak and Dagger — 24</td></tr>
+      <tr><td>3</td><td>Wolverine — 60</td><td>Adam Warlock — 22</td></tr>
+      <tr><td>4</td><td>Doctor Strange — 50</td><td>Venom — 21</td></tr>
+      <tr><td>5</td><td>Deadpool — 33</td><td>She-Hulk — 20</td></tr>
+    </tbody>
+  </table>
+
+  <p>
+    Spider-Man alone is linked to by <strong>106 of the other 302 characters</strong> — about a
+    third of the entire network, exactly as the assignment teased. That's not surprising once
+    you remember what these links <em>are</em>: any character whose article mentions a famous
+    team-up, a rivalry, or "created by the same writer as" tends to namedrop Spider-Man, Hulk,
+    or Wolverine, because those are the load-bearing celebrities of the Marvel universe on
+    Wikipedia specifically (not necessarily in-universe power level).
+  </p>
+  <p>
+    The out-degree leaderboard is a completely different cast — Betsy Braddock, Cloak and
+    Dagger, Adam Warlock. These aren't obscure characters, but they're not A-listers either.
+    What they have in common is <strong>complicated continuity</strong>: characters with messy
+    histories (many aliases, team memberships, retcons, related characters) end up with
+    Wikipedia articles that link out to a lot of other pages just to explain themselves. High
+    out-degree measures how much a character's <em>own</em> article needs to reference others to
+    make sense — almost the opposite quantity from fame.
+  </p>
+
+  <div class="callout">
+    Only <strong>Doctor Strange</strong> and <strong>She-Hulk</strong> show up in both top-5 lists — they're
+    simultaneously famous enough to be widely cited <em>and</em> tangled enough in continuity to cite a lot back.
+  </div>
+
+  <h2>The giant component, and the islands outside it</h2>
+  <p>
+    Treating the graph as undirected, <strong>277 of 303 characters (91%)</strong> sit in one
+    giant connected component. Outside it: 17 fully isolated nodes, and — more interesting —
+    exactly <strong>one</strong> small island of 9 characters that connect only to each other:
+  </p>
+
+  <div class="callout surprise">
+    <strong>The surprise:</strong> the 9-character island is the <strong>Marauders / Malevolence
+    squad from Marvel's "Contest of Champions" Morituri storyline</strong> — Vyking, Backhand,
+    Radian, Snapdragon, Toxyn, Scaredycat, Scatterbrain, Shear, and Blackthorn. They link
+    densely to each other (they're introduced together, in the same story, so their articles
+    all cross-reference each other) but apparently no other character's Wikipedia article
+    mentions any of them individually, and their own articles never mention anyone outside
+    the group. A tightly-knit clique that Wikipedia's broader Marvel universe simply doesn't
+    talk about.
+  </div>
+
+  <p>
+    The 17 fully isolated characters are a grab-bag of the genuinely obscure: <em>Baymax,
+    Bird-Brain, Black Fox, Brain Drain, Breeze Barton, Captain Midlands, Charcoal, Father
+    Time, Happy Sam Sawyer, Hellfire (J. T. Slade), Illuminator, Miracleman, Ogre, Sean and
+    Chris, Solarman, Super Rabbit, Yo‑Yo Rodriguez.</em> A mix of one-off / minor characters
+    (Super Rabbit — yes, really, a Golden Age Marvel funny-animal hero) and characters whose
+    fame lives mostly outside comics (Baymax, from Big Hero 6, is a Disney/Marvel property
+    but pop-culturally orbits a different universe than Spider-Man's). Their articles exist,
+    but apparently nobody linked to them and they didn't link to anyone else in this specific
+    category page's crawl.
+  </p>
+
+  <h2>Drawing the whole thing</h2>
+  <p>
+    We laid the giant component out with a force-directed (spring) layout, parked the
+    9-node Morituri island to the side, and lined the 17 isolates up along the bottom
+    (a force layout has nothing to pull them anywhere meaningful, so scattering them
+    randomly just wastes canvas — better to be honest that they have no position to
+    speak of).
+  </p>
+
+  <figure>
+    <img src="../assets/img/week1/network_full.png" alt="Full layout of the Marvel network showing the giant component, the small Morituri island, and isolated nodes">
+    <figcaption>Fig. 3 — The whole week‑1 network. Node size = total degree. Spider-Man, Wolverine, Hulk, Doctor Strange, Scarlet Witch, Deadpool, She-Hulk and Phoenix are the visible hub cluster. Green = the Morituri island. Gray = isolates.</figcaption>
+  </figure>
+
+  <p>
+    Even without any layout algorithm doing anything fancy, the picture tells the whole story
+    of this week's numbers: one dense core with a handful of unmissable hubs, one tiny
+    separate clique, and a row of characters nobody bothered to connect at all.
+  </p>
+
+  <h2>What surprised us</h2>
+  <ul>
+    <li>The heavy skew is entirely on the <em>in</em>-degree side — out-degree is comparatively tame (max 28 vs. max 106). We hadn't expected such a clean structural explanation (editorial effort vs. accumulated fame) to fall out of just staring at two histograms.</li>
+    <li>The only non-trivial component outside the giant one isn't random scattering — it's a single, coherent, in-universe team (the Morituri squad) that Wikipedia's editors apparently treat as its own bubble.</li>
+    <li>Isolation doesn't mean "least notable" in any simple sense — Miracleman and Baymax are both isolated despite having substantial real-world fame; they're just fame that doesn't route through <em>this</em> category's link structure.</li>
+  </ul>
+
+  <h2>Reproducing it</h2>
+  <p>Loading the snapshot needs one small gotcha handled: the edge file's header row is itself comment-prefixed (<code># source&#9;target</code>), so a naive <code>comment="#"</code> read will eat the header along with the real comments and desync your column names. We skip the leading <code>#</code> block by hand and name columns explicitly:</p>
+
+  <pre><code>import pandas as pd, networkx as nx
+
+def n_leading_comment_lines(path):
+    with open(path) as f:
+        n = 0
+        for line in f:
+            if not line.startswith("#"):
+                break
+            n += 1
+        return n
+
+# nodes.tsv: real header row is NOT "#"-prefixed -> skip comments, keep header
+nodes = pd.read_csv("week1_nodes.tsv", sep="\t",
+                     skiprows=n_leading_comment_lines("week1_nodes.tsv"))
+
+# edges.tsv: real header row IS "#"-prefixed ("# source\ttarget") -> skip
+# the comments *and* that header line, and name columns explicitly.
+edges = pd.read_csv("week1_edges.tsv", sep="\t",
+                     skiprows=n_leading_comment_lines("week1_edges.tsv"),
+                     names=["source", "target"])
+
+G = nx.DiGraph()
+G.add_nodes_from(nodes["node_id"])       # keeps the 17 isolates!
+G.add_edges_from(zip(edges["source"], edges["target"]))
+</code></pre>
+
+  <p>Full analysis script: <a href="https://github.com/TSimona08/social-graph-interactions/blob/main/analysis/week1_analysis.py" target="_blank" rel="noopener">analysis/week1_analysis.py</a> in the repo.</p>
+
+  <h2>Stretch goal: checking the snapshot against live Wikipedia</h2>
+  <p>
+    Rather than trust the snapshot blindly, we hit the live Wikipedia API
+    (<code>action=query</code>, <code>list=categorymembers</code> and
+    <code>prop=linkshere</code>) with a proper <code>User-Agent</code> header (Wikipedia
+    will 403 you without one) and re-derived two numbers from scratch: how big
+    <em>Category:Marvel Comics superheroes</em> is today, and how many category members
+    currently link to Spider-Man.
+  </p>
+
+  <table>
+    <thead><tr><th>Quantity</th><th>Week‑1 snapshot (2026‑08‑26)</th><th>Live, checked 2026‑09‑21</th></tr></thead>
+    <tbody>
+      <tr><td>Direct category members</td><td>303</td><td>363</td></tr>
+      <tr><td>Spider-Man in-degree (within category)</td><td>106</td><td>222</td></tr>
+    </tbody>
+  </table>
+
+  <div class="callout surprise">
+    <strong>The real surprise:</strong> the category isn't stable — it's grown by 60 pages in
+    under a month, and it also contains 10 <em>subcategories</em> (e.g. <em>Marvel Comics
+    female superheroes</em>, <em>superhero teams</em>, <em>Captain Britain</em>) whose members
+    aren't direct category members at all. Depending on whether a crawl recurses into
+    subcategories, "the Marvel superheroes category" can mean noticeably different sets of
+    pages — which is almost certainly a big chunk of why live Spider-Man in-degree
+    (222) is roughly double the snapshot's (106): more category members now exist to
+    do the linking. This is exactly why the course freezes one snapshot for everyone —
+    without it, eight groups computing "the same" network over eight weeks would each
+    be looking at a different, silently drifting graph, and results wouldn't be comparable
+    week to week.
+  </div>
+
+  <a class="back-link" href="../index.html">← Back to all posts</a>
+</article>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>The Marvel Graph Diaries — a weekly data-story series for 02805 Social Graphs and Interactions, DTU.</p>
+  </div>
+</footer>
+
+</body>
+</html>

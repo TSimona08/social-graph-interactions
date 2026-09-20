@@ -1,0 +1,10 @@
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
+social_graphs/
+
+# course scratch notebooks — kept local, not part of the public site/repo
+Week1.ipynb
+Week3.ipynb
+Week3_gonuts.ipynb

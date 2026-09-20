@@ -1,0 +1,130 @@
+{
+  "n_nodes": 303,
+  "n_edges": 1784,
+  "n_isolates": 17,
+  "isolate_names": [
+    "Baymax",
+    "Bird-Brain (Marvel Comics)",
+    "Black Fox (Robert Paine)",
+    "Brain Drain (character)",
+    "Breeze Barton",
+    "Captain Midlands",
+    "Charcoal (comics)",
+    "Father Time (Marvel Comics)",
+    "Happy Sam Sawyer",
+    "Hellfire (J. T. Slade)",
+    "Illuminator (Marvel Comics)",
+    "Miracleman (character)",
+    "Ogre (Marvel Comics)",
+    "Sean and Chris",
+    "Solarman",
+    "Super Rabbit",
+    "Yo-Yo Rodriguez"
+  ],
+  "n_components_undirected": 19,
+  "giant_component_size": 277,
+  "other_components": [
+    [
+      "Vyking",
+      "Blackthorn (character)",
+      "Radian (Morituri)",
+      "Shear (character)",
+      "Toxyn",
+      "Snapdragon (Morituri)",
+      "Scaredycat",
+      "Scatterbrain (Morituri)",
+      "Backhand (character)"
+    ]
+  ],
+  "n_scc": 66,
+  "giant_scc_size": 229,
+  "n_wcc": 19,
+  "top_in_degree": [
+    [
+      "Spider-Man",
+      106
+    ],
+    [
+      "Hulk",
+      64
+    ],
+    [
+      "Wolverine (character)",
+      60
+    ],
+    [
+      "Doctor Strange",
+      50
+    ],
+    [
+      "Deadpool",
+      33
+    ],
+    [
+      "She-Hulk",
+      29
+    ],
+    [
+      "Scarlet Witch",
+      28
+    ],
+    [
+      "Black Panther (character)",
+      27
+    ],
+    [
+      "Cyclops (Marvel Comics)",
+      26
+    ],
+    [
+      "Luke Cage",
+      25
+    ]
+  ],
+  "top_out_degree": [
+    [
+      "Betsy Braddock",
+      28
+    ],
+    [
+      "Cloak and Dagger (characters)",
+      24
+    ],
+    [
+      "Adam Warlock",
+      22
+    ],
+    [
+      "Venom (character)",
+      21
+    ],
+    [
+      "She-Hulk",
+      20
+    ],
+    [
+      "U.S. Agent",
+      20
+    ],
+    [
+      "Deadpool",
+      19
+    ],
+    [
+      "Rachel Summers",
+      19
+    ],
+    [
+      "Noh-Varr",
+      18
+    ],
+    [
+      "Doctor Strange",
+      17
+    ]
+  ],
+  "mean_in_degree": 5.887788778877888,
+  "mean_out_degree": 5.887788778877888,
+  "max_in_degree": 106,
+  "max_out_degree": 28
+}
