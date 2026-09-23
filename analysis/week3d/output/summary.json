@@ -1,0 +1,135 @@
+{
+  "n_total": 303,
+  "spiderman_step_degree": 1,
+  "spiderman_step_betweenness": 1,
+  "spiderman_rank_degree": 1,
+  "spiderman_rank_betweenness": 1,
+  "top_betweenness": [
+    [
+      "Spider-Man",
+      0.1962
+    ],
+    [
+      "Hulk",
+      0.0877
+    ],
+    [
+      "Wolverine (character)",
+      0.0772
+    ],
+    [
+      "Doctor Strange",
+      0.069
+    ],
+    [
+      "Deadpool",
+      0.0468
+    ],
+    [
+      "She-Hulk",
+      0.0332
+    ],
+    [
+      "Hercules (Marvel Comics)",
+      0.0312
+    ],
+    [
+      "Black Widow (Natasha Romanova)",
+      0.0293
+    ],
+    [
+      "Phoenix (Guardians of the Galaxy)",
+      0.0215
+    ],
+    [
+      "U.S. Agent",
+      0.0213
+    ]
+  ],
+  "top_degree": [
+    [
+      "Spider-Man",
+      106
+    ],
+    [
+      "Hulk",
+      65
+    ],
+    [
+      "Wolverine (character)",
+      63
+    ],
+    [
+      "Doctor Strange",
+      57
+    ],
+    [
+      "Deadpool",
+      41
+    ],
+    [
+      "She-Hulk",
+      37
+    ],
+    [
+      "Phoenix (Guardians of the Galaxy)",
+      32
+    ],
+    [
+      "Scarlet Witch",
+      32
+    ],
+    [
+      "Black Panther (character)",
+      31
+    ],
+    [
+      "Venom (character)",
+      29
+    ]
+  ],
+  "removal_order_degree_names": [
+    "Spider-Man",
+    "Hulk",
+    "Wolverine (character)",
+    "Doctor Strange",
+    "Deadpool",
+    "She-Hulk",
+    "Phoenix (Guardians of the Galaxy)",
+    "Scarlet Witch",
+    "Black Panther (character)",
+    "Venom (character)",
+    "Betsy Braddock",
+    "Black Cat (Marvel Comics)",
+    "Cloak and Dagger (characters)",
+    "Luke Cage",
+    "Emma Frost",
+    "Hank Pym",
+    "Moon Knight",
+    "Storm (Marvel Comics)",
+    "Cyclops (Marvel Comics)",
+    "Hercules (Marvel Comics)"
+  ],
+  "removal_order_betweenness_names": [
+    "Spider-Man",
+    "Hulk",
+    "Wolverine (character)",
+    "Doctor Strange",
+    "Deadpool",
+    "She-Hulk",
+    "Hercules (Marvel Comics)",
+    "Black Widow (Natasha Romanova)",
+    "Phoenix (Guardians of the Galaxy)",
+    "U.S. Agent",
+    "Scarlet Witch",
+    "Quasar (character)",
+    "Moon Knight",
+    "Cable (character)",
+    "Cloak and Dagger (characters)",
+    "Deathlok",
+    "Hank Pym",
+    "Iron Fist (character)",
+    "Black Panther (character)",
+    "Nova (Richard Rider)"
+  ]
+}

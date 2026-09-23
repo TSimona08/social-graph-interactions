@@ -1,0 +1,3856 @@
+{
+ "Spider-Man": {
+  "name": "Spider-Man",
+  "distance": 0,
+  "path": [
+   "Spider-Man"
+  ],
+  "path_ids": [
+   "Spider-Man"
+  ]
+ },
+ "Abomination_(character)": {
+  "name": "Abomination (character)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Abomination (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Abomination_(character)"
+  ]
+ },
+ "Adam_Warlock": {
+  "name": "Adam Warlock",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Adam Warlock"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Adam_Warlock"
+  ]
+ },
+ "Anne_Weying": {
+  "name": "She-Venom (Patricia Robertson)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "She-Venom (Patricia Robertson)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Anne_Weying"
+  ]
+ },
+ "Anya_Corazon": {
+  "name": "Anya Corazon",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Anya Corazon"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Anya_Corazon"
+  ]
+ },
+ "Beta_Ray_Bill": {
+  "name": "Beta Ray Bill",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Beta Ray Bill"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Beta_Ray_Bill"
+  ]
+ },
+ "Betsy_Braddock": {
+  "name": "Betsy Braddock",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Betsy Braddock"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Betsy_Braddock"
+  ]
+ },
+ "Bill_Foster_(character)": {
+  "name": "Bill Foster (character)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Bill Foster (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Bill_Foster_(character)"
+  ]
+ },
+ "Black_Bolt": {
+  "name": "Black Bolt",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Black Bolt"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Black_Bolt"
+  ]
+ },
+ "Black_Cat_(Marvel_Comics)": {
+  "name": "Black Cat (Marvel Comics)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Black Cat (Marvel Comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Black_Cat_(Marvel_Comics)"
+  ]
+ },
+ "Black_Marvel": {
+  "name": "Black Marvel",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Black Marvel"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Black_Marvel"
+  ]
+ },
+ "Black_Widow_(Natasha_Romanova)": {
+  "name": "Black Widow (Natasha Romanova)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Black Widow (Natasha Romanova)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Black_Widow_(Natasha_Romanova)"
+  ]
+ },
+ "Blade_(character)": {
+  "name": "Blade (character)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Blade (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Blade_(character)"
+  ]
+ },
+ "Bob,_Agent_of_Hydra": {
+  "name": "Bob, Agent of Hydra",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Bob, Agent of Hydra"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Bob,_Agent_of_Hydra"
+  ]
+ },
+ "Brian_Braddock": {
+  "name": "Brian Braddock",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Brian Braddock"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Brian_Braddock"
+  ]
+ },
+ "Captain_Universe": {
+  "name": "Captain Universe",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Captain Universe"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Captain_Universe"
+  ]
+ },
+ "Cloak_and_Dagger_(characters)": {
+  "name": "Cloak and Dagger (characters)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Cloak and Dagger (characters)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Cloak_and_Dagger_(characters)"
+  ]
+ },
+ "Darkhawk": {
+  "name": "Darkhawk",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Darkhawk"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Darkhawk"
+  ]
+ },
+ "Deadpool": {
+  "name": "Deadpool",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Deadpool"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Deadpool"
+  ]
+ },
+ "Deathlok": {
+  "name": "Deathlok",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Deathlok"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Deathlok"
+  ]
+ },
+ "Devil_Dinosaur": {
+  "name": "Devil Dinosaur",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Devil Dinosaur"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Devil_Dinosaur"
+  ]
+ },
+ "Doctor_Nemesis": {
+  "name": "Doctor Nemesis",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Doctor Nemesis"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Doctor_Nemesis"
+  ]
+ },
+ "Doctor_Strange": {
+  "name": "Doctor Strange",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Doctor Strange"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Doctor_Strange"
+  ]
+ },
+ "Dusk_(comics)": {
+  "name": "Dusk (comics)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Dusk (comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Dusk_(comics)"
+  ]
+ },
+ "Eddie_Brock": {
+  "name": "Eddie Brock",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Eddie Brock"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Eddie_Brock"
+  ]
+ },
+ "Emma_Frost": {
+  "name": "Emma Frost",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Emma Frost"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Emma_Frost"
+  ]
+ },
+ "Enigma_(Marvel_Comics)": {
+  "name": "Enigma (Marvel Comics)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Enigma (Marvel Comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Enigma_(Marvel_Comics)"
+  ]
+ },
+ "Ethan_Edwards": {
+  "name": "Ethan Edwards",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Ethan Edwards"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Ethan_Edwards"
+  ]
+ },
+ "Fabio_Medina": {
+  "name": "Fabio Medina",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Fabio Medina"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Fabio_Medina"
+  ]
+ },
+ "Frankenstein's_Monster_(Marvel_Comics)": {
+  "name": "Frankenstein's Monster (Marvel Comics)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Frankenstein's Monster (Marvel Comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Frankenstein's_Monster_(Marvel_Comics)"
+  ]
+ },
+ "Frog-Man": {
+  "name": "Frog-Man",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Frog-Man"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Frog-Man"
+  ]
+ },
+ "Ghost_Rider": {
+  "name": "Ghost Rider",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Ghost Rider"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Ghost_Rider"
+  ]
+ },
+ "Ghost_Rider_(Danny_Ketch)": {
+  "name": "Ghost Rider (Danny Ketch)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Ghost Rider (Danny Ketch)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Ghost_Rider_(Danny_Ketch)"
+  ]
+ },
+ "Ghost_Rider_(Johnny_Blaze)": {
+  "name": "Ghost Rider (Johnny Blaze)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Ghost Rider (Johnny Blaze)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Ghost_Rider_(Johnny_Blaze)"
+  ]
+ },
+ "Gladiator_(Kallark)": {
+  "name": "Gladiator (Kallark)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Gladiator (Kallark)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Gladiator_(Kallark)"
+  ]
+ },
+ "Gwenpool": {
+  "name": "Gwenpool",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Gwenpool"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Gwenpool"
+  ]
+ },
+ "Helix_(Marvel_Comics)": {
+  "name": "Helix (Marvel Comics)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Helix (Marvel Comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Helix_(Marvel_Comics)"
+  ]
+ },
+ "Hellion_(character)": {
+  "name": "Hellion (character)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Hellion (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Hellion_(character)"
+  ]
+ },
+ "Hercules_(Marvel_Comics)": {
+  "name": "Hercules (Marvel Comics)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Hercules (Marvel Comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Hercules_(Marvel_Comics)"
+  ]
+ },
+ "Hit-Monkey": {
+  "name": "Hit-Monkey",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Hit-Monkey"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Hit-Monkey"
+  ]
+ },
+ "Hulk": {
+  "name": "Hulk",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Hulk"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Hulk"
+  ]
+ },
+ "Human_Fly_(character)": {
+  "name": "Human Fly (character)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Human Fly (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Human_Fly_(character)"
+  ]
+ },
+ "Human_Torch": {
+  "name": "Human Torch",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Human Torch"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Human_Torch"
+  ]
+ },
+ "Hybrid_(Scott_Washington)": {
+  "name": "Hybrid (Scott Washington)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Hybrid (Scott Washington)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Hybrid_(Scott_Washington)"
+  ]
+ },
+ "Iron_Man_(Ultimate_Marvel_character)": {
+  "name": "Iron Man (Ultimate Marvel character)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Iron Man (Ultimate Marvel character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Iron_Man_(Ultimate_Marvel_character)"
+  ]
+ },
+ "Iron_Man_2020": {
+  "name": "Iron Man 2020",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Iron Man 2020"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Iron_Man_2020"
+  ]
+ },
+ "Janice_Lincoln": {
+  "name": "Janice Lincoln",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Janice Lincoln"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Janice_Lincoln"
+  ]
+ },
+ "Jessica_Jones": {
+  "name": "Jessica Jones",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Jessica Jones"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Jessica_Jones"
+  ]
+ },
+ "John_Jameson_(character)": {
+  "name": "John Jameson (character)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "John Jameson (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "John_Jameson_(character)"
+  ]
+ },
+ "Killraven": {
+  "name": "Killraven",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Killraven"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Killraven"
+  ]
+ },
+ "Kristoff_Vernard": {
+  "name": "Kristoff Vernard",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Kristoff Vernard"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Kristoff_Vernard"
+  ]
+ },
+ "Luke_Cage": {
+  "name": "Luke Cage",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Luke Cage"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Luke_Cage"
+  ]
+ },
+ "Machine_Man": {
+  "name": "Machine Man",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Machine Man"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Machine_Man"
+  ]
+ },
+ "Man-Thing": {
+  "name": "Man-Thing",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Man-Thing"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Man-Thing"
+  ]
+ },
+ "Mania_(character)": {
+  "name": "Mania (character)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Mania (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Mania_(character)"
+  ]
+ },
+ "Mayday_Parker": {
+  "name": "Mayday Parker",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Mayday Parker"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Mayday_Parker"
+  ]
+ },
+ "Misty_Knight": {
+  "name": "Misty Knight",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Misty Knight"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Misty_Knight"
+  ]
+ },
+ "Mockingbird_(Marvel_Comics)": {
+  "name": "Mockingbird (Marvel Comics)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Mockingbird (Marvel Comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Mockingbird_(Marvel_Comics)"
+  ]
+ },
+ "Moon_Knight": {
+  "name": "Moon Knight",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Moon Knight"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Moon_Knight"
+  ]
+ },
+ "Morbius": {
+  "name": "Morbius",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Morbius"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Morbius"
+  ]
+ },
+ "NFL_SuperPro": {
+  "name": "Phil Grayfield",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Phil Grayfield"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "NFL_SuperPro"
+  ]
+ },
+ "Nightwatch_(character)": {
+  "name": "Nightwatch (character)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Nightwatch (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Nightwatch_(character)"
+  ]
+ },
+ "Noh-Varr": {
+  "name": "Noh-Varr",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Noh-Varr"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Noh-Varr"
+  ]
+ },
+ "Nova_(Richard_Rider)": {
+  "name": "Nova (Richard Rider)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Nova (Richard Rider)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Nova_(Richard_Rider)"
+  ]
+ },
+ "Paladin_(comics)": {
+  "name": "Paladin (comics)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Paladin (comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Paladin_(comics)"
+  ]
+ },
+ "Phoenix_Force": {
+  "name": "Phoenix (Guardians of the Galaxy)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Phoenix (Guardians of the Galaxy)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Phoenix_Force"
+  ]
+ },
+ "Powerhouse_(Marvel_Comics)": {
+  "name": "Powerhouse (Marvel Comics)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Powerhouse (Marvel Comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Powerhouse_(Marvel_Comics)"
+  ]
+ },
+ "Puck_(Marvel_Comics)": {
+  "name": "Puck (Marvel Comics)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Puck (Marvel Comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Puck_(Marvel_Comics)"
+  ]
+ },
+ "Rachel_Summers": {
+  "name": "Rachel Summers",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Rachel Summers"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Rachel_Summers"
+  ]
+ },
+ "Radioactive_Man_(comics)": {
+  "name": "Radioactive Man (comics)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Radioactive Man (comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Radioactive_Man_(comics)"
+  ]
+ },
+ "Ravage_2099": {
+  "name": "Ravage 2099",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Ravage 2099"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Ravage_2099"
+  ]
+ },
+ "Ricochet_(comics)": {
+  "name": "Ricochet (comics)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Ricochet (comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Ricochet_(comics)"
+  ]
+ },
+ "Robbie_Baldwin": {
+  "name": "Robbie Baldwin",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Robbie Baldwin"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Robbie_Baldwin"
+  ]
+ },
+ "Ronin_(Marvel_Comics)": {
+  "name": "Ronin (Marvel Comics)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Ronin (Marvel Comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Ronin_(Marvel_Comics)"
+  ]
+ },
+ "Sabra_(character)": {
+  "name": "Sabra (character)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Sabra (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Sabra_(character)"
+  ]
+ },
+ "Satana_(Marvel_Comics)": {
+  "name": "Satana (Marvel Comics)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Satana (Marvel Comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Satana_(Marvel_Comics)"
+  ]
+ },
+ "Scarlet_Spider": {
+  "name": "Scarlet Spider",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Scarlet Spider"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Scarlet_Spider"
+  ]
+ },
+ "Scarlet_Witch": {
+  "name": "Scarlet Witch",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Scarlet Witch"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Scarlet_Witch"
+  ]
+ },
+ "Scorpio_(Marvel_Comics)": {
+  "name": "Scorpio (Marvel Comics)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Scorpio (Marvel Comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Scorpio_(Marvel_Comics)"
+  ]
+ },
+ "Sentry_(Robert_Reynolds)": {
+  "name": "Sentry (Robert Reynolds)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Sentry (Robert Reynolds)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Sentry_(Robert_Reynolds)"
+  ]
+ },
+ "Shang-Chi": {
+  "name": "Shang-Chi",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Shang-Chi"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Shang-Chi"
+  ]
+ },
+ "She-Hulk": {
+  "name": "She-Hulk",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "She-Hulk"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "She-Hulk"
+  ]
+ },
+ "She-Hulk_(Lyra)": {
+  "name": "She-Hulk (Lyra)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "She-Hulk (Lyra)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "She-Hulk_(Lyra)"
+  ]
+ },
+ "Shuri_(character)": {
+  "name": "Shuri (character)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Shuri (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Shuri_(character)"
+  ]
+ },
+ "Silhouette_(comics)": {
+  "name": "Silhouette (comics)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Silhouette (comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Silhouette_(comics)"
+  ]
+ },
+ "Silk_(character)": {
+  "name": "Silk (character)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Silk (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Silk_(character)"
+  ]
+ },
+ "Spider-Bitch_(Ashley_Barton)": {
+  "name": "Spider-Bitch (Ashley Barton)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Spider-Bitch (Ashley Barton)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Spider-Bitch_(Ashley_Barton)"
+  ]
+ },
+ "Spider-Girl": {
+  "name": "Spider-Girl",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Spider-Girl"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Spider-Girl"
+  ]
+ },
+ "Spider-Man_Noir": {
+  "name": "Spider-Man Noir",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Spider-Man Noir"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Spider-Man_Noir"
+  ]
+ },
+ "Spider-UK": {
+  "name": "Spider-UK",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Spider-UK"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Spider-UK"
+  ]
+ },
+ "Spider-Woman_(Gwen_Stacy)": {
+  "name": "Spider-Woman (Gwen Stacy)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Spider-Woman (Gwen Stacy)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Spider-Woman_(Gwen_Stacy)"
+  ]
+ },
+ "Venom_(character)": {
+  "name": "Venom (character)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Venom (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Venom_(character)"
+  ]
+ },
+ "Spider-Man_(Marvel_Mangaverse)": {
+  "name": "Spider-Man (Marvel Mangaverse)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Spider-Man (Marvel Mangaverse)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Spider-Man_(Marvel_Mangaverse)"
+  ]
+ },
+ "Spider-Woman": {
+  "name": "Spider-Woman",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Spider-Woman"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Spider-Woman"
+  ]
+ },
+ "Star-Lord": {
+  "name": "Star-Lord",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Star-Lord"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Star-Lord"
+  ]
+ },
+ "Steel_Spider": {
+  "name": "Steel Spider",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Steel Spider"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Steel_Spider"
+  ]
+ },
+ "Storm_(Marvel_Comics)": {
+  "name": "Storm (Marvel Comics)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Storm (Marvel Comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Storm_(Marvel_Comics)"
+  ]
+ },
+ "Tarantula_(Marvel_Comics)": {
+  "name": "Tarantula (Marvel Comics)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Tarantula (Marvel Comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Tarantula_(Marvel_Comics)"
+  ]
+ },
+ "Thunderclap_(comics)": {
+  "name": "Thunderclap (comics)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Thunderclap (comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Thunderclap_(comics)"
+  ]
+ },
+ "Typeface_(character)": {
+  "name": "Typeface (character)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Typeface (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Typeface_(character)"
+  ]
+ },
+ "U.S._Agent": {
+  "name": "U.S. Agent",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "U.S. Agent"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "U.S._Agent"
+  ]
+ },
+ "Werewolf_by_Night": {
+  "name": "Werewolf by Night",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Werewolf by Night"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Werewolf_by_Night"
+  ]
+ },
+ "White_Tiger_(comics)": {
+  "name": "White Tiger (comics)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "White Tiger (comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "White_Tiger_(comics)"
+  ]
+ },
+ "Will_o'_the_Wisp_(comics)": {
+  "name": "Will o' the Wisp (comics)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Will o' the Wisp (comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Will_o'_the_Wisp_(comics)"
+  ]
+ },
+ "William_Burnside_(character)": {
+  "name": "William Burnside (character)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "William Burnside (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "William_Burnside_(character)"
+  ]
+ },
+ "Wolverine_(character)": {
+  "name": "Wolverine (character)",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Wolverine (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Wolverine_(character)"
+  ]
+ },
+ "Xorn": {
+  "name": "Xorn",
+  "distance": 1,
+  "path": [
+   "Spider-Man",
+   "Xorn"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Xorn"
+  ]
+ },
+ "Gargoyle_(comics)": {
+  "name": "Gargoyle (comics)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Abomination (character)",
+   "Gargoyle (comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Abomination_(character)",
+   "Gargoyle_(comics)"
+  ]
+ },
+ "Black_Panther_(character)": {
+  "name": "Black Panther (character)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Adam Warlock",
+   "Black Panther (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Adam_Warlock",
+   "Black_Panther_(character)"
+  ]
+ },
+ "Fin_Fang_Foom": {
+  "name": "Fin Fang Foom",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Adam Warlock",
+   "Fin Fang Foom"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Adam_Warlock",
+   "Fin_Fang_Foom"
+  ]
+ },
+ "Genis-Vell": {
+  "name": "Genis-Vell",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Adam Warlock",
+   "Genis-Vell"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Adam_Warlock",
+   "Genis-Vell"
+  ]
+ },
+ "Iron_Lad": {
+  "name": "Iron Lad",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Adam Warlock",
+   "Iron Lad"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Adam_Warlock",
+   "Iron_Lad"
+  ]
+ },
+ "Kismet_(Marvel_Comics)": {
+  "name": "Kismet (Marvel Comics)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Adam Warlock",
+   "Kismet (Marvel Comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Adam_Warlock",
+   "Kismet_(Marvel_Comics)"
+  ]
+ },
+ "Moondragon": {
+  "name": "Moondragon",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Adam Warlock",
+   "Moondragon"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Adam_Warlock",
+   "Moondragon"
+  ]
+ },
+ "Phyla-Vell": {
+  "name": "Phyla-Vell",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Adam Warlock",
+   "Phyla-Vell"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Adam_Warlock",
+   "Phyla-Vell"
+  ]
+ },
+ "Quasar_(character)": {
+  "name": "Quasar (character)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Adam Warlock",
+   "Quasar (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Adam_Warlock",
+   "Quasar_(character)"
+  ]
+ },
+ "Ms._Marvel": {
+  "name": "Ms. Marvel",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Anya Corazon",
+   "Ms. Marvel"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Anya_Corazon",
+   "Ms._Marvel"
+  ]
+ },
+ "Phil_Urich": {
+  "name": "Phil Urich",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Anya Corazon",
+   "Phil Urich"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Anya_Corazon",
+   "Phil_Urich"
+  ]
+ },
+ "Power_Man_(Victor_Alvarez)": {
+  "name": "Power Man (Victor Alvarez)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Anya Corazon",
+   "Power Man (Victor Alvarez)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Anya_Corazon",
+   "Power_Man_(Victor_Alvarez)"
+  ]
+ },
+ "Rikki_Barnes": {
+  "name": "Rikki Barnes",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Anya Corazon",
+   "Rikki Barnes"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Anya_Corazon",
+   "Rikki_Barnes"
+  ]
+ },
+ "Spider-Woman_(Jessica_Drew)": {
+  "name": "Spider-Woman (Jessica Drew)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Anya Corazon",
+   "Spider-Woman (Jessica Drew)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Anya_Corazon",
+   "Spider-Woman_(Jessica_Drew)"
+  ]
+ },
+ "Rom_the_Space_Knight": {
+  "name": "Rom the Space Knight",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Beta Ray Bill",
+   "Rom the Space Knight"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Beta_Ray_Bill",
+   "Rom_the_Space_Knight"
+  ]
+ },
+ "Dargo_Ktor": {
+  "name": "Dargo Ktor",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Beta Ray Bill",
+   "Dargo Ktor"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Beta_Ray_Bill",
+   "Dargo_Ktor"
+  ]
+ },
+ "Anole_(character)": {
+  "name": "Anole (character)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Betsy Braddock",
+   "Anole (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Betsy_Braddock",
+   "Anole_(character)"
+  ]
+ },
+ "Cable_(character)": {
+  "name": "Cable (character)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Betsy Braddock",
+   "Cable (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Betsy_Braddock",
+   "Cable_(character)"
+  ]
+ },
+ "Captain_Marvel_(Marvel_Comics)": {
+  "name": "Captain Marvel (Marvel Comics)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Betsy Braddock",
+   "Captain Marvel (Marvel Comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Betsy_Braddock",
+   "Captain_Marvel_(Marvel_Comics)"
+  ]
+ },
+ "Cyclops_(Marvel_Comics)": {
+  "name": "Cyclops (Marvel Comics)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Betsy Braddock",
+   "Cyclops (Marvel Comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Betsy_Braddock",
+   "Cyclops_(Marvel_Comics)"
+  ]
+ },
+ "Jean_Grey": {
+  "name": "Jean Grey",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Betsy Braddock",
+   "Jean Grey"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Betsy_Braddock",
+   "Jean_Grey"
+  ]
+ },
+ "Jubilee_(character)": {
+  "name": "Jubilee (character)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Betsy Braddock",
+   "Jubilee (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Betsy_Braddock",
+   "Jubilee_(character)"
+  ]
+ },
+ "Northstar_(character)": {
+  "name": "Northstar (character)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Betsy Braddock",
+   "Northstar (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Betsy_Braddock",
+   "Northstar_(character)"
+  ]
+ },
+ "Quicksilver_(Marvel_Comics)": {
+  "name": "Quicksilver (Marvel Comics)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Betsy Braddock",
+   "Quicksilver (Marvel Comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Betsy_Braddock",
+   "Quicksilver_(Marvel_Comics)"
+  ]
+ },
+ "Rockslide_(character)": {
+  "name": "Rockslide (character)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Betsy Braddock",
+   "Rockslide (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Betsy_Braddock",
+   "Rockslide_(character)"
+  ]
+ },
+ "Surge_(Marvel_Comics)": {
+  "name": "Surge (Marvel Comics)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Betsy Braddock",
+   "Surge (Marvel Comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Betsy_Braddock",
+   "Surge_(Marvel_Comics)"
+  ]
+ },
+ "Vulcan_(Marvel_Comics)": {
+  "name": "Vulcan (Marvel Comics)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Betsy Braddock",
+   "Vulcan (Marvel Comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Betsy_Braddock",
+   "Vulcan_(Marvel_Comics)"
+  ]
+ },
+ "Hank_Pym": {
+  "name": "Hank Pym",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Bill Foster (character)",
+   "Hank Pym"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Bill_Foster_(character)",
+   "Hank_Pym"
+  ]
+ },
+ "Iron_Fist_(character)": {
+  "name": "Iron Fist (character)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Bill Foster (character)",
+   "Iron Fist (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Bill_Foster_(character)",
+   "Iron_Fist_(character)"
+  ]
+ },
+ "Jericho_Drumm": {
+  "name": "Jericho Drumm",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Bill Foster (character)",
+   "Jericho Drumm"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Bill_Foster_(character)",
+   "Jericho_Drumm"
+  ]
+ },
+ "Debrii": {
+  "name": "Debrii",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Bill Foster (character)",
+   "Debrii"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Bill_Foster_(character)",
+   "Debrii"
+  ]
+ },
+ "Firebird_(Marvel_Comics)": {
+  "name": "Firebird (Marvel Comics)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Bill Foster (character)",
+   "Firebird (Marvel Comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Bill_Foster_(character)",
+   "Firebird_(Marvel_Comics)"
+  ]
+ },
+ "Isaiah_Bradley": {
+  "name": "Isaiah Bradley",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Bill Foster (character)",
+   "Isaiah Bradley"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Bill_Foster_(character)",
+   "Isaiah_Bradley"
+  ]
+ },
+ "Gorgon_(Inhuman)": {
+  "name": "Gorgon (Inhuman)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Black Bolt",
+   "Gorgon (Inhuman)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Black_Bolt",
+   "Gorgon_(Inhuman)"
+  ]
+ },
+ "Karnak_(character)": {
+  "name": "Karnak (character)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Black Bolt",
+   "Karnak (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Black_Bolt",
+   "Karnak_(character)"
+  ]
+ },
+ "Inferno_(Dante_Pertuz)": {
+  "name": "Inferno (Dante Pertuz)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Black Bolt",
+   "Inferno (Dante Pertuz)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Black_Bolt",
+   "Inferno_(Dante_Pertuz)"
+  ]
+ },
+ "Red_Raven_(Marvel_Comics)": {
+  "name": "Red Raven (Dania)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Black Bolt",
+   "Red Raven (Dania)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Black_Bolt",
+   "Red_Raven_(Marvel_Comics)"
+  ]
+ },
+ "Starhawk_(character)": {
+  "name": "Starhawk (character)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Black Bolt",
+   "Starhawk (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Black_Bolt",
+   "Starhawk_(character)"
+  ]
+ },
+ "Patsy_Walker": {
+  "name": "Patsy Walker",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Black Cat (Marvel Comics)",
+   "Patsy Walker"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Black_Cat_(Marvel_Comics)",
+   "Patsy_Walker"
+  ]
+ },
+ "Whizzer_(Robert_Frank)": {
+  "name": "Whizzer (Robert Frank)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Black Marvel",
+   "Whizzer (Robert Frank)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Black_Marvel",
+   "Whizzer_(Robert_Frank)"
+  ]
+ },
+ "Blazing_Skull": {
+  "name": "Blazing Skull",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Black Marvel",
+   "Blazing Skull"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Black_Marvel",
+   "Blazing_Skull"
+  ]
+ },
+ "Hornet_(comics)": {
+  "name": "Hornet (comics)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Black Marvel",
+   "Hornet (comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Black_Marvel",
+   "Hornet_(comics)"
+  ]
+ },
+ "Red_Guardian": {
+  "name": "Red Guardian",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Black Widow (Natasha Romanova)",
+   "Red Guardian"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Black_Widow_(Natasha_Romanova)",
+   "Red_Guardian"
+  ]
+ },
+ "Yelena_Belova": {
+  "name": "Yelena Belova",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Black Widow (Natasha Romanova)",
+   "Yelena Belova"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Black_Widow_(Natasha_Romanova)",
+   "Yelena_Belova"
+  ]
+ },
+ "Blue_Eagle_(character)": {
+  "name": "Blue Eagle (character)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Black Widow (Natasha Romanova)",
+   "Blue Eagle (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Black_Widow_(Natasha_Romanova)",
+   "Blue_Eagle_(character)"
+  ]
+ },
+ "Hawkeye_(comics)": {
+  "name": "Hawkeye (comics)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Black Widow (Natasha Romanova)",
+   "Hawkeye (comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Black_Widow_(Natasha_Romanova)",
+   "Hawkeye_(comics)"
+  ]
+ },
+ "Human_Torch_(android)": {
+  "name": "Human Torch (android)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Black Widow (Natasha Romanova)",
+   "Human Torch (android)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Black_Widow_(Natasha_Romanova)",
+   "Human_Torch_(android)"
+  ]
+ },
+ "Rockman_(character)": {
+  "name": "Rockman (character)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Black Widow (Natasha Romanova)",
+   "Rockman (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Black_Widow_(Natasha_Romanova)",
+   "Rockman_(character)"
+  ]
+ },
+ "Ursa_Major_(character)": {
+  "name": "Ursa Major (character)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Black Widow (Natasha Romanova)",
+   "Ursa Major (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Black_Widow_(Natasha_Romanova)",
+   "Ursa_Major_(character)"
+  ]
+ },
+ "Spitfire_(character)": {
+  "name": "Spitfire (character)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Blade (character)",
+   "Spitfire (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Blade_(character)",
+   "Spitfire_(character)"
+  ]
+ },
+ "Elsa_Bloodstone": {
+  "name": "Elsa Bloodstone",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Blade (character)",
+   "Elsa Bloodstone"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Blade_(character)",
+   "Elsa_Bloodstone"
+  ]
+ },
+ "Zombie_(comics)": {
+  "name": "Zombie (comics)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Blade (character)",
+   "Zombie (comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Blade_(character)",
+   "Zombie_(comics)"
+  ]
+ },
+ "Agent_X_(Marvel_Comics)": {
+  "name": "Agent X (Marvel Comics)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Bob, Agent of Hydra",
+   "Agent X (Marvel Comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Bob,_Agent_of_Hydra",
+   "Agent_X_(Marvel_Comics)"
+  ]
+ },
+ "Outlaw_(Marvel_Comics)": {
+  "name": "Outlaw (Marvel Comics)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Bob, Agent of Hydra",
+   "Outlaw (Marvel Comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Bob,_Agent_of_Hydra",
+   "Outlaw_(Marvel_Comics)"
+  ]
+ },
+ "Arabian_Knight_(character)": {
+  "name": "Arabian Knight (character)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Brian Braddock",
+   "Arabian Knight (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Brian_Braddock",
+   "Arabian_Knight_(character)"
+  ]
+ },
+ "Killpower": {
+  "name": "Killpower",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Brian Braddock",
+   "Killpower"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Brian_Braddock",
+   "Killpower"
+  ]
+ },
+ "Union_Jack_(Marvel_Comics)": {
+  "name": "Union Jack (Marvel Comics)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Brian Braddock",
+   "Union Jack (Marvel Comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Brian_Braddock",
+   "Union_Jack_(Marvel_Comics)"
+  ]
+ },
+ "Doctor_Druid": {
+  "name": "Doctor Druid",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Captain Universe",
+   "Doctor Druid"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Captain_Universe",
+   "Doctor_Druid"
+  ]
+ },
+ "Nightmask": {
+  "name": "Nightmask",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Captain Universe",
+   "Nightmask"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Captain_Universe",
+   "Nightmask"
+  ]
+ },
+ "Star_Brand": {
+  "name": "Star Brand",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Captain Universe",
+   "Star Brand"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Captain_Universe",
+   "Star_Brand"
+  ]
+ },
+ "Alex_Wilder": {
+  "name": "Alex Wilder",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Cloak and Dagger (characters)",
+   "Alex Wilder"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Cloak_and_Dagger_(characters)",
+   "Alex_Wilder"
+  ]
+ },
+ "Chase_Stein": {
+  "name": "Chase Stein",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Cloak and Dagger (characters)",
+   "Chase Stein"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Cloak_and_Dagger_(characters)",
+   "Chase_Stein"
+  ]
+ },
+ "Hulkling": {
+  "name": "Hulkling",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Cloak and Dagger (characters)",
+   "Hulkling"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Cloak_and_Dagger_(characters)",
+   "Hulkling"
+  ]
+ },
+ "Doom_2099": {
+  "name": "Doom 2099",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Cloak and Dagger (characters)",
+   "Doom 2099"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Cloak_and_Dagger_(characters)",
+   "Doom_2099"
+  ]
+ },
+ "War_Machine": {
+  "name": "War Machine",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Cloak and Dagger (characters)",
+   "War Machine"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Cloak_and_Dagger_(characters)",
+   "War_Machine"
+  ]
+ },
+ "Cammi_(character)": {
+  "name": "Cammi (character)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Darkhawk",
+   "Cammi (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Darkhawk",
+   "Cammi_(character)"
+  ]
+ },
+ "Coldblood": {
+  "name": "Coldblood",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Darkhawk",
+   "Coldblood"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Darkhawk",
+   "Coldblood"
+  ]
+ },
+ "Turbo_(comics)": {
+  "name": "Turbo (comics)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Darkhawk",
+   "Turbo (comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Darkhawk",
+   "Turbo_(comics)"
+  ]
+ },
+ "Dragon_Lord_(character)": {
+  "name": "Dragon Lord (character)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Deadpool",
+   "Dragon Lord (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Deadpool",
+   "Dragon_Lord_(character)"
+  ]
+ },
+ "Nomad_(Marvel_Comics)": {
+  "name": "Nomad (Marvel Comics)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Deadpool",
+   "Nomad (Marvel Comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Deadpool",
+   "Nomad_(Marvel_Comics)"
+  ]
+ },
+ "Rocket_Raccoon": {
+  "name": "Rocket Raccoon",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Deadpool",
+   "Rocket Raccoon"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Deadpool",
+   "Rocket_Raccoon"
+  ]
+ },
+ "Delroy_Garrett": {
+  "name": "Delroy Garrett",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Deadpool",
+   "Delroy Garrett"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Deadpool",
+   "Delroy_Garrett"
+  ]
+ },
+ "Dogpool": {
+  "name": "Dogpool",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Deadpool",
+   "Dogpool"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Deadpool",
+   "Dogpool"
+  ]
+ },
+ "Emrys_Killebrew": {
+  "name": "Emrys Killebrew",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Deadpool",
+   "Emrys Killebrew"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Deadpool",
+   "Emrys_Killebrew"
+  ]
+ },
+ "Garrison_Kane": {
+  "name": "Garrison Kane",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Deadpool",
+   "Garrison Kane"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Deadpool",
+   "Garrison_Kane"
+  ]
+ },
+ "Shamrock_(comics)": {
+  "name": "Shamrock (comics)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Deadpool",
+   "Shamrock (comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Deadpool",
+   "Shamrock_(comics)"
+  ]
+ },
+ "Solo_(Marvel_Comics)": {
+  "name": "Solo (Marvel Comics)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Deadpool",
+   "Solo (Marvel Comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Deadpool",
+   "Solo_(Marvel_Comics)"
+  ]
+ },
+ "Stingray_(Marvel_Comics)": {
+  "name": "Stingray (Marvel Comics)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Deadpool",
+   "Stingray (Marvel Comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Deadpool",
+   "Stingray_(Marvel_Comics)"
+  ]
+ },
+ "Blackwulf": {
+  "name": "Blackwulf",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Deathlok",
+   "Blackwulf"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Deathlok",
+   "Blackwulf"
+  ]
+ },
+ "Crippler_(character)": {
+  "name": "Crippler (character)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Deathlok",
+   "Crippler (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Deathlok",
+   "Crippler_(character)"
+  ]
+ },
+ "Digitek_(character)": {
+  "name": "Digitek (character)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Deathlok",
+   "Digitek (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Deathlok",
+   "Digitek_(character)"
+  ]
+ },
+ "Blue_Bullet": {
+  "name": "Blue Bullet",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Doctor Nemesis",
+   "Blue Bullet"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Doctor_Nemesis",
+   "Blue_Bullet"
+  ]
+ },
+ "Golem_(Marvel_Comics)": {
+  "name": "Golem (Marvel Comics)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Doctor Nemesis",
+   "Golem (Marvel Comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Doctor_Nemesis",
+   "Golem_(Marvel_Comics)"
+  ]
+ },
+ "Black_Knight_(Marvel_Comics)": {
+  "name": "Black Knight (Marvel Comics)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Doctor Strange",
+   "Black Knight (Marvel Comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Doctor_Strange",
+   "Black_Knight_(Marvel_Comics)"
+  ]
+ },
+ "Black_Rider_(character)": {
+  "name": "Black Rider (character)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Doctor Strange",
+   "Black Rider (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Doctor_Strange",
+   "Black_Rider_(character)"
+  ]
+ },
+ "Captain_Ultra": {
+  "name": "Captain Ultra",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Doctor Strange",
+   "Captain Ultra"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Doctor_Strange",
+   "Captain_Ultra"
+  ]
+ },
+ "Darkdevil": {
+  "name": "Darkdevil",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Doctor Strange",
+   "Darkdevil"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Doctor_Strange",
+   "Darkdevil"
+  ]
+ },
+ "Doctor_Spectrum": {
+  "name": "Alice Nugent",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Doctor Strange",
+   "Alice Nugent"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Doctor_Strange",
+   "Doctor_Spectrum"
+  ]
+ },
+ "Ikaris": {
+  "name": "Ikaris",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Doctor Strange",
+   "Ikaris"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Doctor_Strange",
+   "Ikaris"
+  ]
+ },
+ "Moonglow_(comics)": {
+  "name": "Moonglow (comics)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Doctor Strange",
+   "Moonglow (comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Doctor_Strange",
+   "Moonglow_(comics)"
+  ]
+ },
+ "Motormouth_(comics)": {
+  "name": "Motormouth (comics)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Doctor Strange",
+   "Motormouth (comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Doctor_Strange",
+   "Motormouth_(comics)"
+  ]
+ },
+ "Red_Wolf_(comics)": {
+  "name": "Red Wolf (comics)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Doctor Strange",
+   "Red Wolf (comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Doctor_Strange",
+   "Red_Wolf_(comics)"
+  ]
+ },
+ "Speed_(character)": {
+  "name": "Speed (character)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Doctor Strange",
+   "Speed (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Doctor_Strange",
+   "Speed_(character)"
+  ]
+ },
+ "Straw_Man_(comics)": {
+  "name": "Straw Man (comics)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Doctor Strange",
+   "Straw Man (comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Doctor_Strange",
+   "Straw_Man_(comics)"
+  ]
+ },
+ "Toro_(character)": {
+  "name": "Toro (character)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Doctor Strange",
+   "Toro (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Doctor_Strange",
+   "Toro_(character)"
+  ]
+ },
+ "Guardsman_(character)": {
+  "name": "Guardsman (character)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Eddie Brock",
+   "Guardsman (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Eddie_Brock",
+   "Guardsman_(character)"
+  ]
+ },
+ "Empath_(character)": {
+  "name": "Empath (character)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Emma Frost",
+   "Empath (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Emma_Frost",
+   "Empath_(character)"
+  ]
+ },
+ "Leech_(character)": {
+  "name": "Leech (character)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Emma Frost",
+   "Leech (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Emma_Frost",
+   "Leech_(character)"
+  ]
+ },
+ "Ruby_Summers": {
+  "name": "Ruby Summers",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Emma Frost",
+   "Ruby Summers"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Emma_Frost",
+   "Ruby_Summers"
+  ]
+ },
+ "Bucky_(Marvel_Comics)": {
+  "name": "Bucky (Marvel Comics)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Frankenstein's Monster (Marvel Comics)",
+   "Bucky (Marvel Comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Frankenstein's_Monster_(Marvel_Comics)",
+   "Bucky_(Marvel_Comics)"
+  ]
+ },
+ "Ulysses_Bloodstone": {
+  "name": "Ulysses Bloodstone",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Frankenstein's Monster (Marvel Comics)",
+   "Ulysses Bloodstone"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Frankenstein's_Monster_(Marvel_Comics)",
+   "Ulysses_Bloodstone"
+  ]
+ },
+ "Thor_Girl": {
+  "name": "Thor Girl",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Frog-Man",
+   "Thor Girl"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Frog-Man",
+   "Thor_Girl"
+  ]
+ },
+ "Caretaker_(comics)": {
+  "name": "Caretaker (comics)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Ghost Rider",
+   "Caretaker (comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Ghost_Rider",
+   "Caretaker_(comics)"
+  ]
+ },
+ "Ares_(Marvel_Comics)": {
+  "name": "Ares (Marvel Comics)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Ghost Rider",
+   "Ares (Marvel Comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Ghost_Rider",
+   "Ares_(Marvel_Comics)"
+  ]
+ },
+ "Firelord_(character)": {
+  "name": "Firelord (character)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Ghost Rider",
+   "Firelord (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Ghost_Rider",
+   "Firelord_(character)"
+  ]
+ },
+ "Hyperion_(character)": {
+  "name": "Hyperion (character)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Gwenpool",
+   "Hyperion (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Gwenpool",
+   "Hyperion_(character)"
+  ]
+ },
+ "Rusty_Collins": {
+  "name": "Rusty Collins",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Hellion (character)",
+   "Rusty Collins"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Hellion_(character)",
+   "Rusty_Collins"
+  ]
+ },
+ "Synapse_(character)": {
+  "name": "Synapse (character)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Hellion (character)",
+   "Synapse (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Hellion_(character)",
+   "Synapse_(character)"
+  ]
+ },
+ "Ajak": {
+  "name": "Ajak",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Hercules (Marvel Comics)",
+   "Ajak"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Hercules_(Marvel_Comics)",
+   "Ajak"
+  ]
+ },
+ "Balder_the_Brave": {
+  "name": "Balder the Brave",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Hercules (Marvel Comics)",
+   "Balder the Brave"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Hercules_(Marvel_Comics)",
+   "Balder_the_Brave"
+  ]
+ },
+ "Flatman_(character)": {
+  "name": "Flatman (character)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Hercules (Marvel Comics)",
+   "Flatman (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Hercules_(Marvel_Comics)",
+   "Flatman_(character)"
+  ]
+ },
+ "Living_Lightning": {
+  "name": "Living Lightning",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Hercules (Marvel Comics)",
+   "Living Lightning"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Hercules_(Marvel_Comics)",
+   "Living_Lightning"
+  ]
+ },
+ "Raza_Longknife": {
+  "name": "Raza Longknife",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Hercules (Marvel Comics)",
+   "Raza Longknife"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Hercules_(Marvel_Comics)",
+   "Raza_Longknife"
+  ]
+ },
+ "Blue_Marvel": {
+  "name": "Blue Marvel",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Hulk",
+   "Blue Marvel"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Hulk",
+   "Blue_Marvel"
+  ]
+ },
+ "Crane_Mother": {
+  "name": "Crane Mother",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Hulk",
+   "Crane Mother"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Hulk",
+   "Crane_Mother"
+  ]
+ },
+ "Devil_Hulk": {
+  "name": "Devil Hulk",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Hulk",
+   "Devil Hulk"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Hulk",
+   "Devil_Hulk"
+  ]
+ },
+ "Fandral": {
+  "name": "Fandral",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Hulk",
+   "Fandral"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Hulk",
+   "Fandral"
+  ]
+ },
+ "Gauntlet_(Joseph_Green)": {
+  "name": "Gauntlet (Joseph Green)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Hulk",
+   "Gauntlet (Joseph Green)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Hulk",
+   "Gauntlet_(Joseph_Green)"
+  ]
+ },
+ "Gremlin_(comics)": {
+  "name": "Gremlin (comics)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Hulk",
+   "Gremlin (comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Hulk",
+   "Gremlin_(comics)"
+  ]
+ },
+ "Hulk_2099": {
+  "name": "Hulk 2099",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Hulk",
+   "Hulk 2099"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Hulk",
+   "Hulk_2099"
+  ]
+ },
+ "Wolverine_(Ultimate_Marvel_character)": {
+  "name": "Wolverine (Ultimate Marvel character)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Hulk",
+   "Wolverine (Ultimate Marvel character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Hulk",
+   "Wolverine_(Ultimate_Marvel_character)"
+  ]
+ },
+ "Blue_Diamond_(character)": {
+  "name": "Blue Diamond (character)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Human Torch",
+   "Blue Diamond (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Human_Torch",
+   "Blue_Diamond_(character)"
+  ]
+ },
+ "Franklin_Richards_(character)": {
+  "name": "Franklin Richards (character)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Human Torch",
+   "Franklin Richards (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Human_Torch",
+   "Franklin_Richards_(character)"
+  ]
+ },
+ "Vance_Astrovik": {
+  "name": "Vance Astrovik",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Hybrid (Scott Washington)",
+   "Vance Astrovik"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Hybrid_(Scott_Washington)",
+   "Vance_Astrovik"
+  ]
+ },
+ "Thunderbolt_(Marvel_Comics)": {
+  "name": "Thunderbolt (Marvel Comics)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Luke Cage",
+   "Thunderbolt (Marvel Comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Luke_Cage",
+   "Thunderbolt_(Marvel_Comics)"
+  ]
+ },
+ "White_Tiger_(Heroes_for_Hire)": {
+  "name": "White Tiger (Heroes for Hire)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Misty Knight",
+   "White Tiger (Heroes for Hire)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Misty_Knight",
+   "White_Tiger_(Heroes_for_Hire)"
+  ]
+ },
+ "Silencer_(comics)": {
+  "name": "Silencer (comics)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Mockingbird (Marvel Comics)",
+   "Silencer (comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Mockingbird_(Marvel_Comics)",
+   "Silencer_(comics)"
+  ]
+ },
+ "Scarlet_Scarab": {
+  "name": "Scarlet Scarab",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Moon Knight",
+   "Scarlet Scarab"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Moon_Knight",
+   "Scarlet_Scarab"
+  ]
+ },
+ "Solomon_Kane_(comics)": {
+  "name": "Solomon Kane (comics)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Moon Knight",
+   "Solomon Kane (comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Moon_Knight",
+   "Solomon_Kane_(comics)"
+  ]
+ },
+ "Captain_Marvel_(Khn'nr)": {
+  "name": "Captain Marvel (Khn'nr)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Noh-Varr",
+   "Captain Marvel (Khn'nr)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Noh-Varr",
+   "Captain_Marvel_(Khn'nr)"
+  ]
+ },
+ "Korvus": {
+  "name": "Korvus",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Nova (Richard Rider)",
+   "Korvus"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Nova_(Richard_Rider)",
+   "Korvus"
+  ]
+ },
+ "Jean_Grey_(X-Men_film_series)": {
+  "name": "Jean Grey (X-Men film series)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Phoenix (Guardians of the Galaxy)",
+   "Jean Grey (X-Men film series)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Phoenix_Force",
+   "Jean_Grey_(X-Men_film_series)"
+  ]
+ },
+ "Lei_Kung_(character)": {
+  "name": "Lei Kung (character)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Phoenix (Guardians of the Galaxy)",
+   "Lei Kung (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Phoenix_Force",
+   "Lei_Kung_(character)"
+  ]
+ },
+ "Guardian_(Marvel_Comics)": {
+  "name": "Guardian (Marvel Comics)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Puck (Marvel Comics)",
+   "Guardian (Marvel Comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Puck_(Marvel_Comics)",
+   "Guardian_(Marvel_Comics)"
+  ]
+ },
+ "Vindicator_(comics)": {
+  "name": "Vindicator (comics)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Puck (Marvel Comics)",
+   "Vindicator (comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Puck_(Marvel_Comics)",
+   "Vindicator_(comics)"
+  ]
+ },
+ "Ch'od": {
+  "name": "Ch'od",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Rachel Summers",
+   "Ch'od"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Rachel_Summers",
+   "Ch'od"
+  ]
+ },
+ "Shatterstar": {
+  "name": "Shatterstar",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Rachel Summers",
+   "Shatterstar"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Rachel_Summers",
+   "Shatterstar"
+  ]
+ },
+ "Timeslip_(comics)": {
+  "name": "Timeslip (comics)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Robbie Baldwin",
+   "Timeslip (comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Robbie_Baldwin",
+   "Timeslip_(comics)"
+  ]
+ },
+ "Union_Jack_(Joseph_Chapman)": {
+  "name": "Union Jack (Joseph Chapman)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Sabra (character)",
+   "Union Jack (Joseph Chapman)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Sabra_(character)",
+   "Union_Jack_(Joseph_Chapman)"
+  ]
+ },
+ "Jack_Frost_(Marvel_Comics)": {
+  "name": "Jack Frost (Marvel Comics)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Scarlet Witch",
+   "Jack Frost (Marvel Comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Scarlet_Witch",
+   "Jack_Frost_(Marvel_Comics)"
+  ]
+ },
+ "Black_Jack_Tarr": {
+  "name": "Black Jack Tarr",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Shang-Chi",
+   "Black Jack Tarr"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Shang-Chi",
+   "Black_Jack_Tarr"
+  ]
+ },
+ "Two-Gun_Kid": {
+  "name": "Two-Gun Kid",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "She-Hulk",
+   "Two-Gun Kid"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "She-Hulk",
+   "Two-Gun_Kid"
+  ]
+ },
+ "Peggy_Carter": {
+  "name": "Peggy Carter",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Spider-Woman (Gwen Stacy)",
+   "Peggy Carter"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Spider-Woman_(Gwen_Stacy)",
+   "Peggy_Carter"
+  ]
+ },
+ "Bug_(Marvel_Comics)": {
+  "name": "Bug (Marvel Comics)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Star-Lord",
+   "Bug (Marvel Comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Star-Lord",
+   "Bug_(Marvel_Comics)"
+  ]
+ },
+ "Oya_(comics)": {
+  "name": "Oya (comics)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Storm (Marvel Comics)",
+   "Oya (comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Storm_(Marvel_Comics)",
+   "Oya_(comics)"
+  ]
+ },
+ "Battlestar_(character)": {
+  "name": "Battlestar (character)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "U.S. Agent",
+   "Battlestar (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "U.S._Agent",
+   "Battlestar_(character)"
+  ]
+ },
+ "Thin_Man_(character)": {
+  "name": "Thin Man (character)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "U.S. Agent",
+   "Thin Man (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "U.S._Agent",
+   "Thin_Man_(character)"
+  ]
+ },
+ "Hrimhari": {
+  "name": "Hrimhari",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Werewolf by Night",
+   "Hrimhari"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Werewolf_by_Night",
+   "Hrimhari"
+  ]
+ },
+ "Jack_Monroe_(character)": {
+  "name": "Jack Monroe (character)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "William Burnside (character)",
+   "Jack Monroe (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "William_Burnside_(character)",
+   "Jack_Monroe_(character)"
+  ]
+ },
+ "Jeffrey_Mace": {
+  "name": "Jeffrey Mace",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "William Burnside (character)",
+   "Jeffrey Mace"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "William_Burnside_(character)",
+   "Jeffrey_Mace"
+  ]
+ },
+ "Junior_Juniper": {
+  "name": "Junior Juniper",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Wolverine (character)",
+   "Junior Juniper"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Wolverine_(character)",
+   "Junior_Juniper"
+  ]
+ },
+ "Wild_Child_(character)": {
+  "name": "Wild Child (character)",
+  "distance": 2,
+  "path": [
+   "Spider-Man",
+   "Wolverine (character)",
+   "Wild Child (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Wolverine_(character)",
+   "Wild_Child_(character)"
+  ]
+ },
+ "Kid_Colt": {
+  "name": "Kid Colt",
+  "distance": 3,
+  "path": [
+   "Spider-Man",
+   "Adam Warlock",
+   "Black Panther (character)",
+   "Kid Colt"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Adam_Warlock",
+   "Black_Panther_(character)",
+   "Kid_Colt"
+  ]
+ },
+ "Mahr_Vehl": {
+  "name": "Mahr Vehl",
+  "distance": 3,
+  "path": [
+   "Spider-Man",
+   "Adam Warlock",
+   "Genis-Vell",
+   "Mahr Vehl"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Adam_Warlock",
+   "Genis-Vell",
+   "Mahr_Vehl"
+  ]
+ },
+ "Justice_(New_Universe)": {
+  "name": "Justice (New Universe)",
+  "distance": 3,
+  "path": [
+   "Spider-Man",
+   "Adam Warlock",
+   "Quasar (character)",
+   "Justice (New Universe)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Adam_Warlock",
+   "Quasar_(character)",
+   "Justice_(New_Universe)"
+  ]
+ },
+ "Makkari_(character)": {
+  "name": "Makkari (character)",
+  "distance": 3,
+  "path": [
+   "Spider-Man",
+   "Adam Warlock",
+   "Quasar (character)",
+   "Makkari (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Adam_Warlock",
+   "Quasar_(character)",
+   "Makkari_(character)"
+  ]
+ },
+ "Marvel_Boy_(Robert_Grayson)": {
+  "name": "Marvel Boy (Robert Grayson)",
+  "distance": 3,
+  "path": [
+   "Spider-Man",
+   "Adam Warlock",
+   "Quasar (character)",
+   "Marvel Boy (Robert Grayson)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Adam_Warlock",
+   "Quasar_(character)",
+   "Marvel_Boy_(Robert_Grayson)"
+  ]
+ },
+ "Skull_the_Slayer": {
+  "name": "Skull the Slayer",
+  "distance": 3,
+  "path": [
+   "Spider-Man",
+   "Adam Warlock",
+   "Quasar (character)",
+   "Skull the Slayer"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Adam_Warlock",
+   "Quasar_(character)",
+   "Skull_the_Slayer"
+  ]
+ },
+ "Citizen_V": {
+  "name": "Citizen V",
+  "distance": 3,
+  "path": [
+   "Spider-Man",
+   "Betsy Braddock",
+   "Cable (character)",
+   "Citizen V"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Betsy_Braddock",
+   "Cable_(character)",
+   "Citizen_V"
+  ]
+ },
+ "G._W._Bridge": {
+  "name": "G. W. Bridge",
+  "distance": 3,
+  "path": [
+   "Spider-Man",
+   "Betsy Braddock",
+   "Cable (character)",
+   "G. W. Bridge"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Betsy_Braddock",
+   "Cable_(character)",
+   "G._W._Bridge"
+  ]
+ },
+ "Magician_(Marvel_Comics)": {
+  "name": "Magician (Marvel Comics)",
+  "distance": 3,
+  "path": [
+   "Spider-Man",
+   "Betsy Braddock",
+   "Jean Grey",
+   "Magician (Marvel Comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Betsy_Braddock",
+   "Jean_Grey",
+   "Magician_(Marvel_Comics)"
+  ]
+ },
+ "The_Witness_(character)": {
+  "name": "The Witness (character)",
+  "distance": 3,
+  "path": [
+   "Spider-Man",
+   "Black Widow (Natasha Romanova)",
+   "Rockman (character)",
+   "The Witness (character)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Black_Widow_(Natasha_Romanova)",
+   "Rockman_(character)",
+   "The_Witness_(character)"
+  ]
+ },
+ "The_Union_(Marvel)": {
+  "name": "The Union (Marvel)",
+  "distance": 3,
+  "path": [
+   "Spider-Man",
+   "Brian Braddock",
+   "Union Jack (Marvel Comics)",
+   "The Union (Marvel)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Brian_Braddock",
+   "Union_Jack_(Marvel_Comics)",
+   "The_Union_(Marvel)"
+  ]
+ },
+ "Mark_Hazzard:_Merc": {
+  "name": "Mark Hazzard: Merc",
+  "distance": 3,
+  "path": [
+   "Spider-Man",
+   "Captain Universe",
+   "Nightmask",
+   "Mark Hazzard: Merc"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Captain_Universe",
+   "Nightmask",
+   "Mark_Hazzard:_Merc"
+  ]
+ },
+ "Starr_the_Slayer": {
+  "name": "Starr the Slayer",
+  "distance": 3,
+  "path": [
+   "Spider-Man",
+   "Captain Universe",
+   "Nightmask",
+   "Starr the Slayer"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Captain_Universe",
+   "Nightmask",
+   "Starr_the_Slayer"
+  ]
+ },
+ "Detroit_Steel": {
+  "name": "Detroit Steel",
+  "distance": 3,
+  "path": [
+   "Spider-Man",
+   "Cloak and Dagger (characters)",
+   "War Machine",
+   "Detroit Steel"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Cloak_and_Dagger_(characters)",
+   "War_Machine",
+   "Detroit_Steel"
+  ]
+ },
+ "Redneck_(comics)": {
+  "name": "Redneck (comics)",
+  "distance": 3,
+  "path": [
+   "Spider-Man",
+   "Darkhawk",
+   "Turbo (comics)",
+   "Redneck (comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Darkhawk",
+   "Turbo_(comics)",
+   "Redneck_(comics)"
+  ]
+ },
+ "Box_(comics)": {
+  "name": "Box (comics)",
+  "distance": 3,
+  "path": [
+   "Spider-Man",
+   "Deadpool",
+   "Garrison Kane",
+   "Box (comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Deadpool",
+   "Garrison_Kane",
+   "Box_(comics)"
+  ]
+ },
+ "Thena": {
+  "name": "Thena",
+  "distance": 3,
+  "path": [
+   "Spider-Man",
+   "Doctor Strange",
+   "Ikaris",
+   "Thena"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Doctor_Strange",
+   "Ikaris",
+   "Thena"
+  ]
+ },
+ "Force_(comics)": {
+  "name": "Force (comics)",
+  "distance": 3,
+  "path": [
+   "Spider-Man",
+   "Eddie Brock",
+   "Guardsman (character)",
+   "Force (comics)"
+  ],
+  "path_ids": [
+   "Spider-Man",
+   "Eddie_Brock",
+   "Guardsman_(character)",
+   "Force_(comics)"
+  ]
+ },
+ "Baymax": {
+  "name": "Baymax",
+  "distance": null,
+  "path": null,
+  "path_ids": null
+ },
+ "Ogre_(Marvel_Comics)": {
+  "name": "Ogre (Marvel Comics)",
+  "distance": null,
+  "path": null,
+  "path_ids": null
+ },
+ "Sean_and_Chris": {
+  "name": "Sean and Chris",
+  "distance": null,
+  "path": null,
+  "path_ids": null
+ },
+ "Miracleman_(character)": {
+  "name": "Miracleman (character)",
+  "distance": null,
+  "path": null,
+  "path_ids": null
+ },
+ "Snapdragon_(Morituri)": {
+  "name": "Snapdragon (Morituri)",
+  "distance": null,
+  "path": null,
+  "path_ids": null
+ },
+ "Scatterbrain_(Morituri)": {
+  "name": "Scatterbrain (Morituri)",
+  "distance": null,
+  "path": null,
+  "path_ids": null
+ },
+ "Hellfire_(J._T._Slade)": {
+  "name": "Hellfire (J. T. Slade)",
+  "distance": null,
+  "path": null,
+  "path_ids": null
+ },
+ "Breeze_Barton": {
+  "name": "Breeze Barton",
+  "distance": null,
+  "path": null,
+  "path_ids": null
+ },
+ "Father_Time_(Marvel_Comics)": {
+  "name": "Father Time (Marvel Comics)",
+  "distance": null,
+  "path": null,
+  "path_ids": null
+ },
+ "Backhand_(character)": {
+  "name": "Backhand (character)",
+  "distance": null,
+  "path": null,
+  "path_ids": null
+ },
+ "Captain_Midlands": {
+  "name": "Captain Midlands",
+  "distance": null,
+  "path": null,
+  "path_ids": null
+ },
+ "Radian_(Morituri)": {
+  "name": "Radian (Morituri)",
+  "distance": null,
+  "path": null,
+  "path_ids": null
+ },
+ "Bird-Brain_(Marvel_Comics)": {
+  "name": "Bird-Brain (Marvel Comics)",
+  "distance": null,
+  "path": null,
+  "path_ids": null
+ },
+ "Illuminator_(Marvel_Comics)": {
+  "name": "Illuminator (Marvel Comics)",
+  "distance": null,
+  "path": null,
+  "path_ids": null
+ },
+ "Shear_(character)": {
+  "name": "Shear (character)",
+  "distance": null,
+  "path": null,
+  "path_ids": null
+ },
+ "Vyking": {
+  "name": "Vyking",
+  "distance": null,
+  "path": null,
+  "path_ids": null
+ },
+ "Black_Fox_(Robert_Paine)": {
+  "name": "Black Fox (Robert Paine)",
+  "distance": null,
+  "path": null,
+  "path_ids": null
+ },
+ "Solarman": {
+  "name": "Solarman",
+  "distance": null,
+  "path": null,
+  "path_ids": null
+ },
+ "Super_Rabbit": {
+  "name": "Super Rabbit",
+  "distance": null,
+  "path": null,
+  "path_ids": null
+ },
+ "Toxyn": {
+  "name": "Toxyn",
+  "distance": null,
+  "path": null,
+  "path_ids": null
+ },
+ "Brain_Drain_(character)": {
+  "name": "Brain Drain (character)",
+  "distance": null,
+  "path": null,
+  "path_ids": null
+ },
+ "Scaredycat": {
+  "name": "Scaredycat",
+  "distance": null,
+  "path": null,
+  "path_ids": null
+ },
+ "Charcoal_(comics)": {
+  "name": "Charcoal (comics)",
+  "distance": null,
+  "path": null,
+  "path_ids": null
+ },
+ "Yo-Yo_Rodriguez": {
+  "name": "Yo-Yo Rodriguez",
+  "distance": null,
+  "path": null,
+  "path_ids": null
+ },
+ "Happy_Sam_Sawyer": {
+  "name": "Happy Sam Sawyer",
+  "distance": null,
+  "path": null,
+  "path_ids": null
+ },
+ "Blackthorn_(character)": {
+  "name": "Blackthorn (character)",
+  "distance": null,
+  "path": null,
+  "path_ids": null
+ }
+}

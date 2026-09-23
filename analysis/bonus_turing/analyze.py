@@ -146,4 +146,34 @@ summary = {
     "max_in": int(in_vals.max()), "max_out": int(out_vals.max()),
 }
 json.dump(summary, open(DATA_DIR / "summary.json", "w"), indent=2)
-print("\nDone.")
+
+# --- export data for the interactive (Plotly) versions of the charts ---
+SITE_DATA_DIR = REPO_ROOT / "docs" / "assets" / "data"
+SITE_DATA_DIR.mkdir(parents=True, exist_ok=True)
+
+def role_of(nid):
+    if nid in isolates:
+        return "isolate"
+    if nid in small_comp_nodes:
+        return "island"
+    return "giant"
+
+network_data = {
+    "nodes": [
+        {
+            "id": nid, "name": nid,
+            "x": round(pos[nid][0], 4), "y": round(pos[nid][1], 4),
+            "in": in_deg[nid], "out": out_deg[nid], "role": role_of(nid),
+        }
+        for nid in G.nodes()
+    ],
+    "edges": [{"source": u, "target": v} for u, v in G.edges()],
+}
+with open(SITE_DATA_DIR / "turing_network.json", "w") as f:
+    json.dump(network_data, f, separators=(",", ":"))
+
+degree_data = {"in_degree": in_vals.tolist(), "out_degree": out_vals.tolist()}
+with open(SITE_DATA_DIR / "turing_degrees.json", "w") as f:
+    json.dump(degree_data, f, separators=(",", ":"))
+
+print("\nDone. Interactive chart data written to", SITE_DATA_DIR)

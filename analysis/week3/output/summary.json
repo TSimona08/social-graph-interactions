@@ -1,0 +1,205 @@
+{
+  "n_total": 303,
+  "n_reachable": 277,
+  "n_unreachable": 26,
+  "max_distance": 3,
+  "farthest_characters": [
+    {
+      "name": "Kid Colt",
+      "path": [
+        "Spider-Man",
+        "Adam Warlock",
+        "Black Panther (character)",
+        "Kid Colt"
+      ]
+    },
+    {
+      "name": "Mahr Vehl",
+      "path": [
+        "Spider-Man",
+        "Adam Warlock",
+        "Genis-Vell",
+        "Mahr Vehl"
+      ]
+    },
+    {
+      "name": "Justice (New Universe)",
+      "path": [
+        "Spider-Man",
+        "Adam Warlock",
+        "Quasar (character)",
+        "Justice (New Universe)"
+      ]
+    },
+    {
+      "name": "Makkari (character)",
+      "path": [
+        "Spider-Man",
+        "Adam Warlock",
+        "Quasar (character)",
+        "Makkari (character)"
+      ]
+    },
+    {
+      "name": "Marvel Boy (Robert Grayson)",
+      "path": [
+        "Spider-Man",
+        "Adam Warlock",
+        "Quasar (character)",
+        "Marvel Boy (Robert Grayson)"
+      ]
+    },
+    {
+      "name": "Skull the Slayer",
+      "path": [
+        "Spider-Man",
+        "Adam Warlock",
+        "Quasar (character)",
+        "Skull the Slayer"
+      ]
+    },
+    {
+      "name": "Citizen V",
+      "path": [
+        "Spider-Man",
+        "Betsy Braddock",
+        "Cable (character)",
+        "Citizen V"
+      ]
+    },
+    {
+      "name": "G. W. Bridge",
+      "path": [
+        "Spider-Man",
+        "Betsy Braddock",
+        "Cable (character)",
+        "G. W. Bridge"
+      ]
+    },
+    {
+      "name": "Magician (Marvel Comics)",
+      "path": [
+        "Spider-Man",
+        "Betsy Braddock",
+        "Jean Grey",
+        "Magician (Marvel Comics)"
+      ]
+    },
+    {
+      "name": "The Witness (character)",
+      "path": [
+        "Spider-Man",
+        "Black Widow (Natasha Romanova)",
+        "Rockman (character)",
+        "The Witness (character)"
+      ]
+    },
+    {
+      "name": "The Union (Marvel)",
+      "path": [
+        "Spider-Man",
+        "Brian Braddock",
+        "Union Jack (Marvel Comics)",
+        "The Union (Marvel)"
+      ]
+    },
+    {
+      "name": "Mark Hazzard: Merc",
+      "path": [
+        "Spider-Man",
+        "Captain Universe",
+        "Nightmask",
+        "Mark Hazzard: Merc"
+      ]
+    },
+    {
+      "name": "Starr the Slayer",
+      "path": [
+        "Spider-Man",
+        "Captain Universe",
+        "Nightmask",
+        "Starr the Slayer"
+      ]
+    },
+    {
+      "name": "Detroit Steel",
+      "path": [
+        "Spider-Man",
+        "Cloak and Dagger (characters)",
+        "War Machine",
+        "Detroit Steel"
+      ]
+    },
+    {
+      "name": "Redneck (comics)",
+      "path": [
+        "Spider-Man",
+        "Darkhawk",
+        "Turbo (comics)",
+        "Redneck (comics)"
+      ]
+    },
+    {
+      "name": "Box (comics)",
+      "path": [
+        "Spider-Man",
+        "Deadpool",
+        "Garrison Kane",
+        "Box (comics)"
+      ]
+    },
+    {
+      "name": "Thena",
+      "path": [
+        "Spider-Man",
+        "Doctor Strange",
+        "Ikaris",
+        "Thena"
+      ]
+    },
+    {
+      "name": "Force (comics)",
+      "path": [
+        "Spider-Man",
+        "Eddie Brock",
+        "Guardsman (character)",
+        "Force (comics)"
+      ]
+    }
+  ],
+  "distance_distribution": {
+    "0": 1,
+    "1": 106,
+    "2": 152,
+    "3": 18
+  },
+  "unreachable_names": [
+    "Backhand (character)",
+    "Baymax",
+    "Bird-Brain (Marvel Comics)",
+    "Black Fox (Robert Paine)",
+    "Blackthorn (character)",
+    "Brain Drain (character)",
+    "Breeze Barton",
+    "Captain Midlands",
+    "Charcoal (comics)",
+    "Father Time (Marvel Comics)",
+    "Happy Sam Sawyer",
+    "Hellfire (J. T. Slade)",
+    "Illuminator (Marvel Comics)",
+    "Miracleman (character)",
+    "Ogre (Marvel Comics)",
+    "Radian (Morituri)",
+    "Scaredycat",
+    "Scatterbrain (Morituri)",
+    "Sean and Chris",
+    "Shear (character)",
+    "Snapdragon (Morituri)",
+    "Solarman",
+    "Super Rabbit",
+    "Toxyn",
+    "Vyking",
+    "Yo-Yo Rodriguez"
+  ],
+  "mean_distance": 1.6750902527075813
+}

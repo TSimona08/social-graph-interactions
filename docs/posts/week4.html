@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Week 4: What Weight Reveals | The Marvel Graph Diaries</title>
+<meta name="description" content="1374 philosophers, one giant component, two community structures. Weighting the network by link strength reshuffles 17% of philosophers — and pulls the Islamic Golden Age thinkers into their own cluster.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏛️</text></svg>">
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" href="../assets/css/week4.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/4.1.1/plotly-cartesian.min.js"></script>
+</head>
+<body class="academy">
+
+<header class="masthead">
+  <div class="wrap">
+    <p class="site-title"><a href="../index.html">The Marvel Graph Diaries</a></p>
+    <nav class="site-nav">
+      <a href="../index.html">Posts</a>
+      <a href="../about.html">About</a>
+      <a href="https://github.com/TSimona08/social-graph-interactions" target="_blank" rel="noopener">GitHub</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap wide">
+
+<div class="academy-page">
+
+  <div class="academy-masthead">
+    <span class="kicker">Week 4 &middot; De Rebus Philosophorum</span>
+    <h1>What Weight<br><em>Reveals</em></h1>
+    <p class="hook">1,374 philosophers, 9,139 cross-references, one algorithm that has never read a word any of them wrote &mdash; and it still gets their history right.</p>
+    <div class="academy-rule"></div>
+  </div>
+
+  <!-- ================= CAST OF CHARACTERS ================= -->
+  <div class="academy-section-head">
+    <span class="kicker">Meet the Cast</span>
+    <h2>Who You'll Meet Below</h2>
+    <p>Seven names that come back later, in a network that knows nothing about any of them except who links to whom.</p>
+  </div>
+
+  <div class="cast-grid">
+    <div class="cast-card">
+      <div class="cast-portrait"><img src="../assets/img/week4/portraits/plato.png" alt="Bust of Plato" loading="lazy"></div>
+      <div class="cast-body">
+        <span class="cast-name">Plato</span>
+        <span class="cast-era">c. 428 &ndash; 348 BC &middot; Athens</span>
+        <p>Student of Socrates. Founded Western philosophy's oldest argument: that the world we see is a shadow of a truer, unchanging one.</p>
+      </div>
+    </div>
+
+    <div class="cast-card">
+      <div class="cast-portrait"><img src="../assets/img/week4/portraits/aristotle.jpg" alt="Bust of Aristotle" loading="lazy"></div>
+      <div class="cast-body">
+        <span class="cast-name">Aristotle</span>
+        <span class="cast-era">384 &ndash; 322 BC &middot; Athens/Macedon</span>
+        <p>Plato's student, then his sharpest critic. Tutored Alexander the Great before founding his own school.</p>
+      </div>
+    </div>
+
+    <div class="cast-card">
+      <div class="cast-portrait"><img src="../assets/img/week4/portraits/avicenna.jpg" alt="Bust of Avicenna" loading="lazy"></div>
+      <div class="cast-body">
+        <span class="cast-name">Avicenna</span>
+        <span class="cast-era">c. 980 &ndash; 1037 &middot; Persia</span>
+        <p>Physician and philosopher who fused Aristotle with Islamic theology. Part of a tight circle with Al-Farabi and Averroes.</p>
+      </div>
+    </div>
+
+    <div class="cast-card">
+      <div class="cast-portrait"><img src="../assets/img/week4/portraits/locke.jpg" alt="Portrait of John Locke" loading="lazy"></div>
+      <div class="cast-body">
+        <span class="cast-name">John Locke</span>
+        <span class="cast-era">1632 &ndash; 1704 &middot; England</span>
+        <p>Blank-slate mind, government by consent. Read closely by the American Founders a century later.</p>
+      </div>
+    </div>
+
+    <div class="cast-card">
+      <div class="cast-portrait"><img src="../assets/img/week4/portraits/kant.jpg" alt="Portrait of Immanuel Kant" loading="lazy"></div>
+      <div class="cast-body">
+        <span class="cast-name">Immanuel Kant</span>
+        <span class="cast-era">1724 &ndash; 1804 &middot; Prussia</span>
+        <p>Rewrote the rules for what philosophy can even ask: what we can know, and how we ought to act.</p>
+      </div>
+    </div>
+
+    <div class="cast-card">
+      <div class="cast-portrait"><img src="../assets/img/week4/portraits/marx.png" alt="Photograph of Karl Marx" loading="lazy"></div>
+      <div class="cast-body">
+        <span class="cast-name">Karl Marx</span>
+        <span class="cast-era">1818 &ndash; 1883 &middot; Germany/England</span>
+        <p>Critiqued capitalism so thoroughly it split a century of politics in two. Almost always co-credited with Friedrich Engels.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="tablet splash">
+    <div class="tablet-caption" style="border-top: none;">
+      <span class="cap-label">From people to dots</span>
+      Every philosopher here has a Wikipedia article; every link between two articles becomes a tie in the network below. 1,374 philosophers, 9,139 ties &mdash; too tangled to read by eye. The rest of this post is an algorithm finding the structure in that tangle, using nothing but who links to whom.
+    </div>
+  </div>
+
+  <!-- ================= STATS ROW ================= -->
+  <div class="tablet-grid cols-4">
+    <div class="tablet stat">
+      <span class="num">1,374</span>
+      <span class="label">Philosophers in the giant component</span>
+    </div>
+    <div class="tablet stat">
+      <span class="num">8 &rarr; 10</span>
+      <span class="label">Communities, unweighted &rarr; weighted</span>
+    </div>
+    <div class="tablet stat" style="border-top: 3px solid var(--gold-leaf);">
+      <span class="num">0.66</span>
+      <span class="label">NMI between the two partitions</span>
+    </div>
+    <div class="tablet stat">
+      <span class="num">237</span>
+      <span class="label">Philosophers who changed community</span>
+    </div>
+  </div>
+
+  <div class="tablet splash">
+    <div class="tablet-caption" style="border-top: none;">
+      <span class="cap-label">The question</span>
+      Some philosopher pairs link once; others link a dozen times. <strong>Unweighted</strong> Louvain treats both the same; <strong>weighted</strong> Louvain lets the heavier tie pull harder. Does that change who gets grouped with whom?
+    </div>
+  </div>
+
+  <!-- ================= ALGORITHM PLAYBACK ================= -->
+  <div class="academy-section-head">
+    <span class="kicker">Step by Step</span>
+    <h2>From Tangle to Nine Circles</h2>
+    <p>The same pipeline this whole post is built on, staged one step at a time: raw network &rarr; unweighted communities &rarr; weighted communities &rarr; each community's leader &rarr; the leader's own tight-knit circle.</p>
+  </div>
+
+  <div class="tablet splash academy-explorer">
+    <div class="academy-controls">
+      <button type="button" id="pb-prev" class="academy-toggle-btn">&larr; Prev</button>
+      <button type="button" id="pb-next" class="academy-toggle-btn primary">Next &rarr;</button>
+      <button type="button" id="pb-play" class="academy-toggle-btn">Play</button>
+      <div class="pb-dots" id="pb-dots"></div>
+    </div>
+    <div class="pb-caption" id="pb-caption">Loading&hellip;</div>
+    <canvas class="lv-canvas" id="pb-canvas"></canvas>
+    <div class="pb-leader-select" id="pb-leader-select"></div>
+  </div>
+
+  <!-- ================= EXPLORER ================= -->
+  <div class="academy-section-head">
+    <span class="kicker">The Explorer</span>
+    <h2>Two Communities, One Network</h2>
+    <p>Toggle between the unweighted and weighted partitions below. Search a philosopher, or click a point. Nodes outlined in gold are the 237 who land in a different community once weight is counted.</p>
+  </div>
+
+  <div class="tablet splash academy-explorer">
+    <div class="academy-controls">
+      <div class="academy-toggle" role="group" aria-label="Community partition">
+        <button type="button" id="btn-unweighted" class="active">Unweighted</button>
+        <button type="button" id="btn-weighted">Weighted</button>
+      </div>
+      <label class="academy-checkbox">
+        <input type="checkbox" id="highlight-movers" checked>
+        Outline the movers
+      </label>
+      <div class="academy-search">
+        <input type="text" id="search-name" list="philosopher-names" placeholder="Find a philosopher…" autocomplete="off">
+      </div>
+      <datalist id="philosopher-names"></datalist>
+    </div>
+    <div class="academy-status" id="academy-status">Loading the web of philosophers&hellip;</div>
+    <div class="academy-chart" id="academy-chart"></div>
+    <div class="academy-legend" id="academy-legend"></div>
+  </div>
+
+  <div class="tablet splash">
+    <div class="tablet-caption" style="border-top: none;">
+      <span class="cap-label">Reading the two maps</span>
+      <strong>Unweighted:</strong> 8 communities, roughly by era. <strong>Weighted:</strong> 10 &mdash; an Anglo-American cluster splits from continental Europe, and the <strong>Islamic Golden Age</strong> philosophers pull into a community of their own.
+    </div>
+  </div>
+
+  <!-- ================= MOVERS ================= -->
+  <div class="academy-section-head">
+    <span class="kicker">The Movers</span>
+    <h2>Who Changes, and Why</h2>
+    <p>Ranked by the single strongest tie that pulled them across the boundary. The pattern isn't random: it's mostly pairs and small circles, tied together by an unusually heavy, repeated cross-reference.</p>
+  </div>
+
+  <div class="tablet splash" style="padding: 24px 26px;">
+    <div class="mover-list" id="mover-list">
+      <p style="font-family:'Cormorant Garamond', Georgia, serif; color: var(--faint-academy);">Loading&hellip;</p>
+    </div>
+  </div>
+
+  <div class="tablet splash">
+    <div class="tablet-caption" style="border-top: none;">
+      <span class="cap-label">The Islamic Golden Age, reunited</span>
+      Avicenna, from the cast above, moves together with Al-Farabi, Averroes, Al-Ghazali, Ibn al-Haytham, and Mulla Sadra into one weighted community. Unweighted, they were split apart and outnumbered by the larger European cluster they were nominally part of. Their heavy internal cross-referencing is enough to pull them back together once it's counted.
+    </div>
+  </div>
+
+  <div class="tablet splash">
+    <div class="tablet-caption" style="border-top: none;">
+      <span class="cap-label">Some moves are just... intense friendships</span>
+      Friedrich Hayek and Ludwig von Mises (weight 12), Roger Bacon and Robert Grosseteste (weight 11), Thomas More and Erasmus (weight 24, the single heaviest tie in the whole network) &mdash; these are pairs whose Wikipedia articles reference each other so often that weighting alone is enough to override the coarser unweighted structure and drag both members somewhere new, together.
+    </div>
+  </div>
+
+  <!-- ================= SANITY CHECK ================= -->
+  <div class="academy-section-head">
+    <span class="kicker">The Sanity Check</span>
+    <h2>Plato and Aristotle Don't Move</h2>
+    <p>Teacher and student, portraits 1 and 2 above &mdash; and the most famous pair in the dataset lands in the same community in both partitions. Whatever else weighting changes, it isn't reshuffling the network at random.</p>
+  </div>
+
+  <div class="tablet-grid cols-2">
+    <div class="tablet stat">
+      <span class="num">0.66</span>
+      <span class="label">NMI, not 1.0 and not 0</span>
+      <span class="sub">High enough that the two partitions are clearly describing the same underlying network &mdash; low enough that weight is doing real work, not just noise.</span>
+    </div>
+    <div class="tablet stat">
+      <span class="num">17.2%</span>
+      <span class="label">Moved, not "most"</span>
+      <span class="sub">The big blocks mostly hold. It's the boundary cases &mdash; philosophers with one unusually strong tie outside their era&rsquo;s dominant cluster &mdash; that flip.</span>
+    </div>
+  </div>
+
+  <!-- ================= LEADERS / LINK COMMUNITIES ================= -->
+  <div class="academy-section-head">
+    <span class="kicker">The Community Leaders</span>
+    <h2>Every Leader's Circle</h2>
+    <p>The same leader-plus-clique view from the playback above, for all nine weighted communities at once.</p>
+  </div>
+
+  <div class="tablet splash">
+    <div class="tablet-caption" style="border-top: none;">
+      <span class="cap-label">Same idea as the last stage above</span>
+      Each card below is a leader's link communities (see Stage 5): small, overlapping circles of relationships, not the one-community-per-person Louvain boxes. The giant 307-relationship "mainstream" cluster is left out of every card &mdash; only the small, distinctive circles are shown.
+    </div>
+  </div>
+
+  <div class="tablet splash academy-explorer">
+    <div class="academy-status" id="leaders-status">Loading the community leaders&hellip;</div>
+    <div id="leader-cards" class="leader-card-grid"></div>
+  </div>
+
+  <div class="tablet splash">
+    <div class="tablet-caption" style="border-top: none;">
+      <span class="cap-label">Aristotle's tradition, per the network: it's Plato</span>
+      Aristotle belongs to 20 distinctive link communities (giant cluster excluded) &mdash; and <strong>Plato is in every single one</strong>. The network never finds a standalone "Aristotelian" circle; it finds the two of them as one inseparable pair.
+    </div>
+  </div>
+
+  <div class="tablet splash">
+    <div class="tablet-caption" style="border-top: none;">
+      <span class="cap-label">Engels, found without being told</span>
+      Friedrich Engels appears in every one of Karl Marx's link communities &mdash; the collaboration promised in the cast intro, found from links alone. John Locke has the most distinctive circles of any leader (28): he sits at the hinge between British Empiricism and the Enlightenment thinkers who read him.
+    </div>
+  </div>
+
+  <div class="tablet splash">
+    <div class="tablet-caption" style="border-top: none;">
+      <span class="cap-label">How it's built</span>
+      1444 philosophers born before 1900, English Wikipedia (frozen snapshot, 2026&#8209;09&#8209;15), directed links with repeat-count weights, summed into an undirected graph two ways: binary (linked or not) and weighted (summed link count). Communities via <code>nx.community.louvain_communities</code> (weight=None vs weight="weight", same seed), restricted to the 1374-node giant component. NMI via <code>sklearn.metrics.normalized_mutual_info_score</code>. Community leaders: <code>nx.betweenness_centrality</code> computed on each community's own induced subgraph. Link communities: hand-implemented Ahn&ndash;Bagrow&ndash;Lehmann algorithm &mdash; weighted-Jaccard similarity between edges sharing a node, single-linkage clustered via <code>scipy.cluster.hierarchy.linkage</code>, cut at the threshold maximizing partition density. Layout: spring layout on the weighted graph, held fixed across both views so only the coloring changes. Code: <a href="https://github.com/TSimona08/social-graph-interactions/tree/main/analysis/week4" target="_blank" rel="noopener">analysis/week4/</a>.
+    </div>
+  </div>
+
+  <div class="academy-back">
+    <a href="../index.html">&larr; Back to all posts</a>
+  </div>
+
+</div>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>The Marvel Graph Diaries &mdash; a weekly data-story series for 02805 Social Graphs and Interactions, DTU.</p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  "use strict";
+
+  const PALETTE = [
+    "#9c7a3c", "#3f6b8a", "#8a4a4a", "#5c7a4a", "#7a5c8a",
+    "#b8671f", "#3f7a6b", "#8a3f5c", "#5c5c9c", "#a3862f",
+  ];
+
+  let net = null;
+  let nodeById = {};
+  let currentMode = "comm_uw"; // "comm_uw" | "comm_w"
+  let showMovers = true;
+  let selectedId = null;
+
+  const statusEl = document.getElementById("academy-status");
+  const legendEl = document.getElementById("academy-legend");
+  const searchInput = document.getElementById("search-name");
+  const datalist = document.getElementById("philosopher-names");
+  const btnUW = document.getElementById("btn-unweighted");
+  const btnW = document.getElementById("btn-weighted");
+  const moversCheckbox = document.getElementById("highlight-movers");
+  const moverListEl = document.getElementById("mover-list");
+
+  function findByName(query) {
+    if (!query) return null;
+    const lower = query.trim().toLowerCase();
+    if (!lower) return null;
+    let match = net.nodes.find(n => n.name.toLowerCase() === lower);
+    if (match) return match.id;
+    match = net.nodes.find(n => n.name.toLowerCase().startsWith(lower));
+    if (match) return match.id;
+    match = net.nodes.find(n => n.name.toLowerCase().includes(lower));
+    return match ? match.id : null;
+  }
+
+  function render() {
+    const nComms = currentMode === "comm_uw" ? net.meta.n_communities_unweighted : net.meta.n_communities_weighted;
+
+    const nodeColors = net.nodes.map(n => PALETTE[n[currentMode] % PALETTE.length]);
+    const nodeSizes = net.nodes.map(n => {
+      const base = 3.2 + Math.sqrt(n.degree) * 1.6;
+      if (n.id === selectedId) return base * 2.4;
+      return base;
+    });
+    const nodeLineColors = net.nodes.map(n => {
+      if (n.id === selectedId) return "#2a2a28";
+      if (showMovers && n.moved) return "#b8933f";
+      return "rgba(0,0,0,0)";
+    });
+    const nodeLineWidths = net.nodes.map(n => {
+      if (n.id === selectedId) return 2.5;
+      if (showMovers && n.moved) return 1.3;
+      return 0;
+    });
+    const nodeOpacity = net.nodes.map(n => {
+      if (!selectedId) return 0.88;
+      return n.id === selectedId ? 1 : 0.35;
+    });
+
+    const hoverText = net.nodes.map(n => {
+      const subfields = n.subfields ? `<br>${n.subfields}` : "";
+      const movedNote = n.moved ? "<br><i>moved between partitions</i>" : "";
+      return `<b>${n.name}</b><br>${n.era}${subfields}${movedNote}`;
+    });
+
+    const edgeX = [], edgeY = [];
+    net.edges.forEach(e => {
+      const s = nodeById[e.source], t = nodeById[e.target];
+      if (!s || !t) return;
+      edgeX.push(s.x, t.x, null);
+      edgeY.push(s.y, t.y, null);
+    });
+    const edgeTrace = {
+      x: edgeX, y: edgeY, mode: "lines",
+      line: { color: "rgba(42,42,40,0.06)", width: 0.4 },
+      hoverinfo: "skip", type: "scatter",
+    };
+
+    const nodeTrace = {
+      x: net.nodes.map(n => n.x),
+      y: net.nodes.map(n => n.y),
+      mode: "markers",
+      marker: {
+        color: nodeColors,
+        size: nodeSizes,
+        opacity: nodeOpacity,
+        line: { color: nodeLineColors, width: nodeLineWidths },
+      },
+      text: hoverText,
+      hoverinfo: "text",
+      type: "scatter",
+      customdata: net.nodes.map(n => n.id),
+    };
+
+    const layout = {
+      paper_bgcolor: "#fdfcf9",
+      plot_bgcolor: "#fdfcf9",
+      font: { color: "#3c3a34", family: "Inter, sans-serif", size: 12 },
+      xaxis: { visible: false, fixedrange: false },
+      yaxis: { visible: false, fixedrange: false, scaleanchor: "x" },
+      margin: { l: 10, r: 10, t: 10, b: 10 },
+      dragmode: "pan",
+      showlegend: false,
+      hoverlabel: { bgcolor: "#f4f1ea", bordercolor: "#9c7a3c", font: { color: "#2a2a28" } },
+    };
+
+    Plotly.react("academy-chart", [edgeTrace, nodeTrace], layout, {
+      displaylogo: false,
+      scrollZoom: true,
+      modeBarButtonsToRemove: ["select2d", "lasso2d", "autoScale2d", "toggleSpikelines"],
+      responsive: true,
+    });
+
+    renderLegend(nComms);
+    renderStatus();
+  }
+
+  function renderLegend(nComms) {
+    legendEl.innerHTML = "";
+    const label = currentMode === "comm_uw" ? "unweighted community" : "weighted community";
+    for (let i = 0; i < nComms; i++) {
+      const span = document.createElement("span");
+      span.innerHTML = `<span class="swatch" style="background:${PALETTE[i % PALETTE.length]}"></span>${label} ${i}`;
+      legendEl.appendChild(span);
+    }
+  }
+
+  function renderStatus() {
+    if (selectedId && nodeById[selectedId]) {
+      const n = nodeById[selectedId];
+      const commLabel = currentMode === "comm_uw" ? n.comm_uw : n.comm_w;
+      const modeLabel = currentMode === "comm_uw" ? "unweighted" : "weighted";
+      const movedNote = n.moved ? " — this philosopher moves between the two partitions." : " — same community in both partitions.";
+      statusEl.innerHTML = `<strong>${n.name}</strong> (${n.era}) — ${modeLabel} community ${commLabel}.${movedNote}`;
+    } else {
+      const modeLabel = currentMode === "comm_uw" ? "unweighted" : "weighted";
+      statusEl.textContent = `Showing the ${modeLabel} partition. Search or click a philosopher above.`;
+    }
+  }
+
+  function setMode(mode) {
+    currentMode = mode;
+    btnUW.classList.toggle("active", mode === "comm_uw");
+    btnW.classList.toggle("active", mode === "comm_w");
+    render();
+  }
+
+  function selectByQuery(query) {
+    const id = findByName(query);
+    if (id) {
+      selectedId = id;
+      render();
+    }
+  }
+
+  function renderMoverList(movers) {
+    moverListEl.innerHTML = "";
+    movers.slice(0, 16).forEach(m => {
+      const chip = document.createElement("div");
+      chip.className = "mover-chip";
+      chip.innerHTML = `
+        <div>
+          <span class="who">${m.name}</span>
+          <span class="era">${m.era} &middot; community ${m.unweighted_community} &rarr; ${m.weighted_community}</span>
+        </div>
+        <div class="tie">tied to ${m.strongest_tie}<br>weight ${m.strongest_tie_weight}</div>
+      `;
+      chip.style.cursor = "pointer";
+      chip.addEventListener("click", () => {
+        selectedId = m.node_id;
+        setMode("comm_w");
+        document.getElementById("academy-chart").scrollIntoView({ behavior: "smooth", block: "center" });
+      });
+      moverListEl.appendChild(chip);
+    });
+  }
+
+  Promise.all([
+    fetch("../assets/data/week4_network.json").then(r => r.json()),
+    fetch("../assets/data/week4_movers.json").then(r => r.json()),
+  ]).then(([networkData, movers]) => {
+    net = networkData;
+    net.nodes.forEach(n => { nodeById[n.id] = n; });
+
+    const frag = document.createDocumentFragment();
+    net.nodes.map(n => n.name).sort().forEach(name => {
+      const opt = document.createElement("option");
+      opt.value = name;
+      frag.appendChild(opt);
+    });
+    datalist.appendChild(frag);
+
+    render();
+    renderMoverList(movers);
+
+    document.getElementById("academy-chart").on("plotly_click", function (evt) {
+      const pt = evt.points.find(p => p.data.mode === "markers");
+      if (!pt) return;
+      selectedId = pt.customdata === selectedId ? null : pt.customdata;
+      searchInput.value = selectedId ? nodeById[selectedId].name : "";
+      render();
+    });
+  }).catch(err => {
+    statusEl.textContent = "Could not load network data (" + err.message + ").";
+  });
+
+  btnUW.addEventListener("click", () => setMode("comm_uw"));
+  btnW.addEventListener("click", () => setMode("comm_w"));
+  moversCheckbox.addEventListener("change", () => {
+    showMovers = moversCheckbox.checked;
+    render();
+  });
+  searchInput.addEventListener("change", () => selectByQuery(searchInput.value));
+})();
+</script>
+
+<script>
+(function () {
+  "use strict";
+
+  const statusEl = document.getElementById("leaders-status");
+  const gridEl = document.getElementById("leader-cards");
+
+  function renderCard(card) {
+    const el = document.createElement("div");
+    el.className = "leader-card";
+
+    const linkCommsHtml = card.top_link_communities.length
+      ? card.top_link_communities.map(lc => `
+          <div class="leader-linkcomm">
+            <span class="lc-size">${lc.n_edges}-tie circle</span>
+            <span class="lc-companions">${lc.companions.join(", ")}</span>
+          </div>
+        `).join("")
+      : `<div class="leader-card-empty">No distinctive link communities beyond the mainstream cluster.</div>`;
+
+    el.innerHTML = `
+      <div class="leader-card-head">
+        <span class="leader-name">${card.leader_name}</span>
+        <span class="leader-meta">Community ${card.community} &middot; ${card.size} members &middot; betweenness ${card.betweenness.toFixed(2)}</span>
+      </div>
+      <div class="leader-card-body">${linkCommsHtml}</div>
+    `;
+    return el;
+  }
+
+  fetch("../assets/data/week4_leader_cards.json")
+    .then(r => r.json())
+    .then(cards => {
+      gridEl.innerHTML = "";
+      cards.forEach(card => gridEl.appendChild(renderCard(card)));
+      statusEl.textContent = `${cards.length} community leaders, ranked by within-community betweenness. Each card's circles are their distinctive link communities — the giant mainstream cluster is left out.`;
+    })
+    .catch(err => {
+      statusEl.textContent = "Could not load community leaders (" + err.message + ").";
+    });
+})();
+</script>
+
+<script>
+const PB_PALETTE = [
+  "#9c7a3c", "#3f6b8a", "#8a4a4a", "#5c7a4a", "#7a5c8a",
+  "#b8671f", "#3f7a6b", "#8a3f5c", "#5c5c9c", "#a3862f",
+];
+
+(function () {
+  "use strict";
+
+  const $ = (id) => document.getElementById(id);
+  const canvas = $("pb-canvas");
+  if (!canvas) return;
+  const ctx = canvas.getContext("2d");
+
+  let net = null;         // week4_network.json
+  let playback = null;    // week4_playback.json
+  let nodeById = {};
+  let stage = 0;          // 0..4
+  let leaderIdx = 0;       // which community leader is selected in stages 3-4
+  let timer = null;
+
+  const STAGES = ["Raw network", "Unweighted communities", "Weighted communities", "Community leader", "Leader's circle"];
+
+  function fitCanvas() {
+    const dpr = window.devicePixelRatio || 1;
+    canvas.width = Math.round(canvas.clientWidth * dpr);
+    canvas.height = Math.round(canvas.clientHeight * dpr);
+  }
+
+  function frame() {
+    const W = canvas.clientWidth, H = canvas.clientHeight, pad = 12;
+    // stages 3-4 (leader / leader's circle): zoom to a box around just the
+    // leader + their clique, so the small satellite dots are legible
+    // instead of lost in the middle of the full 1,374-node tangle
+    let pts = net.nodes;
+    if ((stage === 3 || stage === 4) && playback) {
+      const pb = playback[leaderIdx];
+      const ring = new Set([pb.leader_id, ...pb.clique_ids]);
+      const subset = net.nodes.filter(n => ring.has(n.id));
+      if (subset.length) pts = subset;
+    }
+    const xs = pts.map(n => n.x), ys = pts.map(n => n.y);
+    const xMin = Math.min(...xs), xMax = Math.max(...xs), yMin = Math.min(...ys), yMax = Math.max(...ys);
+    const cx = (xMin + xMax) / 2, cy = (yMin + yMax) / 2;
+    const zoomPad = pts === net.nodes ? 1 : 3.5; // extra breathing room when zoomed to a small cluster
+    const spanX = (xMax - xMin) * zoomPad || 1, spanY = (yMax - yMin) * zoomPad || 1;
+    const s = Math.min((W - 2 * pad) / spanX, (H - 2 * pad) / spanY);
+    const tx = W / 2 - s * cx, ty = H / 2 - s * cy;
+    return { s, tx, ty };
+  }
+
+  function draw() {
+    if (!net || !canvas.clientWidth) return;
+    const dpr = window.devicePixelRatio || 1;
+    if (canvas.width !== Math.round(canvas.clientWidth * dpr)) fitCanvas();
+    const W = canvas.clientWidth, H = canvas.clientHeight;
+    const { s, tx, ty } = frame();
+    const P = net.nodes.map(n => [tx + s * n.x, ty + s * n.y]);
+    const maxDeg = Math.max(1, ...net.nodes.map(n => n.degree));
+    const radius = (n) => 1.3 + 4.2 * Math.sqrt(n.degree / maxDeg);
+
+    ctx.save();
+    ctx.scale(dpr, dpr);
+    ctx.clearRect(0, 0, W, H);
+
+    const commKey = stage === 1 ? "comm_uw" : "comm_w"; // stage 0 has no coloring; 2-4 use weighted
+    const colored = stage >= 1;
+    const colorOf = (n) => PB_PALETTE[n[commKey] % PB_PALETTE.length];
+
+    // highlighted sets for stages 3/4
+    const pb = playback ? playback[leaderIdx] : null;
+    const leaderSet = pb ? new Set([pb.leader_id]) : new Set();
+    const cliqueSet = pb ? new Set(pb.clique_ids) : new Set();
+    const dimForLeaderStage = stage === 3 || stage === 4;
+
+    // edges
+    ctx.lineWidth = 0.6;
+    ctx.strokeStyle = "#8a8474";
+    ctx.globalAlpha = 0.06;
+    ctx.beginPath();
+    for (const e of net.edges) {
+      const a = nodeById[e.source], b = nodeById[e.target];
+      if (!a || !b) continue;
+      ctx.moveTo(P[a.__i][0], P[a.__i][1]);
+      ctx.lineTo(P[b.__i][0], P[b.__i][1]);
+    }
+    ctx.stroke();
+    ctx.globalAlpha = 1;
+
+    // clique edges on top, stage 4 only
+    if (stage === 4 && cliqueSet.size) {
+      ctx.strokeStyle = "#b8933f";
+      ctx.lineWidth = 1.4;
+      ctx.globalAlpha = 0.8;
+      ctx.beginPath();
+      for (const e of net.edges) {
+        const a = nodeById[e.source], b = nodeById[e.target];
+        if (!a || !b) continue;
+        if (!cliqueSet.has(a.id) || !cliqueSet.has(b.id)) continue;
+        ctx.moveTo(P[a.__i][0], P[a.__i][1]);
+        ctx.lineTo(P[b.__i][0], P[b.__i][1]);
+      }
+      ctx.stroke();
+      ctx.globalAlpha = 1;
+    }
+
+    // nodes
+    for (const n of net.nodes) {
+      const i = n.__i;
+      let fill = "rgba(42,42,40,0.25)";
+      let alpha = 0.5;
+      let r = radius(n);
+      if (colored) { fill = colorOf(n); alpha = 0.85; }
+      if (dimForLeaderStage) {
+        const inClique = stage === 4 && cliqueSet.has(n.id);
+        const isLeader = leaderSet.has(n.id);
+        if (isLeader) { fill = "#b8933f"; alpha = 1; r *= 2.6; }
+        else if (inClique) { fill = colorOf(n); alpha = 1; r *= 1.5; }
+        else { fill = "rgba(42,42,40,0.12)"; alpha = 0.35; r *= 0.8; }
+      }
+      ctx.beginPath();
+      ctx.arc(P[i][0], P[i][1], r, 0, 2 * Math.PI);
+      ctx.globalAlpha = alpha;
+      ctx.fillStyle = fill;
+      ctx.fill();
+      ctx.globalAlpha = 1;
+      if (dimForLeaderStage && leaderSet.has(n.id)) {
+        ctx.strokeStyle = "#2a2a28";
+        ctx.lineWidth = 2;
+        ctx.beginPath();
+        ctx.arc(P[i][0], P[i][1], r + 2, 0, 2 * Math.PI);
+        ctx.stroke();
+      }
+    }
+    ctx.restore();
+  }
+
+  function renderDots() {
+    const el = $("pb-dots");
+    el.innerHTML = STAGES.map((_, i) =>
+      `<span class="pb-dot${i === stage ? " active" : ""}"></span>`).join("");
+  }
+
+  function renderCaption() {
+    const cap = $("pb-caption");
+    const pb = playback ? playback[leaderIdx] : null;
+    const texts = [
+      `<strong>Stage 1 &middot; Raw network.</strong> 1,374 philosophers, 9,139 ties. No structure applied &mdash; just who links to whom.`,
+      `<strong>Stage 2 &middot; Unweighted communities.</strong> Louvain on "linked or not," ignoring how many times: 8 communities.`,
+      `<strong>Stage 3 &middot; Weighted communities.</strong> Same algorithm, now counting repeat links as stronger ties: 9&ndash;10 communities, some philosophers move.`,
+      pb ? `<strong>Stage 4 &middot; Community leader.</strong> ${pb.leader_name} &mdash; highest betweenness centrality inside their own ${pb.size}-member community. The broker, not just a famous name.` : "",
+      pb ? `<strong>Stage 5 &middot; ${pb.leader_name}'s circle.</strong> Their tightest link community &mdash; ${pb.clique_ids.length} philosophers whose relationships cluster together, independent of the Louvain grouping above.` : "",
+    ];
+    cap.innerHTML = texts[stage];
+  }
+
+  function renderLeaderSelect() {
+    const el = $("pb-leader-select");
+    if (stage < 3 || !playback) { el.innerHTML = ""; el.style.display = "none"; return; }
+    el.style.display = "flex";
+    el.innerHTML = playback.map((pb, i) =>
+      `<button type="button" class="pb-leader-btn${i === leaderIdx ? " active" : ""}" data-i="${i}">${pb.leader_name}</button>`
+    ).join("");
+    el.querySelectorAll(".pb-leader-btn").forEach(btn => {
+      btn.addEventListener("click", () => {
+        leaderIdx = Number(btn.dataset.i);
+        render();
+      });
+    });
+  }
+
+  function render() {
+    draw();
+    renderDots();
+    renderCaption();
+    renderLeaderSelect();
+    $("pb-prev").disabled = stage === 0;
+    $("pb-next").disabled = stage === STAGES.length - 1;
+  }
+
+  function setStage(s) {
+    stage = Math.max(0, Math.min(STAGES.length - 1, s));
+    render();
+  }
+
+  function stopPlay() {
+    if (timer) clearInterval(timer);
+    timer = null;
+    $("pb-play").textContent = "Play";
+  }
+  function startPlay() {
+    if (stage === STAGES.length - 1) setStage(0);
+    timer = setInterval(() => {
+      if (stage >= STAGES.length - 1) { stopPlay(); return; }
+      setStage(stage + 1);
+    }, 1800);
+    $("pb-play").textContent = "Pause";
+  }
+
+  $("pb-prev").addEventListener("click", () => { stopPlay(); setStage(stage - 1); });
+  $("pb-next").addEventListener("click", () => { stopPlay(); setStage(stage + 1); });
+  $("pb-play").addEventListener("click", () => (timer ? stopPlay() : startPlay()));
+  window.addEventListener("resize", () => { if (net) { fitCanvas(); draw(); } });
+
+  Promise.all([
+    fetch("../assets/data/week4_network.json").then(r => r.json()),
+    fetch("../assets/data/week4_playback.json").then(r => r.json()),
+  ]).then(([networkData, playbackData]) => {
+    net = networkData;
+    playback = playbackData;
+    net.nodes.forEach((n, i) => { n.__i = i; nodeById[n.id] = n; });
+    fitCanvas();
+    render();
+  }).catch(err => {
+    $("pb-caption").textContent = "Could not load network data (" + err.message + ").";
+  });
+})();
+</script>
+
+</body>
+</html>

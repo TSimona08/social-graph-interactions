@@ -26,14 +26,14 @@
   "other_components": [
     [
       "Vyking",
-      "Blackthorn (character)",
-      "Radian (Morituri)",
-      "Shear (character)",
-      "Toxyn",
-      "Snapdragon (Morituri)",
-      "Scaredycat",
       "Scatterbrain (Morituri)",
-      "Backhand (character)"
+      "Backhand (character)",
+      "Snapdragon (Morituri)",
+      "Blackthorn (character)",
+      "Toxyn",
+      "Shear (character)",
+      "Radian (Morituri)",
+      "Scaredycat"
     ]
   ],
   "n_scc": 66,

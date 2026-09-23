@@ -1,0 +1,2135 @@
+[
+  {
+    "node_id": "Friedrich_Hayek",
+    "name": "Friedrich Hayek",
+    "era": "19th century",
+    "unweighted_community": 0,
+    "weighted_community": 3,
+    "strongest_tie": "Ludwig von Mises",
+    "strongest_tie_weight": 12
+  },
+  {
+    "node_id": "Ludwig_von_Mises",
+    "name": "Ludwig von Mises",
+    "era": "19th century",
+    "unweighted_community": 2,
+    "weighted_community": 3,
+    "strongest_tie": "Friedrich Hayek",
+    "strongest_tie_weight": 12
+  },
+  {
+    "node_id": "Roger_Bacon",
+    "name": "Roger Bacon",
+    "era": "11th through 14th centuries",
+    "unweighted_community": 3,
+    "weighted_community": 5,
+    "strongest_tie": "Robert Grosseteste",
+    "strongest_tie_weight": 11
+  },
+  {
+    "node_id": "Robert_Grosseteste",
+    "name": "Robert Grosseteste",
+    "era": "11th through 14th centuries",
+    "unweighted_community": 3,
+    "weighted_community": 5,
+    "strongest_tie": "Roger Bacon",
+    "strongest_tie_weight": 11
+  },
+  {
+    "node_id": "Averroes",
+    "name": "Averroes",
+    "era": "11th through 14th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Al-Ghazali",
+    "strongest_tie_weight": 10
+  },
+  {
+    "node_id": "Paul_R\u00e9e",
+    "name": "Paul R\u00e9e",
+    "era": "19th century",
+    "unweighted_community": 5,
+    "weighted_community": 1,
+    "strongest_tie": "Friedrich Nietzsche",
+    "strongest_tie_weight": 9
+  },
+  {
+    "node_id": "Jamal_al-Din_al-Afghani",
+    "name": "Jamal al-Din al-Afghani",
+    "era": "19th century",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Muhammad Abduh",
+    "strongest_tie_weight": 9
+  },
+  {
+    "node_id": "Avicenna",
+    "name": "Avicenna",
+    "era": "1st through 10th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Al-Farabi",
+    "strongest_tie_weight": 8
+  },
+  {
+    "node_id": "Xavier_Zubiri",
+    "name": "Xavier Zubiri",
+    "era": "19th century",
+    "unweighted_community": 5,
+    "weighted_community": 1,
+    "strongest_tie": "Jos\u00e9 Ortega y Gasset",
+    "strongest_tie_weight": 8
+  },
+  {
+    "node_id": "Henry_James_Sr.",
+    "name": "Henry James Sr.",
+    "era": "19th century",
+    "unweighted_community": 0,
+    "weighted_community": 3,
+    "strongest_tie": "William James",
+    "strongest_tie_weight": 8
+  },
+  {
+    "node_id": "Baruch_Spinoza",
+    "name": "Baruch Spinoza",
+    "era": "17th century",
+    "unweighted_community": 0,
+    "weighted_community": 1,
+    "strongest_tie": "Gottfried Wilhelm Leibniz",
+    "strongest_tie_weight": 8
+  },
+  {
+    "node_id": "Mulla_Sadra",
+    "name": "Mulla Sadra",
+    "era": "15th and 16th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Hadi Sabzavari",
+    "strongest_tie_weight": 8
+  },
+  {
+    "node_id": "Al-Farabi",
+    "name": "Al-Farabi",
+    "era": "1st through 10th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Avicenna",
+    "strongest_tie_weight": 8
+  },
+  {
+    "node_id": "Hadi_Sabzavari",
+    "name": "Hadi Sabzavari",
+    "era": "18th century",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Mulla Sadra",
+    "strongest_tie_weight": 8
+  },
+  {
+    "node_id": "George_Eliot",
+    "name": "George Eliot",
+    "era": "19th century",
+    "unweighted_community": 0,
+    "weighted_community": 1,
+    "strongest_tie": "George Henry Lewes",
+    "strongest_tie_weight": 7
+  },
+  {
+    "node_id": "George_Henry_Lewes",
+    "name": "George Henry Lewes",
+    "era": "19th century",
+    "unweighted_community": 0,
+    "weighted_community": 1,
+    "strongest_tie": "George Eliot",
+    "strongest_tie_weight": 7
+  },
+  {
+    "node_id": "Ibn_al-Haytham",
+    "name": "Ibn al-Haytham",
+    "era": "1st through 10th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Ptolemy",
+    "strongest_tie_weight": 7
+  },
+  {
+    "node_id": "Nasir_al-Din_al-Tusi",
+    "name": "Nasir al-Din al-Tusi",
+    "era": "11th through 14th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Nicolaus Copernicus",
+    "strongest_tie_weight": 7
+  },
+  {
+    "node_id": "Gennadius_Scholarius",
+    "name": "Gennadius Scholarius",
+    "era": "11th through 14th centuries",
+    "unweighted_community": 3,
+    "weighted_community": 2,
+    "strongest_tie": "Gemistos Plethon",
+    "strongest_tie_weight": 7
+  },
+  {
+    "node_id": "Jan_\u0141ukasiewicz",
+    "name": "Jan \u0141ukasiewicz",
+    "era": "19th century",
+    "unweighted_community": 5,
+    "weighted_community": 1,
+    "strongest_tie": "Kazimierz Twardowski",
+    "strongest_tie_weight": 7
+  },
+  {
+    "node_id": "Avempace",
+    "name": "Avempace",
+    "era": "11th through 14th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Averroes",
+    "strongest_tie_weight": 7
+  },
+  {
+    "node_id": "Arius",
+    "name": "Arius",
+    "era": "1st through 10th centuries",
+    "unweighted_community": 3,
+    "weighted_community": 2,
+    "strongest_tie": "Athanasius of Alexandria",
+    "strongest_tie_weight": 7
+  },
+  {
+    "node_id": "Edith_Stein",
+    "name": "Edith Stein",
+    "era": "19th century",
+    "unweighted_community": 3,
+    "weighted_community": 1,
+    "strongest_tie": "Edmund Husserl",
+    "strongest_tie_weight": 7
+  },
+  {
+    "node_id": "Ptolemy",
+    "name": "Ptolemy",
+    "era": "1st through 10th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Ibn al-Haytham",
+    "strongest_tie_weight": 7
+  },
+  {
+    "node_id": "Kazimierz_Twardowski",
+    "name": "Kazimierz Twardowski",
+    "era": "19th century",
+    "unweighted_community": 5,
+    "weighted_community": 1,
+    "strongest_tie": "Franz Brentano",
+    "strongest_tie_weight": 7
+  },
+  {
+    "node_id": "Omar_Khayyam",
+    "name": "Omar Khayyam",
+    "era": "11th through 14th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Avicenna",
+    "strongest_tie_weight": 7
+  },
+  {
+    "node_id": "Heinrich_Hertz",
+    "name": "Heinrich Hertz",
+    "era": "19th century",
+    "unweighted_community": 5,
+    "weighted_community": 1,
+    "strongest_tie": "Hermann von Helmholtz",
+    "strongest_tie_weight": 7
+  },
+  {
+    "node_id": "Niccol\u00f2_Machiavelli",
+    "name": "Niccol\u00f2 Machiavelli",
+    "era": "15th and 16th centuries",
+    "unweighted_community": 0,
+    "weighted_community": 1,
+    "strongest_tie": "Leo Strauss",
+    "strongest_tie_weight": 7
+  },
+  {
+    "node_id": "Athanasius_of_Alexandria",
+    "name": "Athanasius of Alexandria",
+    "era": "1st through 10th centuries",
+    "unweighted_community": 3,
+    "weighted_community": 2,
+    "strongest_tie": "Arius",
+    "strongest_tie_weight": 7
+  },
+  {
+    "node_id": "Emanuel_Swedenborg",
+    "name": "Emanuel Swedenborg",
+    "era": "17th century",
+    "unweighted_community": 0,
+    "weighted_community": 1,
+    "strongest_tie": "Immanuel Kant",
+    "strongest_tie_weight": 7
+  },
+  {
+    "node_id": "Otto_Weininger",
+    "name": "Otto Weininger",
+    "era": "19th century",
+    "unweighted_community": 2,
+    "weighted_community": 3,
+    "strongest_tie": "Julius Evola",
+    "strongest_tie_weight": 6
+  },
+  {
+    "node_id": "Mahatma_Gandhi",
+    "name": "Mahatma Gandhi",
+    "era": "19th century",
+    "unweighted_community": 4,
+    "weighted_community": 8,
+    "strongest_tie": "Leo Tolstoy",
+    "strongest_tie_weight": 6
+  },
+  {
+    "node_id": "Alfred_Sch\u00fctz",
+    "name": "Alfred Sch\u00fctz",
+    "era": "19th century",
+    "unweighted_community": 5,
+    "weighted_community": 1,
+    "strongest_tie": "Edmund Husserl",
+    "strongest_tie_weight": 6
+  },
+  {
+    "node_id": "Gerard_of_Cremona",
+    "name": "Gerard of Cremona",
+    "era": "11th through 14th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Abu Bakr al-Razi",
+    "strongest_tie_weight": 6
+  },
+  {
+    "node_id": "Abu_Bakr_al-Razi",
+    "name": "Abu Bakr al-Razi",
+    "era": "1st through 10th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Gerard of Cremona",
+    "strongest_tie_weight": 6
+  },
+  {
+    "node_id": "Georges_Bataille",
+    "name": "Georges Bataille",
+    "era": "19th century",
+    "unweighted_community": 3,
+    "weighted_community": 1,
+    "strongest_tie": "Lev Shestov",
+    "strongest_tie_weight": 6
+  },
+  {
+    "node_id": "Christian_Wolff_(philosopher)",
+    "name": "Christian Wolff (philosopher)",
+    "era": "17th century",
+    "unweighted_community": 0,
+    "weighted_community": 1,
+    "strongest_tie": "Gottfried Wilhelm Leibniz",
+    "strongest_tie_weight": 6
+  },
+  {
+    "node_id": "Galileo_Galilei",
+    "name": "Galileo Galilei",
+    "era": "15th and 16th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 0,
+    "strongest_tie": "John Philoponus",
+    "strongest_tie_weight": 6
+  },
+  {
+    "node_id": "George_Boole",
+    "name": "George Boole",
+    "era": "19th century",
+    "unweighted_community": 5,
+    "weighted_community": 0,
+    "strongest_tie": "Augustus De Morgan",
+    "strongest_tie_weight": 6
+  },
+  {
+    "node_id": "Julius_Evola",
+    "name": "Julius Evola",
+    "era": "19th century",
+    "unweighted_community": 2,
+    "weighted_community": 3,
+    "strongest_tie": "Otto Weininger",
+    "strongest_tie_weight": 6
+  },
+  {
+    "node_id": "Mir_Damad",
+    "name": "Mir Damad",
+    "era": "15th and 16th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Mulla Sadra",
+    "strongest_tie_weight": 6
+  },
+  {
+    "node_id": "Stanis\u0142aw_Le\u015bniewski",
+    "name": "Stanis\u0142aw Le\u015bniewski",
+    "era": "19th century",
+    "unweighted_community": 5,
+    "weighted_community": 1,
+    "strongest_tie": "Kazimierz Twardowski",
+    "strongest_tie_weight": 6
+  },
+  {
+    "node_id": "Ernst_Haeckel",
+    "name": "Ernst Haeckel",
+    "era": "19th century",
+    "unweighted_community": 2,
+    "weighted_community": 3,
+    "strongest_tie": "Charles Darwin",
+    "strongest_tie_weight": 6
+  },
+  {
+    "node_id": "Francisco_de_Vitoria",
+    "name": "Francisco de Vitoria",
+    "era": "15th and 16th centuries",
+    "unweighted_community": 3,
+    "weighted_community": 0,
+    "strongest_tie": "Hugo Grotius",
+    "strongest_tie_weight": 5
+  },
+  {
+    "node_id": "Boethius",
+    "name": "Boethius",
+    "era": "1st through 10th centuries",
+    "unweighted_community": 3,
+    "weighted_community": 2,
+    "strongest_tie": "Aristotle",
+    "strongest_tie_weight": 5
+  },
+  {
+    "node_id": "William_Ernest_Hocking",
+    "name": "William Ernest Hocking",
+    "era": "19th century",
+    "unweighted_community": 2,
+    "weighted_community": 3,
+    "strongest_tie": "Josiah Royce",
+    "strongest_tie_weight": 5
+  },
+  {
+    "node_id": "Tadeusz_Kotarbi\u0144ski",
+    "name": "Tadeusz Kotarbi\u0144ski",
+    "era": "19th century",
+    "unweighted_community": 5,
+    "weighted_community": 1,
+    "strongest_tie": "Kazimierz Twardowski",
+    "strongest_tie_weight": 5
+  },
+  {
+    "node_id": "Robert_Fludd",
+    "name": "Robert Fludd",
+    "era": "15th and 16th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 0,
+    "strongest_tie": "Johannes Kepler",
+    "strongest_tie_weight": 5
+  },
+  {
+    "node_id": "Ibn_Tufayl",
+    "name": "Ibn Tufayl",
+    "era": "11th through 14th centuries",
+    "unweighted_community": 0,
+    "weighted_community": 5,
+    "strongest_tie": "Averroes",
+    "strongest_tie_weight": 5
+  },
+  {
+    "node_id": "B._R._Ambedkar",
+    "name": "B. R. Ambedkar",
+    "era": "19th century",
+    "unweighted_community": 4,
+    "weighted_community": 3,
+    "strongest_tie": "John Dewey",
+    "strongest_tie_weight": 5
+  },
+  {
+    "node_id": "Hans_Kelsen",
+    "name": "Hans Kelsen",
+    "era": "19th century",
+    "unweighted_community": 5,
+    "weighted_community": 1,
+    "strongest_tie": "Carl Schmitt",
+    "strongest_tie_weight": 5
+  },
+  {
+    "node_id": "Johannes_Kepler",
+    "name": "Johannes Kepler",
+    "era": "15th and 16th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 0,
+    "strongest_tie": "Galileo Galilei",
+    "strongest_tie_weight": 5
+  },
+  {
+    "node_id": "Jacques_Maritain",
+    "name": "Jacques Maritain",
+    "era": "19th century",
+    "unweighted_community": 3,
+    "weighted_community": 3,
+    "strongest_tie": "Henri Bergson",
+    "strongest_tie_weight": 5
+  },
+  {
+    "node_id": "Edgar_S._Brightman",
+    "name": "Edgar S. Brightman",
+    "era": "19th century",
+    "unweighted_community": 5,
+    "weighted_community": 1,
+    "strongest_tie": "Borden Parker Bowne",
+    "strongest_tie_weight": 5
+  },
+  {
+    "node_id": "Borden_Parker_Bowne",
+    "name": "Borden Parker Bowne",
+    "era": "19th century",
+    "unweighted_community": 0,
+    "weighted_community": 1,
+    "strongest_tie": "Edgar S. Brightman",
+    "strongest_tie_weight": 5
+  },
+  {
+    "node_id": "Uriel_da_Costa",
+    "name": "Uriel da Costa",
+    "era": "15th and 16th centuries",
+    "unweighted_community": 0,
+    "weighted_community": 1,
+    "strongest_tie": "Baruch Spinoza",
+    "strongest_tie_weight": 5
+  },
+  {
+    "node_id": "Albertus_Magnus",
+    "name": "Albertus Magnus",
+    "era": "11th through 14th centuries",
+    "unweighted_community": 3,
+    "weighted_community": 5,
+    "strongest_tie": "Thomas Aquinas",
+    "strongest_tie_weight": 5
+  },
+  {
+    "node_id": "Domingo_de_Soto",
+    "name": "Domingo de Soto",
+    "era": "15th and 16th centuries",
+    "unweighted_community": 3,
+    "weighted_community": 0,
+    "strongest_tie": "Galileo Galilei",
+    "strongest_tie_weight": 5
+  },
+  {
+    "node_id": "Martin_Knutzen",
+    "name": "Martin Knutzen",
+    "era": "18th century",
+    "unweighted_community": 0,
+    "weighted_community": 1,
+    "strongest_tie": "Immanuel Kant",
+    "strongest_tie_weight": 5
+  },
+  {
+    "node_id": "Joseph_Schumpeter",
+    "name": "Joseph Schumpeter",
+    "era": "19th century",
+    "unweighted_community": 0,
+    "weighted_community": 3,
+    "strongest_tie": "Max Weber",
+    "strongest_tie_weight": 5
+  },
+  {
+    "node_id": "Giovanni_Pico_della_Mirandola",
+    "name": "Giovanni Pico della Mirandola",
+    "era": "15th and 16th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Marsilio Ficino",
+    "strongest_tie_weight": 5
+  },
+  {
+    "node_id": "\u00c9mile_Durkheim",
+    "name": "\u00c9mile Durkheim",
+    "era": "19th century",
+    "unweighted_community": 5,
+    "weighted_community": 1,
+    "strongest_tie": "Max Weber",
+    "strongest_tie_weight": 5
+  },
+  {
+    "node_id": "Louis_Couturat",
+    "name": "Louis Couturat",
+    "era": "19th century",
+    "unweighted_community": 5,
+    "weighted_community": 0,
+    "strongest_tie": "Gottfried Wilhelm Leibniz",
+    "strongest_tie_weight": 5
+  },
+  {
+    "node_id": "Elia_del_Medigo",
+    "name": "Elia del Medigo",
+    "era": "15th and 16th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Averroes",
+    "strongest_tie_weight": 5
+  },
+  {
+    "node_id": "Al-Kindi",
+    "name": "Al-Kindi",
+    "era": "1st through 10th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Al-Farabi",
+    "strongest_tie_weight": 5
+  },
+  {
+    "node_id": "William_Paley",
+    "name": "William Paley",
+    "era": "18th century",
+    "unweighted_community": 0,
+    "weighted_community": 3,
+    "strongest_tie": "Charles Darwin",
+    "strongest_tie_weight": 4
+  },
+  {
+    "node_id": "Giacomo_Leopardi",
+    "name": "Giacomo Leopardi",
+    "era": "18th century",
+    "unweighted_community": 0,
+    "weighted_community": 4,
+    "strongest_tie": "Dante Alighieri",
+    "strongest_tie_weight": 4
+  },
+  {
+    "node_id": "Narayana_Guru",
+    "name": "Narayana Guru",
+    "era": "19th century",
+    "unweighted_community": 4,
+    "weighted_community": 8,
+    "strongest_tie": "Mahatma Gandhi",
+    "strongest_tie_weight": 4
+  },
+  {
+    "node_id": "Muhammad_ibn_Ahmad_al-Nasafi",
+    "name": "Muhammad ibn Ahmad al-Nasafi",
+    "era": "1st through 10th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Abu Ya'qub al-Sijistani",
+    "strongest_tie_weight": 4
+  },
+  {
+    "node_id": "James_Mark_Baldwin",
+    "name": "James Mark Baldwin",
+    "era": "19th century",
+    "unweighted_community": 5,
+    "weighted_community": 1,
+    "strongest_tie": "Wilhelm Wundt",
+    "strongest_tie_weight": 4
+  },
+  {
+    "node_id": "Kitar\u014d_Nishida",
+    "name": "Kitar\u014d Nishida",
+    "era": "19th century",
+    "unweighted_community": 0,
+    "weighted_community": 1,
+    "strongest_tie": "Hajime Tanabe",
+    "strongest_tie_weight": 4
+  },
+  {
+    "node_id": "Richard_Avenarius",
+    "name": "Richard Avenarius",
+    "era": "19th century",
+    "unweighted_community": 2,
+    "weighted_community": 3,
+    "strongest_tie": "Ernst Mach",
+    "strongest_tie_weight": 4
+  },
+  {
+    "node_id": "Fran\u00e7ois_Rabelais",
+    "name": "Fran\u00e7ois Rabelais",
+    "era": "15th and 16th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 4,
+    "strongest_tie": "Erasmus",
+    "strongest_tie_weight": 4
+  },
+  {
+    "node_id": "Pietro_Pomponazzi",
+    "name": "Pietro Pomponazzi",
+    "era": "15th and 16th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Nicoletto Vernia",
+    "strongest_tie_weight": 4
+  },
+  {
+    "node_id": "Alexandre_Koyr\u00e9",
+    "name": "Alexandre Koyr\u00e9",
+    "era": "19th century",
+    "unweighted_community": 2,
+    "weighted_community": 0,
+    "strongest_tie": "Edmund Husserl",
+    "strongest_tie_weight": 4
+  },
+  {
+    "node_id": "Lev_Vygotsky",
+    "name": "Lev Vygotsky",
+    "era": "19th century",
+    "unweighted_community": 5,
+    "weighted_community": 1,
+    "strongest_tie": "Jean Piaget",
+    "strongest_tie_weight": 4
+  },
+  {
+    "node_id": "William_of_Nottingham_I",
+    "name": "William of Nottingham I",
+    "era": "11th through 14th centuries",
+    "unweighted_community": 3,
+    "weighted_community": 5,
+    "strongest_tie": "William of Nottingham II",
+    "strongest_tie_weight": 4
+  },
+  {
+    "node_id": "Henry_George",
+    "name": "Henry George",
+    "era": "19th century",
+    "unweighted_community": 5,
+    "weighted_community": 8,
+    "strongest_tie": "Leo Tolstoy",
+    "strongest_tie_weight": 4
+  },
+  {
+    "node_id": "\u00c9tienne_Gilson",
+    "name": "\u00c9tienne Gilson",
+    "era": "19th century",
+    "unweighted_community": 3,
+    "weighted_community": 3,
+    "strongest_tie": "Henri Bergson",
+    "strongest_tie_weight": 4
+  },
+  {
+    "node_id": "F\u00e9lix_Ravaisson-Mollien",
+    "name": "F\u00e9lix Ravaisson-Mollien",
+    "era": "19th century",
+    "unweighted_community": 0,
+    "weighted_community": 3,
+    "strongest_tie": "Jules Lachelier",
+    "strongest_tie_weight": 4
+  },
+  {
+    "node_id": "Giordano_Bruno",
+    "name": "Giordano Bruno",
+    "era": "15th and 16th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Nicholas of Cusa",
+    "strongest_tie_weight": 4
+  },
+  {
+    "node_id": "Kabir",
+    "name": "Kabir",
+    "era": "11th through 14th centuries",
+    "unweighted_community": 4,
+    "weighted_community": 3,
+    "strongest_tie": "Rabindranath Tagore",
+    "strongest_tie_weight": 4
+  },
+  {
+    "node_id": "Rabindranath_Tagore",
+    "name": "Rabindranath Tagore",
+    "era": "19th century",
+    "unweighted_community": 4,
+    "weighted_community": 3,
+    "strongest_tie": "Kabir",
+    "strongest_tie_weight": 4
+  },
+  {
+    "node_id": "Mikhail_Bakhtin",
+    "name": "Mikhail Bakhtin",
+    "era": "19th century",
+    "unweighted_community": 2,
+    "weighted_community": 4,
+    "strongest_tie": "Fran\u00e7ois Rabelais",
+    "strongest_tie_weight": 4
+  },
+  {
+    "node_id": "Jean_Piaget",
+    "name": "Jean Piaget",
+    "era": "19th century",
+    "unweighted_community": 5,
+    "weighted_community": 1,
+    "strongest_tie": "Lev Vygotsky",
+    "strongest_tie_weight": 4
+  },
+  {
+    "node_id": "Charles_Renouvier",
+    "name": "Charles Renouvier",
+    "era": "19th century",
+    "unweighted_community": 0,
+    "weighted_community": 1,
+    "strongest_tie": "\u00c9mile Durkheim",
+    "strongest_tie_weight": 4
+  },
+  {
+    "node_id": "Nicoletto_Vernia",
+    "name": "Nicoletto Vernia",
+    "era": "15th and 16th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Pietro Pomponazzi",
+    "strongest_tie_weight": 4
+  },
+  {
+    "node_id": "William_of_Nottingham_II",
+    "name": "William of Nottingham II",
+    "era": "11th through 14th centuries",
+    "unweighted_community": 3,
+    "weighted_community": 5,
+    "strongest_tie": "William of Nottingham I",
+    "strongest_tie_weight": 4
+  },
+  {
+    "node_id": "Kazimierz_Ajdukiewicz",
+    "name": "Kazimierz Ajdukiewicz",
+    "era": "19th century",
+    "unweighted_community": 5,
+    "weighted_community": 1,
+    "strongest_tie": "Kazimierz Twardowski",
+    "strongest_tie_weight": 4
+  },
+  {
+    "node_id": "Nicholas_of_Cusa",
+    "name": "Nicholas of Cusa",
+    "era": "15th and 16th centuries",
+    "unweighted_community": 3,
+    "weighted_community": 5,
+    "strongest_tie": "Giordano Bruno",
+    "strongest_tie_weight": 4
+  },
+  {
+    "node_id": "Marin_Mersenne",
+    "name": "Marin Mersenne",
+    "era": "15th and 16th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 0,
+    "strongest_tie": "Pierre Gassendi",
+    "strongest_tie_weight": 4
+  },
+  {
+    "node_id": "Abu_Ya'qub_al-Sijistani",
+    "name": "Abu Ya'qub al-Sijistani",
+    "era": "1st through 10th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Muhammad ibn Ahmad al-Nasafi",
+    "strongest_tie_weight": 4
+  },
+  {
+    "node_id": "Vitello",
+    "name": "Vitello",
+    "era": "11th through 14th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Ibn al-Haytham",
+    "strongest_tie_weight": 4
+  },
+  {
+    "node_id": "Ramon_Llull",
+    "name": "Ramon Llull",
+    "era": "11th through 14th centuries",
+    "unweighted_community": 3,
+    "weighted_community": 5,
+    "strongest_tie": "Gottfried Wilhelm Leibniz",
+    "strongest_tie_weight": 4
+  },
+  {
+    "node_id": "Roman_Ingarden",
+    "name": "Roman Ingarden",
+    "era": "19th century",
+    "unweighted_community": 5,
+    "weighted_community": 1,
+    "strongest_tie": "Edmund Husserl",
+    "strongest_tie_weight": 4
+  },
+  {
+    "node_id": "George_Stout",
+    "name": "George Stout",
+    "era": "19th century",
+    "unweighted_community": 5,
+    "weighted_community": 1,
+    "strongest_tie": "Franz Brentano",
+    "strongest_tie_weight": 4
+  },
+  {
+    "node_id": "Dominicus_Gundissalinus",
+    "name": "Dominicus Gundissalinus",
+    "era": "11th through 14th centuries",
+    "unweighted_community": 3,
+    "weighted_community": 5,
+    "strongest_tie": "Avicenna",
+    "strongest_tie_weight": 4
+  },
+  {
+    "node_id": "Lucilio_Vanini",
+    "name": "Lucilio Vanini",
+    "era": "15th and 16th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Giordano Bruno",
+    "strongest_tie_weight": 4
+  },
+  {
+    "node_id": "John_Peckham",
+    "name": "John Peckham",
+    "era": "11th through 14th centuries",
+    "unweighted_community": 3,
+    "weighted_community": 5,
+    "strongest_tie": "Ibn al-Haytham",
+    "strongest_tie_weight": 4
+  },
+  {
+    "node_id": "Henry_David_Thoreau",
+    "name": "Henry David Thoreau",
+    "era": "19th century",
+    "unweighted_community": 0,
+    "weighted_community": 8,
+    "strongest_tie": "Ralph Waldo Emerson",
+    "strongest_tie_weight": 4
+  },
+  {
+    "node_id": "David_of_Dinant",
+    "name": "David of Dinant",
+    "era": "11th through 14th centuries",
+    "unweighted_community": 3,
+    "weighted_community": 5,
+    "strongest_tie": "Baruch Spinoza",
+    "strongest_tie_weight": 3
+  },
+  {
+    "node_id": "Yahya_ibn_Adi",
+    "name": "Yahya ibn Adi",
+    "era": "1st through 10th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Al-Farabi",
+    "strongest_tie_weight": 3
+  },
+  {
+    "node_id": "Shalva_Nutsubidze",
+    "name": "Shalva Nutsubidze",
+    "era": "19th century",
+    "unweighted_community": 2,
+    "weighted_community": 4,
+    "strongest_tie": "Peter the Iberian",
+    "strongest_tie_weight": 3
+  },
+  {
+    "node_id": "Sarvepalli_Radhakrishnan",
+    "name": "Sarvepalli Radhakrishnan",
+    "era": "19th century",
+    "unweighted_community": 4,
+    "weighted_community": 3,
+    "strongest_tie": "Rabindranath Tagore",
+    "strongest_tie_weight": 3
+  },
+  {
+    "node_id": "Roger_Marston",
+    "name": "Roger Marston",
+    "era": "11th through 14th centuries",
+    "unweighted_community": 3,
+    "weighted_community": 5,
+    "strongest_tie": "John Peckham",
+    "strongest_tie_weight": 3
+  },
+  {
+    "node_id": "Joseph_Solomon_Delmedigo",
+    "name": "Joseph Solomon Delmedigo",
+    "era": "15th and 16th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Elia del Medigo",
+    "strongest_tie_weight": 3
+  },
+  {
+    "node_id": "Johann_Augustus_Eberhard",
+    "name": "Johann Augustus Eberhard",
+    "era": "18th century",
+    "unweighted_community": 0,
+    "weighted_community": 1,
+    "strongest_tie": "Friedrich Schleiermacher",
+    "strongest_tie_weight": 3
+  },
+  {
+    "node_id": "Gregory_Palamas",
+    "name": "Gregory Palamas",
+    "era": "11th through 14th centuries",
+    "unweighted_community": 3,
+    "weighted_community": 2,
+    "strongest_tie": "Pseudo-Dionysius the Areopagite",
+    "strongest_tie_weight": 3
+  },
+  {
+    "node_id": "Carl_Linnaeus",
+    "name": "Carl Linnaeus",
+    "era": "18th century",
+    "unweighted_community": 0,
+    "weighted_community": 3,
+    "strongest_tie": "John Ray",
+    "strongest_tie_weight": 3
+  },
+  {
+    "node_id": "Elbert_Hubbard",
+    "name": "Elbert Hubbard",
+    "era": "19th century",
+    "unweighted_community": 0,
+    "weighted_community": 8,
+    "strongest_tie": "Hypatia",
+    "strongest_tie_weight": 3
+  },
+  {
+    "node_id": "Lucien_L\u00e9vy-Bruhl",
+    "name": "Lucien L\u00e9vy-Bruhl",
+    "era": "19th century",
+    "unweighted_community": 0,
+    "weighted_community": 3,
+    "strongest_tie": "\u00c9tienne Gilson",
+    "strongest_tie_weight": 3
+  },
+  {
+    "node_id": "Thomas_Browne",
+    "name": "Thomas Browne",
+    "era": "17th century",
+    "unweighted_community": 0,
+    "weighted_community": 5,
+    "strongest_tie": "Francis Bacon",
+    "strongest_tie_weight": 3
+  },
+  {
+    "node_id": "Abu_Ma'shar_al-Balkhi",
+    "name": "Abu Ma'shar al-Balkhi",
+    "era": "1st through 10th centuries",
+    "unweighted_community": 3,
+    "weighted_community": 5,
+    "strongest_tie": "Albertus Magnus",
+    "strongest_tie_weight": 3
+  },
+  {
+    "node_id": "Renn_Hampden",
+    "name": "Renn Hampden",
+    "era": "18th century",
+    "unweighted_community": 1,
+    "weighted_community": 4,
+    "strongest_tie": "John Henry Newman",
+    "strongest_tie_weight": 3
+  },
+  {
+    "node_id": "Hans_Driesch",
+    "name": "Hans Driesch",
+    "era": "19th century",
+    "unweighted_community": 2,
+    "weighted_community": 3,
+    "strongest_tie": "Ernst Haeckel",
+    "strongest_tie_weight": 3
+  },
+  {
+    "node_id": "Roy_Wood_Sellars",
+    "name": "Roy Wood Sellars",
+    "era": "19th century",
+    "unweighted_community": 2,
+    "weighted_community": 3,
+    "strongest_tie": "Henri Bergson",
+    "strongest_tie_weight": 3
+  },
+  {
+    "node_id": "Abu_Hatim_Ahmad_ibn_Hamdan_al-Razi",
+    "name": "Abu Hatim Ahmad ibn Hamdan al-Razi",
+    "era": "1st through 10th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Abu Bakr al-Razi",
+    "strongest_tie_weight": 3
+  },
+  {
+    "node_id": "Alexander_Bogdanov",
+    "name": "Alexander Bogdanov",
+    "era": "19th century",
+    "unweighted_community": 2,
+    "weighted_community": 3,
+    "strongest_tie": "Ernst Mach",
+    "strongest_tie_weight": 3
+  },
+  {
+    "node_id": "Agostino_Nifo",
+    "name": "Agostino Nifo",
+    "era": "15th and 16th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Pietro Pomponazzi",
+    "strongest_tie_weight": 3
+  },
+  {
+    "node_id": "Hippolyte_Taine",
+    "name": "Hippolyte Taine",
+    "era": "19th century",
+    "unweighted_community": 2,
+    "weighted_community": 0,
+    "strongest_tie": "Friedrich Nietzsche",
+    "strongest_tie_weight": 3
+  },
+  {
+    "node_id": "Nemesius",
+    "name": "Nemesius",
+    "era": "1st through 10th centuries",
+    "unweighted_community": 3,
+    "weighted_community": 2,
+    "strongest_tie": "Ammonius Saccas",
+    "strongest_tie_weight": 3
+  },
+  {
+    "node_id": "Gaetano_Mosca",
+    "name": "Gaetano Mosca",
+    "era": "19th century",
+    "unweighted_community": 0,
+    "weighted_community": 3,
+    "strongest_tie": "Vilfredo Pareto",
+    "strongest_tie_weight": 3
+  },
+  {
+    "node_id": "John_Ray",
+    "name": "John Ray",
+    "era": "17th century",
+    "unweighted_community": 1,
+    "weighted_community": 3,
+    "strongest_tie": "Carl Linnaeus",
+    "strongest_tie_weight": 3
+  },
+  {
+    "node_id": "Debendranath_Tagore",
+    "name": "Debendranath Tagore",
+    "era": "19th century",
+    "unweighted_community": 4,
+    "weighted_community": 3,
+    "strongest_tie": "Rabindranath Tagore",
+    "strongest_tie_weight": 3
+  },
+  {
+    "node_id": "Siger_of_Brabant",
+    "name": "Siger of Brabant",
+    "era": "11th through 14th centuries",
+    "unweighted_community": 3,
+    "weighted_community": 5,
+    "strongest_tie": "Dante Alighieri",
+    "strongest_tie_weight": 3
+  },
+  {
+    "node_id": "Theodoric_of_Freiberg",
+    "name": "Theodoric of Freiberg",
+    "era": "11th through 14th centuries",
+    "unweighted_community": 3,
+    "weighted_community": 5,
+    "strongest_tie": "Albertus Magnus",
+    "strongest_tie_weight": 3
+  },
+  {
+    "node_id": "Ferdinand_de_Saussure",
+    "name": "Ferdinand de Saussure",
+    "era": "19th century",
+    "unweighted_community": 2,
+    "weighted_community": 6,
+    "strongest_tie": "P\u0101\u1e47ini",
+    "strongest_tie_weight": 3
+  },
+  {
+    "node_id": "Jules_Barth\u00e9lemy-Saint-Hilaire",
+    "name": "Jules Barth\u00e9lemy-Saint-Hilaire",
+    "era": "19th century",
+    "unweighted_community": 7,
+    "weighted_community": 0,
+    "strongest_tie": "Victor Cousin",
+    "strongest_tie_weight": 3
+  },
+  {
+    "node_id": "Robert_Adamson_(philosopher)",
+    "name": "Robert Adamson (philosopher)",
+    "era": "19th century",
+    "unweighted_community": 3,
+    "weighted_community": 1,
+    "strongest_tie": "Immanuel Kant",
+    "strongest_tie_weight": 3
+  },
+  {
+    "node_id": "Judah_Leon_Abravanel",
+    "name": "Judah Leon Abravanel",
+    "era": "15th and 16th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Isaac Abarbanel",
+    "strongest_tie_weight": 3
+  },
+  {
+    "node_id": "Herman_of_Carinthia",
+    "name": "Herman of Carinthia",
+    "era": "11th through 14th centuries",
+    "unweighted_community": 3,
+    "weighted_community": 5,
+    "strongest_tie": "Abu Ma'shar al-Balkhi",
+    "strongest_tie_weight": 3
+  },
+  {
+    "node_id": "Vilfredo_Pareto",
+    "name": "Vilfredo Pareto",
+    "era": "19th century",
+    "unweighted_community": 0,
+    "weighted_community": 3,
+    "strongest_tie": "Gaetano Mosca",
+    "strongest_tie_weight": 3
+  },
+  {
+    "node_id": "John_of_Jandun",
+    "name": "John of Jandun",
+    "era": "11th through 14th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 4,
+    "strongest_tie": "Aristotle",
+    "strongest_tie_weight": 3
+  },
+  {
+    "node_id": "Rodolphus_Agricola",
+    "name": "Rodolphus Agricola",
+    "era": "15th and 16th centuries",
+    "unweighted_community": 3,
+    "weighted_community": 2,
+    "strongest_tie": "Cicero",
+    "strongest_tie_weight": 3
+  },
+  {
+    "node_id": "William_of_Sherwood",
+    "name": "William of Sherwood",
+    "era": "11th through 14th centuries",
+    "unweighted_community": 3,
+    "weighted_community": 5,
+    "strongest_tie": "Roger Bacon",
+    "strongest_tie_weight": 3
+  },
+  {
+    "node_id": "Bernardino_Telesio",
+    "name": "Bernardino Telesio",
+    "era": "15th and 16th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Franciscus Patricius",
+    "strongest_tie_weight": 3
+  },
+  {
+    "node_id": "Leon_Battista_Alberti",
+    "name": "Leon Battista Alberti",
+    "era": "15th and 16th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Ibn al-Haytham",
+    "strongest_tie_weight": 3
+  },
+  {
+    "node_id": "Cesare_Cremonini_(philosopher)",
+    "name": "Cesare Cremonini (philosopher)",
+    "era": "15th and 16th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 0,
+    "strongest_tie": "Galileo Galilei",
+    "strongest_tie_weight": 3
+  },
+  {
+    "node_id": "Paul_Deussen",
+    "name": "Paul Deussen",
+    "era": "19th century",
+    "unweighted_community": 4,
+    "weighted_community": 1,
+    "strongest_tie": "Friedrich Nietzsche",
+    "strongest_tie_weight": 3
+  },
+  {
+    "node_id": "Andrea_Cesalpino",
+    "name": "Andrea Cesalpino",
+    "era": "15th and 16th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Nicolaus Taurellus",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Karl_Llewellyn",
+    "name": "Karl Llewellyn",
+    "era": "19th century",
+    "unweighted_community": 5,
+    "weighted_community": 1,
+    "strongest_tie": "Wesley Newcomb Hohfeld",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Edward_Caird",
+    "name": "Edward Caird",
+    "era": "19th century",
+    "unweighted_community": 2,
+    "weighted_community": 3,
+    "strongest_tie": "J. H. Muirhead",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Stanis\u0142aw_Staszic",
+    "name": "Stanis\u0142aw Staszic",
+    "era": "18th century",
+    "unweighted_community": 6,
+    "weighted_community": 0,
+    "strongest_tie": "Hugo Ko\u0142\u0142\u0105taj",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "John_Lewis_(philosopher)",
+    "name": "John Lewis (philosopher)",
+    "era": "19th century",
+    "unweighted_community": 5,
+    "weighted_community": 8,
+    "strongest_tie": "Karl Marx",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Carlo_Michelstaedter",
+    "name": "Carlo Michelstaedter",
+    "era": "19th century",
+    "unweighted_community": 2,
+    "weighted_community": 3,
+    "strongest_tie": "Giacomo Leopardi",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "I._A._Richards",
+    "name": "I. A. Richards",
+    "era": "19th century",
+    "unweighted_community": 2,
+    "weighted_community": 0,
+    "strongest_tie": "Samuel Taylor Coleridge",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Wesley_Newcomb_Hohfeld",
+    "name": "Wesley Newcomb Hohfeld",
+    "era": "19th century",
+    "unweighted_community": 5,
+    "weighted_community": 1,
+    "strongest_tie": "Karl Llewellyn",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Yohanan_Alemanno",
+    "name": "Yohanan Alemanno",
+    "era": "15th and 16th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Giovanni Pico della Mirandola",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "C._S._Lewis",
+    "name": "C. S. Lewis",
+    "era": "19th century",
+    "unweighted_community": 3,
+    "weighted_community": 3,
+    "strongest_tie": "Dante Alighieri",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "S\u00e9bastien_Basson",
+    "name": "S\u00e9bastien Basson",
+    "era": "15th and 16th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Giordano Bruno",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Wasil_ibn_Ata",
+    "name": "Wasil ibn Ata",
+    "era": "1st through 10th centuries",
+    "unweighted_community": 3,
+    "weighted_community": 5,
+    "strongest_tie": "Al-Qadi Abd al-Jabbar",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Sri_Aurobindo",
+    "name": "Sri Aurobindo",
+    "era": "19th century",
+    "unweighted_community": 4,
+    "weighted_community": 3,
+    "strongest_tie": "Henri Bergson",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Norman_Kemp_Smith",
+    "name": "Norman Kemp Smith",
+    "era": "19th century",
+    "unweighted_community": 5,
+    "weighted_community": 1,
+    "strongest_tie": "David Hume",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Boetius_of_Dacia",
+    "name": "Boetius of Dacia",
+    "era": "11th through 14th centuries",
+    "unweighted_community": 3,
+    "weighted_community": 5,
+    "strongest_tie": "Averroes",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Jean_Anthelme_Brillat-Savarin",
+    "name": "Jean Anthelme Brillat-Savarin",
+    "era": "18th century",
+    "unweighted_community": 0,
+    "weighted_community": 4,
+    "strongest_tie": "Fran\u00e7ois Rabelais",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Arthur_de_Gobineau",
+    "name": "Arthur de Gobineau",
+    "era": "19th century",
+    "unweighted_community": 0,
+    "weighted_community": 3,
+    "strongest_tie": "Alexis de Tocqueville",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Julius_Hare_(theologian)",
+    "name": "Julius Hare (theologian)",
+    "era": "18th century",
+    "unweighted_community": 2,
+    "weighted_community": 0,
+    "strongest_tie": "Thomas Carlyle",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Alexis_de_Tocqueville",
+    "name": "Alexis de Tocqueville",
+    "era": "19th century",
+    "unweighted_community": 0,
+    "weighted_community": 3,
+    "strongest_tie": "Arthur de Gobineau",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Nicolaus_Taurellus",
+    "name": "Nicolaus Taurellus",
+    "era": "15th and 16th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Andrea Cesalpino",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "William_Ralph_Inge",
+    "name": "William Ralph Inge",
+    "era": "19th century",
+    "unweighted_community": 0,
+    "weighted_community": 3,
+    "strongest_tie": "Hastings Rashdall",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Judah_Messer_Leon",
+    "name": "Judah Messer Leon",
+    "era": "15th and 16th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Yohanan Alemanno",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Johannes_Nikolaus_Tetens",
+    "name": "Johannes Nikolaus Tetens",
+    "era": "18th century",
+    "unweighted_community": 0,
+    "weighted_community": 1,
+    "strongest_tie": "Immanuel Kant",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Ibn_al-Khammar",
+    "name": "Ibn al-Khammar",
+    "era": "1st through 10th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Aristotle",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "W\u0142adys\u0142aw_Tatarkiewicz",
+    "name": "W\u0142adys\u0142aw Tatarkiewicz",
+    "era": "19th century",
+    "unweighted_community": 6,
+    "weighted_community": 1,
+    "strongest_tie": "Kazimierz Twardowski",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "James_Hutchison_Stirling",
+    "name": "James Hutchison Stirling",
+    "era": "19th century",
+    "unweighted_community": 5,
+    "weighted_community": 1,
+    "strongest_tie": "Georg Wilhelm Friedrich Hegel",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Tadeusz_Cze\u017cowski",
+    "name": "Tadeusz Cze\u017cowski",
+    "era": "19th century",
+    "unweighted_community": 5,
+    "weighted_community": 1,
+    "strongest_tie": "Kazimierz Twardowski",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Hamid_al-Din_al-Kirmani",
+    "name": "Hamid al-Din al-Kirmani",
+    "era": "1st through 10th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Abu Bakr al-Razi",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Adelard_of_Bath",
+    "name": "Adelard of Bath",
+    "era": "11th through 14th centuries",
+    "unweighted_community": 3,
+    "weighted_community": 5,
+    "strongest_tie": "Hugh of Saint Victor",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Ananda_Coomaraswamy",
+    "name": "Ananda Coomaraswamy",
+    "era": "19th century",
+    "unweighted_community": 3,
+    "weighted_community": 2,
+    "strongest_tie": "Plotinus",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Othmar_Spann",
+    "name": "Othmar Spann",
+    "era": "19th century",
+    "unweighted_community": 0,
+    "weighted_community": 3,
+    "strongest_tie": "Friedrich Hayek",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Gerolamo_Cardano",
+    "name": "Gerolamo Cardano",
+    "era": "15th and 16th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Lucilio Vanini",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "John_Anderson_(philosopher)",
+    "name": "John Anderson (philosopher)",
+    "era": "19th century",
+    "unweighted_community": 5,
+    "weighted_community": 1,
+    "strongest_tie": "Norman Kemp Smith",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Julien_Benda",
+    "name": "Julien Benda",
+    "era": "19th century",
+    "unweighted_community": 2,
+    "weighted_community": 3,
+    "strongest_tie": "Henri Bergson",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Thomas_of_Erfurt",
+    "name": "Thomas of Erfurt",
+    "era": "11th through 14th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 4,
+    "strongest_tie": "Duns Scotus",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Johann_Ulrich_von_Cramer",
+    "name": "Johann Ulrich von Cramer",
+    "era": "18th century",
+    "unweighted_community": 0,
+    "weighted_community": 1,
+    "strongest_tie": "Christian Wolff (philosopher)",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Peter_of_Spain",
+    "name": "Peter of Spain",
+    "era": "11th through 14th centuries",
+    "unweighted_community": 3,
+    "weighted_community": 5,
+    "strongest_tie": "William of Sherwood",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Shinran",
+    "name": "Shinran",
+    "era": "11th through 14th centuries",
+    "unweighted_community": 3,
+    "weighted_community": 6,
+    "strongest_tie": "Nichiren",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Lewis_Carroll",
+    "name": "Lewis Carroll",
+    "era": "19th century",
+    "unweighted_community": 5,
+    "weighted_community": 1,
+    "strongest_tie": "Sigmund Freud",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Max_M\u00fcller",
+    "name": "Max M\u00fcller",
+    "era": "19th century",
+    "unweighted_community": 4,
+    "weighted_community": 1,
+    "strongest_tie": "Baruch Spinoza",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Gustave_Belot",
+    "name": "Gustave Belot",
+    "era": "19th century",
+    "unweighted_community": 0,
+    "weighted_community": 1,
+    "strongest_tie": "\u00c9mile Durkheim",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Al-Qadi_Abd_al-Jabbar",
+    "name": "Al-Qadi Abd al-Jabbar",
+    "era": "1st through 10th centuries",
+    "unweighted_community": 3,
+    "weighted_community": 5,
+    "strongest_tie": "Wasil ibn Ata",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Ibn_al-Rawandi",
+    "name": "Ibn al-Rawandi",
+    "era": "1st through 10th centuries",
+    "unweighted_community": 3,
+    "weighted_community": 0,
+    "strongest_tie": "Baron d'Holbach",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Georges-Louis_Leclerc,_Comte_de_Buffon",
+    "name": "Georges-Louis Leclerc, Comte de Buffon",
+    "era": "18th century",
+    "unweighted_community": 0,
+    "weighted_community": 3,
+    "strongest_tie": "Charles Darwin",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Hugo_Ko\u0142\u0142\u0105taj",
+    "name": "Hugo Ko\u0142\u0142\u0105taj",
+    "era": "18th century",
+    "unweighted_community": 6,
+    "weighted_community": 0,
+    "strongest_tie": "Stanis\u0142aw Staszic",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Abu_al-Hassan_al-Amiri",
+    "name": "Abu al-Hassan al-Amiri",
+    "era": "1st through 10th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Al-Farabi",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Tommaso_Campanella",
+    "name": "Tommaso Campanella",
+    "era": "15th and 16th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Aristotle",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Charles_Fourier",
+    "name": "Charles Fourier",
+    "era": "18th century",
+    "unweighted_community": 0,
+    "weighted_community": 8,
+    "strongest_tie": "Friedrich Engels",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Florian_Znaniecki",
+    "name": "Florian Znaniecki",
+    "era": "19th century",
+    "unweighted_community": 5,
+    "weighted_community": 1,
+    "strongest_tie": "Max Weber",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Hastings_Rashdall",
+    "name": "Hastings Rashdall",
+    "era": "19th century",
+    "unweighted_community": 3,
+    "weighted_community": 3,
+    "strongest_tie": "Henry Sidgwick",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Eric_Hoffer",
+    "name": "Eric Hoffer",
+    "era": "19th century",
+    "unweighted_community": 2,
+    "weighted_community": 2,
+    "strongest_tie": "Michel de Montaigne",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Muhammad_Iqbal",
+    "name": "Muhammad Iqbal",
+    "era": "19th century",
+    "unweighted_community": 4,
+    "weighted_community": 1,
+    "strongest_tie": "Friedrich Nietzsche",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Miguel_de_Unamuno",
+    "name": "Miguel de Unamuno",
+    "era": "19th century",
+    "unweighted_community": 2,
+    "weighted_community": 4,
+    "strongest_tie": "Giacomo Leopardi",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Heinrich_Cornelius_Agrippa",
+    "name": "Heinrich Cornelius Agrippa",
+    "era": "15th and 16th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Albertus Magnus",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Michael_Polanyi",
+    "name": "Michael Polanyi",
+    "era": "19th century",
+    "unweighted_community": 0,
+    "weighted_community": 1,
+    "strongest_tie": "Karl Mannheim",
+    "strongest_tie_weight": 2
+  },
+  {
+    "node_id": "Christian_August_Crusius",
+    "name": "Christian August Crusius",
+    "era": "18th century",
+    "unweighted_community": 0,
+    "weighted_community": 1,
+    "strongest_tie": "Christian Wolff (philosopher)",
+    "strongest_tie_weight": 1
+  },
+  {
+    "node_id": "Shadworth_Hodgson",
+    "name": "Shadworth Hodgson",
+    "era": "19th century",
+    "unweighted_community": 5,
+    "weighted_community": 1,
+    "strongest_tie": "George Henry Lewes",
+    "strongest_tie_weight": 1
+  },
+  {
+    "node_id": "Ibn_al-Muqaffa'",
+    "name": "Ibn al-Muqaffa'",
+    "era": "1st through 10th centuries",
+    "unweighted_community": 4,
+    "weighted_community": 8,
+    "strongest_tie": "Mazdak",
+    "strongest_tie_weight": 1
+  },
+  {
+    "node_id": "Mazdak",
+    "name": "Mazdak",
+    "era": "1st through 10th centuries",
+    "unweighted_community": 4,
+    "weighted_community": 8,
+    "strongest_tie": "Ibn al-Muqaffa'",
+    "strongest_tie_weight": 1
+  },
+  {
+    "node_id": "Francisco_Sanches",
+    "name": "Francisco Sanches",
+    "era": "15th and 16th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 0,
+    "strongest_tie": "Marin Mersenne",
+    "strongest_tie_weight": 1
+  },
+  {
+    "node_id": "Abu_Zayd_al-Balkhi",
+    "name": "Abu Zayd al-Balkhi",
+    "era": "1st through 10th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Abu Bakr al-Razi",
+    "strongest_tie_weight": 1
+  },
+  {
+    "node_id": "\u00c9mile_Saisset",
+    "name": "\u00c9mile Saisset",
+    "era": "19th century",
+    "unweighted_community": 0,
+    "weighted_community": 3,
+    "strongest_tie": "Aenesidemus",
+    "strongest_tie_weight": 1
+  },
+  {
+    "node_id": "Manilal_Dwivedi",
+    "name": "Manilal Dwivedi",
+    "era": "19th century",
+    "unweighted_community": 0,
+    "weighted_community": 8,
+    "strongest_tie": "Adi Shankara",
+    "strongest_tie_weight": 1
+  },
+  {
+    "node_id": "Jalal_al-Din_Davani",
+    "name": "Jalal al-Din Davani",
+    "era": "15th and 16th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Nasir al-Din al-Tusi",
+    "strongest_tie_weight": 1
+  },
+  {
+    "node_id": "Charles_Bell",
+    "name": "Charles Bell",
+    "era": "18th century",
+    "unweighted_community": 0,
+    "weighted_community": 3,
+    "strongest_tie": "Dugald Stewart",
+    "strongest_tie_weight": 1
+  },
+  {
+    "node_id": "Feliks_Koneczny",
+    "name": "Feliks Koneczny",
+    "era": "19th century",
+    "unweighted_community": 6,
+    "weighted_community": 0,
+    "strongest_tie": "Francis Bacon",
+    "strongest_tie_weight": 1
+  },
+  {
+    "node_id": "Abu_Sulayman_Sijistani",
+    "name": "Abu Sulayman Sijistani",
+    "era": "1st through 10th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Al-Farabi",
+    "strongest_tie_weight": 1
+  },
+  {
+    "node_id": "Alfred_Jarry",
+    "name": "Alfred Jarry",
+    "era": "19th century",
+    "unweighted_community": 1,
+    "weighted_community": 4,
+    "strongest_tie": "Fran\u00e7ois Rabelais",
+    "strongest_tie_weight": 1
+  },
+  {
+    "node_id": "Blasius_of_Parma",
+    "name": "Blasius of Parma",
+    "era": "11th through 14th centuries",
+    "unweighted_community": 3,
+    "weighted_community": 5,
+    "strongest_tie": "Albert of Saxony (philosopher)",
+    "strongest_tie_weight": 1
+  },
+  {
+    "node_id": "Nicholas_of_Autrecourt",
+    "name": "Nicholas of Autrecourt",
+    "era": "11th through 14th centuries",
+    "unweighted_community": 3,
+    "weighted_community": 5,
+    "strongest_tie": "Al-Ghazali",
+    "strongest_tie_weight": 1
+  },
+  {
+    "node_id": "Jules_Lequier",
+    "name": "Jules Lequier",
+    "era": "19th century",
+    "unweighted_community": 7,
+    "weighted_community": 0,
+    "strongest_tie": "Gustav Fechner",
+    "strongest_tie_weight": 1
+  },
+  {
+    "node_id": "Isaac_Orobio_de_Castro",
+    "name": "Isaac Orobio de Castro",
+    "era": "17th century",
+    "unweighted_community": 0,
+    "weighted_community": 1,
+    "strongest_tie": "Baruch Spinoza",
+    "strongest_tie_weight": 1
+  },
+  {
+    "node_id": "Miskawayh",
+    "name": "Miskawayh",
+    "era": "1st through 10th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Abu al-Hassan al-Amiri",
+    "strongest_tie_weight": 1
+  },
+  {
+    "node_id": "Roberto_Ardig\u00f2",
+    "name": "Roberto Ardig\u00f2",
+    "era": "19th century",
+    "unweighted_community": 0,
+    "weighted_community": 5,
+    "strongest_tie": "Auguste Comte",
+    "strongest_tie_weight": 1
+  },
+  {
+    "node_id": "Ahmad_ibn_al-Tayyib_al-Sarakhsi",
+    "name": "Ahmad ibn al-Tayyib al-Sarakhsi",
+    "era": "1st through 10th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Al-Kindi",
+    "strongest_tie_weight": 1
+  },
+  {
+    "node_id": "'Ali_ibn_al-'Abbas_al-Majusi",
+    "name": "'Ali ibn al-'Abbas al-Majusi",
+    "era": "1st through 10th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Abu Bakr al-Razi",
+    "strongest_tie_weight": 1
+  },
+  {
+    "node_id": "Francisco_de_Toledo_(Jesuit)",
+    "name": "Francisco de Toledo (Jesuit)",
+    "era": "15th and 16th centuries",
+    "unweighted_community": 3,
+    "weighted_community": 2,
+    "strongest_tie": "Aristotle",
+    "strongest_tie_weight": 1
+  },
+  {
+    "node_id": "Robert_Kilwardby",
+    "name": "Robert Kilwardby",
+    "era": "11th through 14th centuries",
+    "unweighted_community": 3,
+    "weighted_community": 5,
+    "strongest_tie": "Aristotle",
+    "strongest_tie_weight": 1
+  },
+  {
+    "node_id": "Philip_the_Chancellor",
+    "name": "Philip the Chancellor",
+    "era": "11th through 14th centuries",
+    "unweighted_community": 3,
+    "weighted_community": 5,
+    "strongest_tie": "Albertus Magnus",
+    "strongest_tie_weight": 1
+  },
+  {
+    "node_id": "Peter_of_Auvergne",
+    "name": "Peter of Auvergne",
+    "era": "11th through 14th centuries",
+    "unweighted_community": 3,
+    "weighted_community": 2,
+    "strongest_tie": "Aristotle",
+    "strongest_tie_weight": 1
+  },
+  {
+    "node_id": "Thomas_Gisborne",
+    "name": "Thomas Gisborne",
+    "era": "18th century",
+    "unweighted_community": 0,
+    "weighted_community": 3,
+    "strongest_tie": "William Paley",
+    "strongest_tie_weight": 1
+  },
+  {
+    "node_id": "William_Temple_(bishop)",
+    "name": "William Temple (bishop)",
+    "era": "19th century",
+    "unweighted_community": 2,
+    "weighted_community": 3,
+    "strongest_tie": "Alfred North Whitehead",
+    "strongest_tie_weight": 1
+  },
+  {
+    "node_id": "Roscoe_Pound",
+    "name": "Roscoe Pound",
+    "era": "19th century",
+    "unweighted_community": 5,
+    "weighted_community": 1,
+    "strongest_tie": "Hans Kelsen",
+    "strongest_tie_weight": 1
+  },
+  {
+    "node_id": "Emil_du_Bois-Reymond",
+    "name": "Emil du Bois-Reymond",
+    "era": "19th century",
+    "unweighted_community": 2,
+    "weighted_community": 3,
+    "strongest_tie": "Charles Darwin",
+    "strongest_tie_weight": 1
+  },
+  {
+    "node_id": "Ulrich_of_Strasbourg",
+    "name": "Ulrich of Strasbourg",
+    "era": "11th through 14th centuries",
+    "unweighted_community": 3,
+    "weighted_community": 5,
+    "strongest_tie": "Albertus Magnus",
+    "strongest_tie_weight": 1
+  },
+  {
+    "node_id": "Macrobius",
+    "name": "Macrobius",
+    "era": "1st through 10th centuries",
+    "unweighted_community": 3,
+    "weighted_community": 2,
+    "strongest_tie": "Boethius",
+    "strongest_tie_weight": 1
+  },
+  {
+    "node_id": "Ibn_Sab'in",
+    "name": "Ibn Sab'in",
+    "era": "11th through 14th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Averroes",
+    "strongest_tie_weight": 1
+  },
+  {
+    "node_id": "Karl_Renner",
+    "name": "Karl Renner",
+    "era": "19th century",
+    "unweighted_community": 5,
+    "weighted_community": 1,
+    "strongest_tie": "Hans Kelsen",
+    "strongest_tie_weight": 1
+  },
+  {
+    "node_id": "D\u00e9sir\u00e9-Joseph_Mercier",
+    "name": "D\u00e9sir\u00e9-Joseph Mercier",
+    "era": "19th century",
+    "unweighted_community": 5,
+    "weighted_community": 4,
+    "strongest_tie": "Albert Einstein",
+    "strongest_tie_weight": 1
+  },
+  {
+    "node_id": "Abu_Hayyan_al-Tawhidi",
+    "name": "Abu Hayyan al-Tawhidi",
+    "era": "1st through 10th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Abu Zayd al-Balkhi",
+    "strongest_tie_weight": 1
+  },
+  {
+    "node_id": "Radulphus_Brito",
+    "name": "Radulphus Brito",
+    "era": "11th through 14th centuries",
+    "unweighted_community": 3,
+    "weighted_community": 2,
+    "strongest_tie": "Aristotle",
+    "strongest_tie_weight": 1
+  },
+  {
+    "node_id": "Pietro_d'Abano",
+    "name": "Pietro d'Abano",
+    "era": "11th through 14th centuries",
+    "unweighted_community": 1,
+    "weighted_community": 5,
+    "strongest_tie": "Abraham ibn Ezra",
+    "strongest_tie_weight": 1
+  },
+  {
+    "node_id": "J\u00f3zef_Maria_Hoene-Wro\u0144ski",
+    "name": "J\u00f3zef Maria Hoene-Wro\u0144ski",
+    "era": "18th century",
+    "unweighted_community": 6,
+    "weighted_community": 1,
+    "strongest_tie": "W\u0142adys\u0142aw Tatarkiewicz",
+    "strongest_tie_weight": 1
+  },
+  {
+    "node_id": "James_Edwin_Creighton",
+    "name": "James Edwin Creighton",
+    "era": "19th century",
+    "unweighted_community": 2,
+    "weighted_community": 3,
+    "strongest_tie": "Bernard Bosanquet (philosopher)",
+    "strongest_tie_weight": 1
+  },
+  {
+    "node_id": "Dimitri_Uznadze",
+    "name": "Dimitri Uznadze",
+    "era": "19th century",
+    "unweighted_community": 2,
+    "weighted_community": 4,
+    "strongest_tie": "Shalva Nutsubidze",
+    "strongest_tie_weight": 1
+  },
+  {
+    "node_id": "Jerome_Frank",
+    "name": "Jerome Frank",
+    "era": "19th century",
+    "unweighted_community": 5,
+    "weighted_community": 1,
+    "strongest_tie": "Jean Piaget",
+    "strongest_tie_weight": 1
+  },
+  {
+    "node_id": "Jan_\u015aniadecki",
+    "name": "Jan \u015aniadecki",
+    "era": "18th century",
+    "unweighted_community": 6,
+    "weighted_community": 1,
+    "strongest_tie": "Nicolaus Copernicus",
+    "strongest_tie_weight": 1
+  },
+  {
+    "node_id": "William_of_Auvergne",
+    "name": "William of Auvergne",
+    "era": "11th through 14th centuries",
+    "unweighted_community": 3,
+    "weighted_community": 5,
+    "strongest_tie": "Aristotle",
+    "strongest_tie_weight": 1
+  }
+]

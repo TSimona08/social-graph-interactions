@@ -1,0 +1,621 @@
+[
+  {
+    "community": 0,
+    "size": 242,
+    "leader_name": "John Locke",
+    "betweenness": 0.2413,
+    "n_total_link_communities": 28,
+    "n_distinctive_link_communities": 28,
+    "top_link_communities": [
+      {
+        "n_edges": 16,
+        "companions": [
+          "Adam Ferguson",
+          "David Hume",
+          "Dugald Stewart",
+          "Francis Hutcheson (philosopher)",
+          "George Berkeley",
+          "John Witherspoon",
+          "Joseph Butler",
+          "Thomas Brown (philosopher)",
+          "Thomas Hobbes",
+          "Thomas Reid",
+          "William Paley"
+        ]
+      },
+      {
+        "n_edges": 10,
+        "companions": [
+          "Benjamin Franklin",
+          "David Hume",
+          "John Adams",
+          "Joseph Priestley",
+          "Mary Wollstonecraft",
+          "Richard Price",
+          "Thomas Jefferson",
+          "Thomas Paine",
+          "William Godwin"
+        ]
+      },
+      {
+        "n_edges": 9,
+        "companions": [
+          "Baron d'Holbach",
+          "Claude Adrien Helv\u00e9tius",
+          "David Hume",
+          "George Berkeley",
+          "Thomas Hobbes",
+          "William Hazlitt"
+        ]
+      },
+      {
+        "n_edges": 9,
+        "companions": [
+          "David Hume",
+          "Franciscus Mercurius van Helmont",
+          "Joseph Glanvill",
+          "Kenelm Digby",
+          "Margaret Cavendish, Duchess of Newcastle-upon-Tyne",
+          "Martin Knutzen",
+          "Robert Boyle",
+          "Thomas Hobbes",
+          "Thomas White (scholar)"
+        ]
+      },
+      {
+        "n_edges": 8,
+        "companions": [
+          "David Hume",
+          "Galvano Della Volpe",
+          "George Berkeley",
+          "James Beattie (poet)",
+          "Johannes Nikolaus Tetens",
+          "Norman Kemp Smith",
+          "William Wollaston"
+        ]
+      },
+      {
+        "n_edges": 7,
+        "companions": [
+          "Anthony Collins (philosopher)",
+          "Edward Stillingfleet",
+          "Isaac La Peyr\u00e8re",
+          "John Selden",
+          "Richard Bentley",
+          "Richard Cumberland (philosopher)",
+          "Thomas Hobbes"
+        ]
+      }
+    ]
+  },
+  {
+    "community": 1,
+    "size": 215,
+    "leader_name": "Immanuel Kant",
+    "betweenness": 0.3528,
+    "n_total_link_communities": 9,
+    "n_distinctive_link_communities": 8,
+    "top_link_communities": [
+      {
+        "n_edges": 6,
+        "companions": [
+          "Bernard Bosanquet (philosopher)",
+          "F. C. S. Schiller",
+          "F. H. Bradley",
+          "Oliver Wendell Holmes Jr.",
+          "Shadworth Hodgson",
+          "Valentin Asmus (philosopher)"
+        ]
+      },
+      {
+        "n_edges": 6,
+        "companions": [
+          "Georg Simmel",
+          "Gy\u00f6rgy Luk\u00e1cs",
+          "Karl Mannheim",
+          "Max Horkheimer",
+          "Max Weber",
+          "Wilhelm Dilthey"
+        ]
+      },
+      {
+        "n_edges": 4,
+        "companions": [
+          "Branislav Petronijevi\u0107",
+          "Hermann Lotze",
+          "Kuno Fischer",
+          "Wilhelm Wundt"
+        ]
+      },
+      {
+        "n_edges": 3,
+        "companions": [
+          "Baron d'Holbach",
+          "Jean Le Rond d'Alembert",
+          "William Hazlitt"
+        ]
+      },
+      {
+        "n_edges": 3,
+        "companions": [
+          "Bruno Bauer",
+          "Mikhail Bakunin",
+          "Moses Hess"
+        ]
+      },
+      {
+        "n_edges": 3,
+        "companions": [
+          "David Hume",
+          "George Berkeley",
+          "John Locke"
+        ]
+      }
+    ]
+  },
+  {
+    "community": 2,
+    "size": 210,
+    "leader_name": "Aristotle",
+    "betweenness": 0.3674,
+    "n_total_link_communities": 21,
+    "n_distinctive_link_communities": 20,
+    "top_link_communities": [
+      {
+        "n_edges": 5,
+        "companions": [
+          "Archimedes",
+          "Johannes Kepler",
+          "Nicolaus Copernicus",
+          "Plato"
+        ]
+      },
+      {
+        "n_edges": 5,
+        "companions": [
+          "Galen",
+          "Hippocrates",
+          "Plato",
+          "Socrates"
+        ]
+      },
+      {
+        "n_edges": 5,
+        "companions": [
+          "Bernard Bosanquet (philosopher)",
+          "F. C. S. Schiller",
+          "Oliver Wendell Holmes Jr.",
+          "Plato",
+          "Valentin Asmus (philosopher)"
+        ]
+      },
+      {
+        "n_edges": 5,
+        "companions": [
+          "George Croom Robertson",
+          "George Grote",
+          "Henry Longueville Mansel",
+          "Johann Heinrich Lambert",
+          "Plato"
+        ]
+      },
+      {
+        "n_edges": 4,
+        "companions": [
+          "Ammonius Saccas",
+          "Gregory of Nyssa",
+          "Plato"
+        ]
+      },
+      {
+        "n_edges": 4,
+        "companions": [
+          "Arthur Collier",
+          "Jean-Pierre de Crousaz",
+          "Mary Astell",
+          "Plato"
+        ]
+      }
+    ]
+  },
+  {
+    "community": 3,
+    "size": 164,
+    "leader_name": "Bertrand Russell",
+    "betweenness": 0.5009,
+    "n_total_link_communities": 4,
+    "n_distinctive_link_communities": 4,
+    "top_link_communities": [
+      {
+        "n_edges": 6,
+        "companions": [
+          "Bernard Bosanquet (philosopher)",
+          "Brand Blanshard",
+          "F. C. S. Schiller",
+          "F. H. Bradley",
+          "J. H. Muirhead",
+          "Victoria, Lady Welby"
+        ]
+      },
+      {
+        "n_edges": 6,
+        "companions": [
+          "C. D. Broad",
+          "C. E. M. Joad",
+          "Dorothy Maud Wrinch",
+          "J. M. E. McTaggart",
+          "James Ward (psychologist)",
+          "Olaf Stapledon"
+        ]
+      },
+      {
+        "n_edges": 4,
+        "companions": [
+          "Georg Cantor",
+          "Giuseppe Peano",
+          "Gottlob Frege",
+          "Richard Dedekind"
+        ]
+      },
+      {
+        "n_edges": 3,
+        "companions": [
+          "John Dewey",
+          "Josiah Royce",
+          "William James"
+        ]
+      }
+    ]
+  },
+  {
+    "community": 4,
+    "size": 162,
+    "leader_name": "Thomas Aquinas",
+    "betweenness": 0.4293,
+    "n_total_link_communities": 3,
+    "n_distinctive_link_communities": 3,
+    "top_link_communities": [
+      {
+        "n_edges": 39,
+        "companions": [
+          "Ambrose",
+          "Bartolom\u00e9 de Medina (theologian)",
+          "Denis the Carthusian",
+          "Domingo B\u00e1\u00f1ez",
+          "Domingo de Soto",
+          "Francesco Silvestri (theologian)",
+          "Francisco de Vitoria",
+          "Gabriel Biel",
+          "Gabriel V\u00e1squez",
+          "Gennadius Scholarius",
+          "Giles of Rome",
+          "Godfrey of Fontaines",
+          "Isidore of Seville",
+          "Jacopo Zabarella",
+          "Jacques Maritain",
+          "John Capreolus",
+          "John of St. Thomas",
+          "Luis de Molina",
+          "Matthew of Aquasparta",
+          "Paul of Venice",
+          "Peter of Auvergne",
+          "Pope Gregory I",
+          "Richard Hooker",
+          "Richard of Middleton",
+          "Richard of Saint Victor",
+          "Robert Kilwardby",
+          "Rudolph Goclenius",
+          "R\u00e9ginald Garrigou-Lagrange",
+          "Siger of Brabant",
+          "Theodoric of Freiberg",
+          "Thomas Cajetan",
+          "Thomas of York (Franciscan)",
+          "Walter of Bruges",
+          "William de la Mare",
+          "William of Alnwick",
+          "William of Auxerre",
+          "William of Moerbeke",
+          "William of Saint-Amour",
+          "\u00c9tienne Gilson"
+        ]
+      },
+      {
+        "n_edges": 5,
+        "companions": [
+          "Al-Ghazali",
+          "Avempace",
+          "Averroes",
+          "Avicenna",
+          "Maimonides"
+        ]
+      },
+      {
+        "n_edges": 3,
+        "companions": [
+          "Alexander of Hales",
+          "Bonaventure",
+          "Peter Lombard"
+        ]
+      }
+    ]
+  },
+  {
+    "community": 5,
+    "size": 135,
+    "leader_name": "Avicenna",
+    "betweenness": 0.4012,
+    "n_total_link_communities": 14,
+    "n_distinctive_link_communities": 12,
+    "top_link_communities": [
+      {
+        "n_edges": 39,
+        "companions": [
+          "Abu Hanifa",
+          "Abu Mansur al-Maturidi",
+          "Abu al-Hasan al-Ash'ari",
+          "Al-Allama al-Hilli",
+          "Al-Farabi",
+          "Al-Ghazali",
+          "Al-Juwayni",
+          "Al-Kindi",
+          "Al-Mawardi",
+          "Al-Qushayri",
+          "Al-Shafi'i",
+          "Avempace",
+          "Averroes",
+          "Fakhr al-Din al-Razi",
+          "Gerard of Cremona",
+          "Hadi Sabzavari",
+          "Ibn Arabi",
+          "Ibn Taymiyya",
+          "Ibn al-Haytham",
+          "Jamal al-Din al-Afghani",
+          "John Peckham",
+          "Mir Damad",
+          "Nasir al-Din al-Tusi",
+          "Omar Khayyam",
+          "Robert Grosseteste",
+          "Roger Bacon",
+          "Shah Waliullah Dehlawi"
+        ]
+      },
+      {
+        "n_edges": 9,
+        "companions": [
+          "Abu Bakr al-Razi",
+          "Al-Farabi",
+          "Averroes",
+          "Hunayn ibn Ishaq",
+          "Ibn al-Khammar",
+          "Ibn al-Tayyib",
+          "Maimonides",
+          "Yahya ibn Adi"
+        ]
+      },
+      {
+        "n_edges": 9,
+        "companions": [
+          "Avempace",
+          "Averroes",
+          "Galen",
+          "Hippocrates",
+          "Isaac Israeli ben Solomon",
+          "Maimonides",
+          "Nachmanides",
+          "Samuel ibn Tibbon"
+        ]
+      },
+      {
+        "n_edges": 7,
+        "companions": [
+          "'Ali ibn al-'Abbas al-Majusi",
+          "Abu Hayyan al-Tawhidi",
+          "Abu Sulayman Sijistani",
+          "Abu Zayd al-Balkhi",
+          "Abu al-Hassan al-Amiri",
+          "Al-Farabi",
+          "Vincent of Beauvais"
+        ]
+      },
+      {
+        "n_edges": 6,
+        "companions": [
+          "Al-Farabi",
+          "Albertus Magnus",
+          "Avempace",
+          "Averroes",
+          "Maimonides",
+          "Shem-Tov ibn Falaquera"
+        ]
+      },
+      {
+        "n_edges": 5,
+        "companions": [
+          "Al-Farabi",
+          "Al-Ghazali",
+          "Averroes",
+          "John Philoponus",
+          "Maimonides"
+        ]
+      }
+    ]
+  },
+  {
+    "community": 6,
+    "size": 95,
+    "leader_name": "Adi Shankara",
+    "betweenness": 0.4369,
+    "n_total_link_communities": 2,
+    "n_distinctive_link_communities": 2,
+    "top_link_communities": [
+      {
+        "n_edges": 8,
+        "companions": [
+          "Gaudapada",
+          "Madhvacharya",
+          "Narahari Tirtha",
+          "Ramanuja",
+          "Vallabha",
+          "Vidyaranya",
+          "Vyasatirtha",
+          "V\u0101chaspati Misra"
+        ]
+      },
+      {
+        "n_edges": 3,
+        "companions": [
+          "Kabir",
+          "Sarvepalli Radhakrishnan",
+          "Sri Aurobindo"
+        ]
+      }
+    ]
+  },
+  {
+    "community": 7,
+    "size": 75,
+    "leader_name": "Mencius",
+    "betweenness": 0.381,
+    "n_total_link_communities": 7,
+    "n_distinctive_link_communities": 6,
+    "top_link_communities": [
+      {
+        "n_edges": 7,
+        "companions": [
+          "Confucius",
+          "Mozi",
+          "Shen Dao",
+          "Xunzi (philosopher)",
+          "Yang Zhu",
+          "Zichan"
+        ]
+      },
+      {
+        "n_edges": 6,
+        "companions": [
+          "Feng Youlan",
+          "Hu Shih",
+          "Shen Dao",
+          "Sun Yat-sen",
+          "Xunzi (philosopher)",
+          "Zichan"
+        ]
+      },
+      {
+        "n_edges": 6,
+        "companions": [
+          "Gaozi",
+          "Xu Xing (philosopher)",
+          "Xunzi (philosopher)",
+          "Yang Xiong (author)",
+          "Zou Yan"
+        ]
+      },
+      {
+        "n_edges": 5,
+        "companions": [
+          "Confucius",
+          "Lu Jiuyuan",
+          "Wang Yangming",
+          "Zhu Xi"
+        ]
+      },
+      {
+        "n_edges": 3,
+        "companions": [
+          "Cheng Yi (philosopher)",
+          "Han Yu",
+          "Zhu Xi"
+        ]
+      },
+      {
+        "n_edges": 3,
+        "companions": [
+          "Confucius",
+          "Nishi Amane",
+          "Zhou Dunyi"
+        ]
+      }
+    ]
+  },
+  {
+    "community": 8,
+    "size": 74,
+    "leader_name": "Karl Marx",
+    "betweenness": 0.5514,
+    "n_total_link_communities": 9,
+    "n_distinctive_link_communities": 8,
+    "top_link_communities": [
+      {
+        "n_edges": 12,
+        "companions": [
+          "Bruno Bauer",
+          "Eugen D\u00fchring",
+          "Ferdinand Lassalle",
+          "Friedrich Engels",
+          "Georg Wilhelm Friedrich Hegel",
+          "Georgi Plekhanov",
+          "Ludwig Feuerbach",
+          "Max Stirner",
+          "Mikhail Bakunin",
+          "Moses Hess",
+          "Nikolay Chernyshevsky",
+          "Vladimir Lenin"
+        ]
+      },
+      {
+        "n_edges": 7,
+        "companions": [
+          "Antonio Gramsci",
+          "Antonio Labriola",
+          "Friedrich Engels",
+          "Giovanni Gentile",
+          "Karl Kautsky",
+          "Leon Trotsky",
+          "Vladimir Lenin"
+        ]
+      },
+      {
+        "n_edges": 6,
+        "companions": [
+          "Bruno Bauer",
+          "Friedrich Engels",
+          "Gy\u00f6rgy Luk\u00e1cs",
+          "Karl Mannheim",
+          "Max Horkheimer",
+          "Vladimir Lenin"
+        ]
+      },
+      {
+        "n_edges": 6,
+        "companions": [
+          "David Ricardo",
+          "Friedrich Engels",
+          "James Mill",
+          "Jeremy Bentham",
+          "Thomas Hodgskin",
+          "William Thompson (philosopher)"
+        ]
+      },
+      {
+        "n_edges": 5,
+        "companions": [
+          "Friedrich Engels",
+          "Karl Kautsky",
+          "Leon Trotsky",
+          "Mao Zedong",
+          "Vladimir Lenin"
+        ]
+      },
+      {
+        "n_edges": 4,
+        "companions": [
+          "Friedrich Engels",
+          "Karl Kautsky",
+          "Thomas More",
+          "Vladimir Lenin"
+        ]
+      }
+    ]
+  }
+]

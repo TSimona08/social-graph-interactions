@@ -1,0 +1,132 @@
+{
+  "unweighted": [
+    {
+      "community": 0,
+      "size": 266,
+      "leader_id": "John_Locke",
+      "leader_name": "John Locke",
+      "betweenness": 0.1488
+    },
+    {
+      "community": 1,
+      "size": 260,
+      "leader_id": "Aristotle",
+      "leader_name": "Aristotle",
+      "betweenness": 0.2868
+    },
+    {
+      "community": 2,
+      "size": 250,
+      "leader_id": "Immanuel_Kant",
+      "leader_name": "Immanuel Kant",
+      "betweenness": 0.2273
+    },
+    {
+      "community": 3,
+      "size": 200,
+      "leader_id": "Thomas_Aquinas",
+      "leader_name": "Thomas Aquinas",
+      "betweenness": 0.2754
+    },
+    {
+      "community": 4,
+      "size": 181,
+      "leader_id": "The_Buddha",
+      "leader_name": "The Buddha",
+      "betweenness": 0.4481
+    },
+    {
+      "community": 5,
+      "size": 155,
+      "leader_id": "Bertrand_Russell",
+      "leader_name": "Bertrand Russell",
+      "betweenness": 0.2531
+    },
+    {
+      "community": 6,
+      "size": 60,
+      "leader_id": "Al-Ghazali",
+      "leader_name": "Al-Ghazali",
+      "betweenness": 0.3687
+    },
+    {
+      "community": 7,
+      "size": 2,
+      "leader_id": "Jules_Barth\u00e9lemy-Saint-Hilaire",
+      "leader_name": "Jules Barth\u00e9lemy-Saint-Hilaire",
+      "betweenness": 0.0
+    }
+  ],
+  "weighted": [
+    {
+      "community": 0,
+      "size": 242,
+      "leader_id": "John_Locke",
+      "leader_name": "John Locke",
+      "betweenness": 0.2413
+    },
+    {
+      "community": 1,
+      "size": 215,
+      "leader_id": "Immanuel_Kant",
+      "leader_name": "Immanuel Kant",
+      "betweenness": 0.3528
+    },
+    {
+      "community": 2,
+      "size": 210,
+      "leader_id": "Aristotle",
+      "leader_name": "Aristotle",
+      "betweenness": 0.3674
+    },
+    {
+      "community": 3,
+      "size": 164,
+      "leader_id": "Bertrand_Russell",
+      "leader_name": "Bertrand Russell",
+      "betweenness": 0.5009
+    },
+    {
+      "community": 4,
+      "size": 162,
+      "leader_id": "Thomas_Aquinas",
+      "leader_name": "Thomas Aquinas",
+      "betweenness": 0.4293
+    },
+    {
+      "community": 5,
+      "size": 135,
+      "leader_id": "Avicenna",
+      "leader_name": "Avicenna",
+      "betweenness": 0.4012
+    },
+    {
+      "community": 6,
+      "size": 95,
+      "leader_id": "Adi_Shankara",
+      "leader_name": "Adi Shankara",
+      "betweenness": 0.4369
+    },
+    {
+      "community": 7,
+      "size": 75,
+      "leader_id": "Mencius",
+      "leader_name": "Mencius",
+      "betweenness": 0.381
+    },
+    {
+      "community": 8,
+      "size": 74,
+      "leader_id": "Karl_Marx",
+      "leader_name": "Karl Marx",
+      "betweenness": 0.5514
+    },
+    {
+      "community": 9,
+      "size": 2,
+      "leader_id": "P._D._Ouspensky",
+      "leader_name": "P. D. Ouspensky",
+      "betweenness": 0.0
+    }
+  ]
+}

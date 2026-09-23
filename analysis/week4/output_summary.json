@@ -1,0 +1,169 @@
+{
+  "n_nodes_total": 1444,
+  "n_nodes_giant": 1374,
+  "n_components": 70,
+  "n_communities_unweighted": 8,
+  "n_communities_weighted": 10,
+  "nmi": 0.6638,
+  "n_movers": 237,
+  "pct_movers": 17.25,
+  "top_movers": [
+    {
+      "node_id": "Friedrich_Hayek",
+      "name": "Friedrich Hayek",
+      "era": "19th century",
+      "unweighted_community": 0,
+      "weighted_community": 3,
+      "strongest_tie": "Ludwig von Mises",
+      "strongest_tie_weight": 12
+    },
+    {
+      "node_id": "Ludwig_von_Mises",
+      "name": "Ludwig von Mises",
+      "era": "19th century",
+      "unweighted_community": 2,
+      "weighted_community": 3,
+      "strongest_tie": "Friedrich Hayek",
+      "strongest_tie_weight": 12
+    },
+    {
+      "node_id": "Roger_Bacon",
+      "name": "Roger Bacon",
+      "era": "11th through 14th centuries",
+      "unweighted_community": 3,
+      "weighted_community": 5,
+      "strongest_tie": "Robert Grosseteste",
+      "strongest_tie_weight": 11
+    },
+    {
+      "node_id": "Robert_Grosseteste",
+      "name": "Robert Grosseteste",
+      "era": "11th through 14th centuries",
+      "unweighted_community": 3,
+      "weighted_community": 5,
+      "strongest_tie": "Roger Bacon",
+      "strongest_tie_weight": 11
+    },
+    {
+      "node_id": "Averroes",
+      "name": "Averroes",
+      "era": "11th through 14th centuries",
+      "unweighted_community": 1,
+      "weighted_community": 5,
+      "strongest_tie": "Al-Ghazali",
+      "strongest_tie_weight": 10
+    },
+    {
+      "node_id": "Paul_R\u00e9e",
+      "name": "Paul R\u00e9e",
+      "era": "19th century",
+      "unweighted_community": 5,
+      "weighted_community": 1,
+      "strongest_tie": "Friedrich Nietzsche",
+      "strongest_tie_weight": 9
+    },
+    {
+      "node_id": "Jamal_al-Din_al-Afghani",
+      "name": "Jamal al-Din al-Afghani",
+      "era": "19th century",
+      "unweighted_community": 1,
+      "weighted_community": 5,
+      "strongest_tie": "Muhammad Abduh",
+      "strongest_tie_weight": 9
+    },
+    {
+      "node_id": "Avicenna",
+      "name": "Avicenna",
+      "era": "1st through 10th centuries",
+      "unweighted_community": 1,
+      "weighted_community": 5,
+      "strongest_tie": "Al-Farabi",
+      "strongest_tie_weight": 8
+    },
+    {
+      "node_id": "Xavier_Zubiri",
+      "name": "Xavier Zubiri",
+      "era": "19th century",
+      "unweighted_community": 5,
+      "weighted_community": 1,
+      "strongest_tie": "Jos\u00e9 Ortega y Gasset",
+      "strongest_tie_weight": 8
+    },
+    {
+      "node_id": "Henry_James_Sr.",
+      "name": "Henry James Sr.",
+      "era": "19th century",
+      "unweighted_community": 0,
+      "weighted_community": 3,
+      "strongest_tie": "William James",
+      "strongest_tie_weight": 8
+    },
+    {
+      "node_id": "Baruch_Spinoza",
+      "name": "Baruch Spinoza",
+      "era": "17th century",
+      "unweighted_community": 0,
+      "weighted_community": 1,
+      "strongest_tie": "Gottfried Wilhelm Leibniz",
+      "strongest_tie_weight": 8
+    },
+    {
+      "node_id": "Mulla_Sadra",
+      "name": "Mulla Sadra",
+      "era": "15th and 16th centuries",
+      "unweighted_community": 1,
+      "weighted_community": 5,
+      "strongest_tie": "Hadi Sabzavari",
+      "strongest_tie_weight": 8
+    },
+    {
+      "node_id": "Al-Farabi",
+      "name": "Al-Farabi",
+      "era": "1st through 10th centuries",
+      "unweighted_community": 1,
+      "weighted_community": 5,
+      "strongest_tie": "Avicenna",
+      "strongest_tie_weight": 8
+    },
+    {
+      "node_id": "Hadi_Sabzavari",
+      "name": "Hadi Sabzavari",
+      "era": "18th century",
+      "unweighted_community": 1,
+      "weighted_community": 5,
+      "strongest_tie": "Mulla Sadra",
+      "strongest_tie_weight": 8
+    },
+    {
+      "node_id": "George_Eliot",
+      "name": "George Eliot",
+      "era": "19th century",
+      "unweighted_community": 0,
+      "weighted_community": 1,
+      "strongest_tie": "George Henry Lewes",
+      "strongest_tie_weight": 7
+    }
+  ],
+  "weighted_community_sizes": [
+    242,
+    215,
+    210,
+    164,
+    162,
+    135,
+    95,
+    75,
+    74,
+    2
+  ],
+  "unweighted_community_sizes": [
+    266,
+    260,
+    250,
+    200,
+    181,
+    155,
+    60,
+    2
+  ]
+}

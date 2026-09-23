@@ -1,0 +1,202 @@
+[
+  {
+    "community": 0,
+    "size": 242,
+    "leader_id": "John_Locke",
+    "leader_name": "John Locke",
+    "clique_ids": [
+      "Adam_Ferguson",
+      "David_Hume",
+      "Dugald_Stewart",
+      "Francis_Hutcheson_(philosopher)",
+      "George_Berkeley",
+      "John_Locke",
+      "John_Witherspoon",
+      "Joseph_Butler",
+      "Thomas_Brown_(philosopher)",
+      "Thomas_Hobbes",
+      "Thomas_Reid",
+      "William_Paley"
+    ]
+  },
+  {
+    "community": 1,
+    "size": 215,
+    "leader_id": "Immanuel_Kant",
+    "leader_name": "Immanuel Kant",
+    "clique_ids": [
+      "Bernard_Bosanquet_(philosopher)",
+      "F._C._S._Schiller",
+      "F._H._Bradley",
+      "Immanuel_Kant",
+      "Oliver_Wendell_Holmes_Jr.",
+      "Shadworth_Hodgson",
+      "Valentin_Asmus_(philosopher)"
+    ]
+  },
+  {
+    "community": 2,
+    "size": 210,
+    "leader_id": "Aristotle",
+    "leader_name": "Aristotle",
+    "clique_ids": [
+      "Archimedes",
+      "Aristotle",
+      "Johannes_Kepler",
+      "Nicolaus_Copernicus",
+      "Plato"
+    ]
+  },
+  {
+    "community": 3,
+    "size": 164,
+    "leader_id": "Bertrand_Russell",
+    "leader_name": "Bertrand Russell",
+    "clique_ids": [
+      "Bernard_Bosanquet_(philosopher)",
+      "Bertrand_Russell",
+      "Brand_Blanshard",
+      "F._C._S._Schiller",
+      "F._H._Bradley",
+      "J._H._Muirhead",
+      "Victoria,_Lady_Welby"
+    ]
+  },
+  {
+    "community": 4,
+    "size": 162,
+    "leader_id": "Thomas_Aquinas",
+    "leader_name": "Thomas Aquinas",
+    "clique_ids": [
+      "Ambrose",
+      "Bartolom\u00e9_de_Medina_(theologian)",
+      "Denis_the_Carthusian",
+      "Domingo_B\u00e1\u00f1ez",
+      "Domingo_de_Soto",
+      "Francesco_Silvestri_(theologian)",
+      "Francisco_de_Vitoria",
+      "Gabriel_Biel",
+      "Gabriel_V\u00e1squez",
+      "Gennadius_Scholarius",
+      "Giles_of_Rome",
+      "Godfrey_of_Fontaines",
+      "Isidore_of_Seville",
+      "Jacopo_Zabarella",
+      "Jacques_Maritain",
+      "John_Capreolus",
+      "John_of_St._Thomas",
+      "Luis_de_Molina",
+      "Matthew_of_Aquasparta",
+      "Paul_of_Venice",
+      "Peter_of_Auvergne",
+      "Pope_Gregory_I",
+      "Richard_Hooker",
+      "Richard_of_Middleton",
+      "Richard_of_Saint_Victor",
+      "Robert_Kilwardby",
+      "Rudolph_Goclenius",
+      "R\u00e9ginald_Garrigou-Lagrange",
+      "Siger_of_Brabant",
+      "Theodoric_of_Freiberg",
+      "Thomas_Aquinas",
+      "Thomas_Cajetan",
+      "Thomas_of_York_(Franciscan)",
+      "Walter_of_Bruges",
+      "William_de_la_Mare",
+      "William_of_Alnwick",
+      "William_of_Auxerre",
+      "William_of_Moerbeke",
+      "William_of_Saint-Amour",
+      "\u00c9tienne_Gilson"
+    ]
+  },
+  {
+    "community": 5,
+    "size": 135,
+    "leader_id": "Avicenna",
+    "leader_name": "Avicenna",
+    "clique_ids": [
+      "Abu_Hanifa",
+      "Abu_Mansur_al-Maturidi",
+      "Abu_al-Hasan_al-Ash'ari",
+      "Al-Allama_al-Hilli",
+      "Al-Farabi",
+      "Al-Ghazali",
+      "Al-Juwayni",
+      "Al-Kindi",
+      "Al-Mawardi",
+      "Al-Qushayri",
+      "Al-Shafi'i",
+      "Avempace",
+      "Averroes",
+      "Avicenna",
+      "Fakhr_al-Din_al-Razi",
+      "Gerard_of_Cremona",
+      "Hadi_Sabzavari",
+      "Ibn_Arabi",
+      "Ibn_Taymiyya",
+      "Ibn_al-Haytham",
+      "Jamal_al-Din_al-Afghani",
+      "John_Peckham",
+      "Mir_Damad",
+      "Nasir_al-Din_al-Tusi",
+      "Omar_Khayyam",
+      "Robert_Grosseteste",
+      "Roger_Bacon",
+      "Shah_Waliullah_Dehlawi"
+    ]
+  },
+  {
+    "community": 6,
+    "size": 95,
+    "leader_id": "Adi_Shankara",
+    "leader_name": "Adi Shankara",
+    "clique_ids": [
+      "Adi_Shankara",
+      "Gaudapada",
+      "Madhvacharya",
+      "Narahari_Tirtha",
+      "Ramanuja",
+      "Vallabha",
+      "Vidyaranya",
+      "Vyasatirtha",
+      "V\u0101chaspati_Misra"
+    ]
+  },
+  {
+    "community": 7,
+    "size": 75,
+    "leader_id": "Mencius",
+    "leader_name": "Mencius",
+    "clique_ids": [
+      "Confucius",
+      "Mencius",
+      "Mozi",
+      "Shen_Dao",
+      "Xunzi_(philosopher)",
+      "Yang_Zhu",
+      "Zichan"
+    ]
+  },
+  {
+    "community": 8,
+    "size": 74,
+    "leader_id": "Karl_Marx",
+    "leader_name": "Karl Marx",
+    "clique_ids": [
+      "Bruno_Bauer",
+      "Eugen_D\u00fchring",
+      "Ferdinand_Lassalle",
+      "Friedrich_Engels",
+      "Georg_Wilhelm_Friedrich_Hegel",
+      "Georgi_Plekhanov",
+      "Karl_Marx",
+      "Ludwig_Feuerbach",
+      "Max_Stirner",
+      "Mikhail_Bakunin",
+      "Moses_Hess",
+      "Nikolay_Chernyshevsky",
+      "Vladimir_Lenin"
+    ]
+  }
+]

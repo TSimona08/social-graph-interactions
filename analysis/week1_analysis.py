@@ -249,5 +249,42 @@ summary_dir.mkdir(parents=True, exist_ok=True)
 with open(summary_dir / "week1_summary.json", "w") as f:
     json.dump(summary, f, indent=2)
 
+# --- export data for the interactive (Plotly) versions of the charts ---
+data_dir = REPO_ROOT / "docs" / "assets" / "data"
+data_dir.mkdir(parents=True, exist_ok=True)
+
+def role_of(nid):
+    if nid in isolates:
+        return "isolate"
+    if nid in giant:
+        return "giant"
+    return "island"
+
+network_data = {
+    "nodes": [
+        {
+            "id": nid,
+            "name": name_of[nid],
+            "x": round(pos[nid][0], 4),
+            "y": round(pos[nid][1], 4),
+            "in": in_deg[nid],
+            "out": out_deg[nid],
+            "role": role_of(nid),
+        }
+        for nid in G.nodes()
+    ],
+    "edges": [{"source": u, "target": v} for u, v in G.edges()],
+}
+with open(data_dir / "week1_network.json", "w") as f:
+    json.dump(network_data, f, separators=(",", ":"))
+
+degree_data = {
+    "in_degree": in_vals.tolist(),
+    "out_degree": out_vals.tolist(),
+}
+with open(data_dir / "week1_degrees.json", "w") as f:
+    json.dump(degree_data, f, separators=(",", ":"))
+
 print("\nDone. Figures written to", OUT)
 print("Summary written to", summary_dir / "week1_summary.json")
+print("Interactive chart data written to", data_dir)

@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Week 3b: The Web Explorer | The Marvel Graph Diaries</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🕸️</text></svg>">
+<link rel="stylesheet" href="../assets/css/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/4.1.1/plotly-cartesian.min.js"></script>
+<style>
+  .explorer {
+    display: block;
+    background: var(--maroon-soft);
+    border: 2px solid var(--red);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .explorer-controls {
+    padding: 22px 24px 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    align-items: flex-end;
+  }
+  .explorer-field { flex: 1 1 220px; }
+  .explorer-field label {
+    display: block;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--faint);
+    margin-bottom: 8px;
+  }
+  .explorer input[type="text"] {
+    width: 100%;
+    background: var(--maroon);
+    border: 1px solid var(--line);
+    color: var(--white);
+    padding: 11px 14px;
+    border-radius: 3px;
+    font-size: 0.95rem;
+    font-family: inherit;
+  }
+  .explorer input[type="text"]:focus { outline: none; border-color: var(--red); }
+  .explorer input[type="text"].active-a { border-color: var(--red); box-shadow: 0 0 0 1px var(--red); }
+  .explorer input[type="text"].active-b { border-color: var(--steel); box-shadow: 0 0 0 1px var(--steel); }
+  .explorer-btn {
+    background: var(--maroon);
+    color: var(--dim);
+    border: 1px solid var(--line);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    font-size: 0.75rem;
+    padding: 11px 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .explorer-btn:hover { border-color: var(--faint); color: var(--white); }
+  .explorer-status {
+    padding: 0 24px 16px;
+    font-size: 0.85rem;
+    color: var(--dim);
+    min-height: 1.4em;
+  }
+  .explorer-status .pick-a { color: var(--red); font-weight: 700; }
+  .explorer-status .pick-b { color: var(--steel); font-weight: 700; }
+  .explorer-chart {
+    background: #fff;
+    width: 100%;
+    height: 560px;
+  }
+  .explorer-chart .js-plotly-plot,
+  .explorer-chart .plot-container,
+  .explorer-chart .svg-container {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .explorer-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 12px 24px 20px;
+    font-size: 0.78rem;
+    color: var(--faint);
+  }
+  .explorer-legend .swatch {
+    display: inline-block;
+    width: 10px; height: 10px;
+    border-radius: 2px;
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+
+  /* ---- fragmentation step-through animation ---- */
+  .frag-explorer {
+    display: block;
+    background: var(--maroon-soft);
+    border: 2px solid var(--red);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .frag-controls {
+    padding: 20px 24px 14px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    align-items: center;
+  }
+  .frag-controls label {
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--faint);
+    margin-right: 8px;
+  }
+  .frag-order-select {
+    background: var(--maroon);
+    border: 1px solid var(--line);
+    color: var(--white);
+    padding: 9px 12px;
+    border-radius: 3px;
+    font-size: 0.9rem;
+    font-family: inherit;
+  }
+  .frag-btn {
+    background: var(--maroon);
+    color: var(--dim);
+    border: 1px solid var(--line);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    font-size: 0.78rem;
+    padding: 9px 16px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .frag-btn:hover:not(:disabled) { border-color: var(--faint); color: var(--white); }
+  .frag-btn:disabled { opacity: 0.35; cursor: not-allowed; }
+  .frag-step-display {
+    font-family: 'Anton', sans-serif;
+    font-size: 1.3rem;
+    color: var(--red);
+    min-width: 80px;
+    text-align: center;
+  }
+  .frag-step-slider {
+    flex: 1 1 200px;
+    accent-color: var(--red);
+  }
+  .frag-status {
+    padding: 0 24px 14px;
+    font-size: 0.85rem;
+    color: var(--dim);
+    min-height: 1.4em;
+  }
+  .frag-status .removed-name { color: var(--red); font-weight: 700; }
+  .frag-panes {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: 0;
+  }
+  .frag-network {
+    background: #fff;
+    height: 480px;
+  }
+  .frag-network .js-plotly-plot,
+  .frag-network .plot-container,
+  .frag-network .svg-container {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .frag-linechart {
+    background: var(--maroon);
+    height: 480px;
+    border-left: 1px solid var(--line);
+  }
+  .frag-linechart .js-plotly-plot,
+  .frag-linechart .plot-container,
+  .frag-linechart .svg-container {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  @media (max-width: 760px) {
+    .frag-panes { grid-template-columns: 1fr; }
+    .frag-network, .frag-linechart { height: 360px; }
+    .frag-linechart { border-left: none; border-top: 1px solid var(--line); }
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap">
+    <p class="site-title"><a href="../index.html">The Marvel Graph Diaries</a></p>
+    <nav class="site-nav">
+      <a href="../index.html">Posts</a>
+      <a href="../about.html">About</a>
+      <a href="https://github.com/TSimona08/social-graph-interactions" target="_blank" rel="noopener">GitHub</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap wide">
+
+<div class="comic-page">
+
+  <div class="comic-masthead">
+    <span class="issue-no">WEEK 3</span>
+    <h1>The Web<br>Explorer</h1>
+    <p class="hook">Click a character to see their <strong>clique</strong> — the tightest fully-connected group they belong to. Click a second, and watch the <strong>shortest path</strong> stitch through the cliques between them.</p>
+  </div>
+
+  <!-- THE EXPLORER -->
+  <div class="panel splash explorer">
+    <div class="explorer-controls">
+      <div class="explorer-field">
+        <label for="pick-a">Character A</label>
+        <input type="text" id="pick-a" list="explorer-names" placeholder="Click a node, or type a name…" autocomplete="off">
+      </div>
+      <div class="explorer-field">
+        <label for="pick-b">Character B (optional)</label>
+        <input type="text" id="pick-b" list="explorer-names" placeholder="Add a second character…" autocomplete="off">
+      </div>
+      <datalist id="explorer-names"></datalist>
+      <button class="explorer-btn" id="explorer-reset" type="button">Reset</button>
+    </div>
+    <div class="explorer-status" id="explorer-status">Loading the web…</div>
+    <div class="explorer-chart" id="explorer-chart"></div>
+    <div class="explorer-legend" id="explorer-legend"></div>
+  </div>
+
+  <!-- HOW IT WORKS -->
+  <div class="panel-grid cols-2">
+    <div class="panel stat">
+      <span class="num">917</span>
+      <span class="label">Maximal cliques in the network</span>
+      <span class="sub">Fully-connected groups — everyone in a clique links to everyone else. Most characters belong to several; we show each one's single largest.</span>
+    </div>
+    <div class="panel stat" style="border: 2px solid var(--red);">
+      <span class="num">8</span>
+      <span class="label">Biggest clique found</span>
+      <span class="sub">An X-Men core: Jean Grey, Wolverine, Emma Frost, Betsy Braddock, Cyclops, Rachel Summers, Storm + one more — a real team, not a coincidence.</span>
+    </div>
+  </div>
+
+  <div class="panel splash">
+    <div class="panel-caption" style="border-top:none;">
+      <span class="cap-label">Why "largest clique," not "all cliques"</span>
+      Spider-Man alone sits in <strong>290 different maximal cliques</strong> — showing all of them would just be noise. His single largest one is a specific 7-character X-Men-adjacent group, which is a much more useful answer to "who is this character's tightest circle?"
+    </div>
+  </div>
+
+  <div class="panel splash">
+    <div class="panel-caption" style="border-top:none;">
+      <span class="cap-label">How it's built</span>
+      Cliques via <code>nx.find_cliques</code> (NetworkX's Bron–Kerbosch implementation) on the undirected graph; shortest paths via BFS, computed live in your browser from the same edge list. Same layout as week 1, so this is really the week-1 web with an X-ray on. Code: <a href="https://github.com/TSimona08/social-graph-interactions/tree/main/analysis/week3b" target="_blank" rel="noopener">analysis/week3b/</a>.
+    </div>
+  </div>
+
+  <!-- ===================================================================
+       SECTION: fragmentation / robustness — what if Spider-Man vanished?
+       =================================================================== -->
+  <div class="comic-masthead" style="padding-top: 20px;">
+    <span class="issue-no">WEEK 3, PART 2</span>
+    <h1 style="font-size: clamp(1.8rem, 5vw, 2.6rem);">What If Spider&#8209;Man<br>Vanished?</h1>
+    <p class="hook">We deleted characters from the network one at a time — by degree, by betweenness, and at random — and watched the giant component shrink. Targeted attacks win. But not by knocking out Spider-Man first.</p>
+  </div>
+
+  <div class="panel-grid cols-4">
+    <div class="panel stat">
+      <span class="num">#1</span>
+      <span class="label">Spider-Man's rank, degree AND betweenness</span>
+    </div>
+    <div class="panel stat" style="border: 2px solid var(--red);">
+      <span class="num">303 → 271</span>
+      <span class="label">Giant component after removing just him</span>
+    </div>
+    <div class="panel stat">
+      <span class="num">74–78</span>
+      <span class="label">Removals to halve the network (targeted)</span>
+    </div>
+    <div class="panel stat">
+      <span class="num">127</span>
+      <span class="label">Removals to halve it (random failure)</span>
+    </div>
+  </div>
+
+  <!-- STEP-THROUGH REMOVAL ANIMATION -->
+  <div class="panel splash frag-explorer">
+    <div class="frag-controls">
+      <div>
+        <label for="frag-order-select">Attack order</label>
+        <select class="frag-order-select" id="frag-order-select">
+          <option value="degree">By degree</option>
+          <option value="betweenness">By betweenness</option>
+        </select>
+      </div>
+      <button class="frag-btn" id="frag-prev" type="button">← Previous</button>
+      <span class="frag-step-display" id="frag-step-display">0 / 303</span>
+      <button class="frag-btn" id="frag-next" type="button">Next →</button>
+      <input type="range" class="frag-step-slider" id="frag-step-slider" min="0" max="303" value="0">
+      <button class="frag-btn" id="frag-reset" type="button">Reset</button>
+    </div>
+    <div class="frag-status" id="frag-status">Loading the web…</div>
+    <div class="frag-panes">
+      <div class="frag-network" id="frag-network"></div>
+      <div class="frag-linechart" id="frag-linechart"></div>
+    </div>
+  </div>
+  <div class="panel splash">
+    <div class="panel-caption" style="border-top:none;">
+      <span class="cap-label">Targeted attacks beat random failure — by a lot</span>
+      Step through the removals above and watch the web actually tear apart. Removing the highest-degree or highest-betweenness character first fragments the network roughly <strong>40% faster</strong> than random removal. This is the textbook signature of a hub-dominated network: robust to random failure, fragile to targeted attack.
+    </div>
+  </div>
+
+  <div class="panel-grid cols-2">
+    <div class="panel stat" style="border: 2px solid var(--red);">
+      <span class="num">10.6%</span>
+      <span class="label">Drop in giant component from removing Spider-Man alone</span>
+      <span class="sub">303 → 271 characters. Real, but not catastrophic — the network has enough redundant connectivity underneath him to mostly survive.</span>
+    </div>
+    <div class="panel stat">
+      <span class="num">No tie</span>
+      <span class="label">Degree and betweenness agree completely</span>
+      <span class="sub">Spider-Man is #1 by both measures. Unlike the Adam Warlock surprise above (high out-degree, not high total degree), the single most-connected character is also the single most structurally load-bearing one.</span>
+    </div>
+  </div>
+
+  <div class="panel splash">
+    <div class="panel-caption" style="border-top:none;">
+      <span class="cap-label">Why one hub's removal isn't fatal</span>
+      303 characters lose only 32 (10.6%) when Spider-Man is deleted — because most of his neighbors have other paths to the rest of the network through Hulk, Wolverine, Doctor Strange, and the dense core we mapped in week 1. A single hub matters, but this network isn't a star built around one node; it's a dense core with several redundant hubs.
+    </div>
+  </div>
+
+  <div class="panel splash" style="padding: 20px 22px;">
+    <span class="cap-label">Top 5 by betweenness — almost the same cast as top 5 by degree</span>
+    <div class="chip-grid" style="grid-template-columns: 1fr 1fr; margin-top: 14px;">
+      <div>
+        <div class="chain-chip" style="margin-bottom:8px;"><span class="node origin">1</span><span class="node">Spider-Man — 0.196</span></div>
+        <div class="chain-chip" style="margin-bottom:8px;"><span class="node origin">2</span><span class="node">Hulk — 0.088</span></div>
+        <div class="chain-chip" style="margin-bottom:8px;"><span class="node origin">3</span><span class="node">Wolverine — 0.077</span></div>
+        <div class="chain-chip" style="margin-bottom:8px;"><span class="node origin">4</span><span class="node">Doctor Strange — 0.069</span></div>
+        <div class="chain-chip"><span class="node origin">5</span><span class="node">Deadpool — 0.047</span></div>
+      </div>
+      <div>
+        <div class="chain-chip" style="margin-bottom:8px;"><span class="node origin">1</span><span class="node">Spider-Man — 106</span></div>
+        <div class="chain-chip" style="margin-bottom:8px;"><span class="node origin">2</span><span class="node">Hulk — 65</span></div>
+        <div class="chain-chip" style="margin-bottom:8px;"><span class="node origin">3</span><span class="node">Wolverine — 63</span></div>
+        <div class="chain-chip" style="margin-bottom:8px;"><span class="node origin">4</span><span class="node">Doctor Strange — 57</span></div>
+        <div class="chain-chip"><span class="node origin">5</span><span class="node">Deadpool — 41</span></div>
+      </div>
+    </div>
+    <p style="color:var(--faint); font-size:0.82rem; margin: 14px 0 0;">left = betweenness centrality · right = degree — same top 5, same order, both times</p>
+  </div>
+
+  <div class="panel splash">
+    <div class="panel-caption" style="border-top:none;">
+      <span class="cap-label">The one place they diverge: Hercules and Black Widow</span>
+      Hercules (Marvel Comics) and Black Widow crack the betweenness top 10 without cracking the degree top 10 — modest connection counts, but they sit on unusually many shortest paths between other pairs of characters. They're quiet brokers, in the same structural role Adam Warlock plays for the network's farthest reaches.
+    </div>
+  </div>
+
+  <div class="panel splash">
+    <div class="panel-caption" style="border-top:none;">
+      <span class="cap-label">How it's built</span>
+      <code>nx.betweenness_centrality</code> for the ranking; giant-component size recomputed after each single-node removal via <code>nx.connected_components</code>, on the undirected graph. Random baseline averaged over 30 shuffled removal orders. Code: <a href="https://github.com/TSimona08/social-graph-interactions/tree/main/analysis/week3d" target="_blank" rel="noopener">analysis/week3d/</a>.
+    </div>
+  </div>
+
+  <div class="back-panel">
+    <a class="back-link" href="../index.html">← Back to all posts</a>
+  </div>
+
+</div>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>The Marvel Graph Diaries — a weekly data-story series for 02805 Social Graphs and Interactions, DTU.</p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  "use strict";
+
+  const T = {
+    bg: "#3a0d10",
+    edge: "rgba(58,13,16,0.12)",
+    edgePath: "#3a0d10",
+    dim: "#c9beb8",
+    red: "#ff3b3b",
+    steel: "#2b6fa8",
+    white: "#3a0d10",
+  };
+
+  // categorical palette for clique coloring (distinct, readable on white)
+  const PALETTE = [
+    "#e0111a", "#2b6fa8", "#1c8a5a", "#c98a2c", "#7a3fa0",
+    "#c94f7c", "#3a8a8a", "#a3651a", "#5c6bc0", "#8a5a2c",
+  ];
+
+  let net = null;       // {nodes, edges}
+  let nodeById = {};
+  let idByName = {};    // name -> id, for resolving clique member lists back to nodes
+  let adjacency = {};   // id -> Set(neighbor ids), undirected
+  let cliqueLookup = null; // clique index -> [names]
+  let pickedA = null;
+  let pickedB = null;
+
+  const statusEl = document.getElementById("explorer-status");
+  const legendEl = document.getElementById("explorer-legend");
+  const inputA = document.getElementById("pick-a");
+  const inputB = document.getElementById("pick-b");
+  const datalist = document.getElementById("explorer-names");
+
+  function buildAdjacency(data) {
+    const adj = {};
+    data.nodes.forEach(n => { adj[n.id] = new Set(); });
+    data.edges.forEach(e => {
+      if (!adj[e.source] || !adj[e.target]) return;
+      adj[e.source].add(e.target);
+      adj[e.target].add(e.source);
+    });
+    return adj;
+  }
+
+  function bfsPath(startId, endId) {
+    if (startId === endId) return [startId];
+    const visited = new Set([startId]);
+    const prev = {};
+    const queue = [startId];
+    while (queue.length) {
+      const cur = queue.shift();
+      const neighbors = adjacency[cur] || new Set();
+      for (const nb of neighbors) {
+        if (visited.has(nb)) continue;
+        visited.add(nb);
+        prev[nb] = cur;
+        if (nb === endId) {
+          // reconstruct
+          const path = [endId];
+          let c = endId;
+          while (c !== startId) {
+            c = prev[c];
+            path.push(c);
+          }
+          return path.reverse();
+        }
+        queue.push(nb);
+      }
+    }
+    return null; // no path
+  }
+
+  function findByName(query) {
+    if (!query) return null;
+    const lower = query.trim().toLowerCase();
+    if (!lower) return null;
+    let match = net.nodes.find(n => n.name.toLowerCase() === lower);
+    if (match) return match.id;
+    match = net.nodes.find(n => n.name.toLowerCase().startsWith(lower));
+    if (match) return match.id;
+    match = net.nodes.find(n => n.name.toLowerCase().includes(lower));
+    return match ? match.id : null;
+  }
+
+  function cliqueColor(cliqueIdx, colorAssignment) {
+    if (!(cliqueIdx in colorAssignment)) {
+      colorAssignment[cliqueIdx] = PALETTE[Object.keys(colorAssignment).length % PALETTE.length];
+    }
+    return colorAssignment[cliqueIdx];
+  }
+
+  function render() {
+    const colorAssignment = {}; // clique index -> color, built as we encounter cliques to highlight
+
+    let pathIds = [];
+    // "anchor" nodes are the ones whose *own* clique should be lit up:
+    // just A, or A and B (the first and last character picked) — the
+    // path itself is drawn as a plain connecting line, without pulling
+    // in every intermediate node's clique too.
+    let anchors = [];
+
+    if (pickedA) anchors.push(pickedA);
+
+    if (pickedA && pickedB) {
+      const path = bfsPath(pickedA, pickedB);
+      pathIds = path || [];
+      anchors.push(pickedB);
+    }
+
+    // assign a color to each anchor's clique (stable order: A first, then
+    // path order), and collect every node that belongs to one of those
+    // cliques into the highlight set. Color is tracked per NODE (which
+    // anchor's clique pulled it in), not by the node's own precomputed
+    // "largest clique" field — a node can be a member of an anchor's
+    // clique without that clique being its own largest one, so looking
+    // it up via n.clique would color it wrong (or by the wrong anchor's
+    // color entirely, if two anchors' clique indices collide visually).
+    const highlightNodeIds = new Set();
+    const nodeHighlightColor = {}; // node id -> color, set by whichever anchor's clique claims it first
+    anchors.forEach(id => {
+      const n = nodeById[id];
+      if (!n) return;
+      const color = cliqueColor(n.clique, colorAssignment);
+      const members = cliqueLookup[String(n.clique)] || [];
+      members.forEach(memberName => {
+        const memberId = idByName[memberName];
+        if (!memberId) return;
+        highlightNodeIds.add(memberId);
+        if (!(memberId in nodeHighlightColor)) nodeHighlightColor[memberId] = color;
+      });
+      // the anchor itself is always highlighted with its own clique's color,
+      // even if (for some reason) it wasn't in its own member list
+      highlightNodeIds.add(id);
+      nodeHighlightColor[id] = color;
+    });
+
+    const orderedHighlighted = anchors;
+
+    const nodeColors = net.nodes.map(n => {
+      if (highlightNodeIds.has(n.id)) {
+        return nodeHighlightColor[n.id] || PALETTE[0];
+      }
+      return "rgba(58,13,16,0.18)";
+    });
+    const nodeSizes = net.nodes.map(n => {
+      const base = 4 + Math.sqrt((n.in || 0) + (n.out || 0)) * 2.6;
+      if (n.id === pickedA || n.id === pickedB) return base * 1.9;
+      if (highlightNodeIds.has(n.id)) return base * 1.3;
+      return base * 0.75;
+    });
+    const nodeLineColors = net.nodes.map(n => {
+      if (n.id === pickedA) return T.red;
+      if (n.id === pickedB) return T.steel;
+      return "#ffffff";
+    });
+    const nodeLineWidths = net.nodes.map(n => (n.id === pickedA || n.id === pickedB) ? 2.5 : 0.4);
+
+    const hoverText = net.nodes.map(n => {
+      const cliqueMembers = cliqueLookup[String(n.clique)] || [];
+      return `<b>${n.name}</b><br>in: ${n.in} · out: ${n.out}<br>largest clique (${n.cliqueSize}): ${cliqueMembers.slice(0, 6).join(", ")}${cliqueMembers.length > 6 ? "…" : ""}`;
+    });
+
+    // edges: base (faint, all edges) + one colored trace per highlighted
+    // clique (only the edges connecting that clique's own members) + a
+    // bold single-color trace for the A-to-B path, drawn on top.
+    const edgeX = [], edgeY = [];
+    net.edges.forEach(e => {
+      const s = nodeById[e.source], t = nodeById[e.target];
+      if (!s || !t) return;
+      edgeX.push(s.x, t.x, null);
+      edgeY.push(s.y, t.y, null);
+    });
+    const edgeTrace = {
+      x: edgeX, y: edgeY, mode: "lines",
+      line: { color: T.edge, width: 0.5 },
+      hoverinfo: "skip", type: "scatter",
+    };
+
+    // one trace per distinct highlighted clique, colored to match its nodes
+    const cliqueEdgeTraces = Object.keys(colorAssignment).map(cliqueIdxStr => {
+      const cliqueIdx = Number(cliqueIdxStr);
+      const color = colorAssignment[cliqueIdx];
+      const memberNames = cliqueLookup[String(cliqueIdx)] || [];
+      const memberIds = new Set(memberNames.map(nm => idByName[nm]).filter(Boolean));
+      const x = [], y = [];
+      net.edges.forEach(e => {
+        if (!memberIds.has(e.source) || !memberIds.has(e.target)) return;
+        const s = nodeById[e.source], t = nodeById[e.target];
+        if (!s || !t) return;
+        x.push(s.x, t.x, null);
+        y.push(s.y, t.y, null);
+      });
+      return {
+        x, y, mode: "lines",
+        line: { color: color, width: 1.6 },
+        opacity: 0.75,
+        hoverinfo: "skip", type: "scatter",
+      };
+    });
+
+    const pathEdgeX = [], pathEdgeY = [];
+    for (let i = 0; i < pathIds.length - 1; i++) {
+      const s = nodeById[pathIds[i]], t = nodeById[pathIds[i + 1]];
+      if (!s || !t) continue;
+      pathEdgeX.push(s.x, t.x, null);
+      pathEdgeY.push(s.y, t.y, null);
+    }
+    const pathEdgeTrace = {
+      x: pathEdgeX, y: pathEdgeY, mode: "lines",
+      line: { color: T.edgePath, width: 3 },
+      hoverinfo: "skip", type: "scatter",
+    };
+
+    const nodeTrace = {
+      x: net.nodes.map(n => n.x),
+      y: net.nodes.map(n => n.y),
+      mode: "markers",
+      marker: {
+        color: nodeColors,
+        size: nodeSizes,
+        line: { color: nodeLineColors, width: nodeLineWidths },
+      },
+      text: hoverText,
+      hoverinfo: "text",
+      type: "scatter",
+      customdata: net.nodes.map(n => n.id),
+    };
+
+    const layout = {
+      paper_bgcolor: "#ffffff",
+      plot_bgcolor: "#ffffff",
+      font: { color: "#3a0d10", family: "Inter, sans-serif", size: 12 },
+      xaxis: { visible: false, fixedrange: false },
+      yaxis: { visible: false, fixedrange: false, scaleanchor: "x" },
+      margin: { l: 10, r: 10, t: 10, b: 10 },
+      dragmode: "pan",
+      showlegend: false,
+      hoverlabel: { bgcolor: "#3a0d10", bordercolor: "#ff3b3b", font: { color: "#f7f0e6" } },
+    };
+
+    Plotly.react("explorer-chart", [edgeTrace, ...cliqueEdgeTraces, pathEdgeTrace, nodeTrace], layout, {
+      displaylogo: false,
+      scrollZoom: true,
+      modeBarButtonsToRemove: ["select2d", "lasso2d", "autoScale2d", "toggleSpikelines"],
+      responsive: true,
+    });
+
+    renderLegend(colorAssignment, orderedHighlighted);
+    renderStatus(pathIds);
+  }
+
+  function renderLegend(colorAssignment, orderedHighlighted) {
+    legendEl.innerHTML = "";
+    if (!orderedHighlighted.length) {
+      legendEl.innerHTML = "<span>Select a character to see their clique highlighted here.</span>";
+      return;
+    }
+    const seen = new Set();
+    orderedHighlighted.forEach(id => {
+      const n = nodeById[id];
+      if (!n || seen.has(n.clique)) return;
+      seen.add(n.clique);
+      const color = colorAssignment[n.clique];
+      const members = cliqueLookup[String(n.clique)] || [];
+      const span = document.createElement("span");
+      span.innerHTML = `<span class="swatch" style="background:${color}"></span>${members.join(", ")}`;
+      legendEl.appendChild(span);
+    });
+  }
+
+  function renderStatus(pathIds) {
+    if (pickedA && pickedB) {
+      if (pathIds.length) {
+        statusEl.innerHTML =
+          `<span class="pick-a">${nodeById[pickedA].name}</span> → ` +
+          pathIds.slice(1, -1).map(id => nodeById[id].name).join(" → ") +
+          (pathIds.length > 2 ? " → " : "") +
+          `<span class="pick-b">${nodeById[pickedB].name}</span> ` +
+          `(${pathIds.length - 1} hop${pathIds.length - 1 === 1 ? "" : "s"})`;
+      } else {
+        statusEl.innerHTML =
+          `No path between <span class="pick-a">${nodeById[pickedA].name}</span> and ` +
+          `<span class="pick-b">${nodeById[pickedB].name}</span> — they're in different, disconnected parts of the network.`;
+      }
+    } else if (pickedA) {
+      statusEl.innerHTML = `Showing <span class="pick-a">${nodeById[pickedA].name}</span>'s largest clique. Pick a second character to trace a path.`;
+    } else {
+      statusEl.textContent = "Click a node below, or type a name above, to begin.";
+    }
+  }
+
+  function selectCharacter(which, id) {
+    if (which === "a") {
+      pickedA = id;
+      inputA.value = id ? nodeById[id].name : "";
+    } else {
+      pickedB = id;
+      inputB.value = id ? nodeById[id].name : "";
+    }
+    render();
+  }
+
+  // --- load data ---
+  Promise.all([
+    fetch("../assets/data/week3b_network.json").then(r => r.json()),
+    fetch("../assets/data/week3b_cliques.json").then(r => r.json()),
+  ]).then(([networkData, cliques]) => {
+    net = networkData;
+    cliqueLookup = cliques;
+    net.nodes.forEach(n => { nodeById[n.id] = n; idByName[n.name] = n.id; });
+    adjacency = buildAdjacency(net);
+
+    const frag = document.createDocumentFragment();
+    net.nodes.map(n => n.name).sort().forEach(name => {
+      const opt = document.createElement("option");
+      opt.value = name;
+      frag.appendChild(opt);
+    });
+    datalist.appendChild(frag);
+
+    render();
+
+    document.getElementById("explorer-chart").on("plotly_click", function (evt) {
+      const pt = evt.points.find(p => p.data.mode === "markers");
+      if (!pt) return;
+      const id = pt.customdata;
+      if (!pickedA || (pickedA && pickedB)) {
+        pickedA = id; pickedB = null;
+        inputA.value = nodeById[id].name;
+        inputB.value = "";
+      } else if (id === pickedA) {
+        pickedA = null;
+        inputA.value = "";
+      } else {
+        pickedB = id;
+        inputB.value = nodeById[id].name;
+      }
+      render();
+    });
+  }).catch(err => {
+    statusEl.textContent = "Could not load network data (" + err.message + ").";
+  });
+
+  inputA.addEventListener("change", () => selectCharacter("a", findByName(inputA.value)));
+  inputB.addEventListener("change", () => selectCharacter("b", findByName(inputB.value)));
+  document.getElementById("explorer-reset").addEventListener("click", () => {
+    pickedA = null; pickedB = null;
+    inputA.value = ""; inputB.value = "";
+    render();
+  });
+})();
+</script>
+
+<script>
+(function () {
+  "use strict";
+
+  const ALIVE_COLOR = "#e0111a";
+  const GIANT_COLOR = "#e0111a";
+  const NON_GIANT_COLOR = "#c98a2c";
+  const DEAD_COLOR = "rgba(58,13,16,0.10)";
+  const CURVE_COLORS = { degree: "#e0111a", betweenness: "#e0b45c", random: "#7fa8d9" };
+
+  let net = null;          // week3b_network.json: {nodes, edges}
+  let orders = null;       // week3d_removal_orders.json
+  let nodeById = {};
+  let adjacency = {};
+  let currentOrderKey = "degree"; // "degree" | "betweenness"
+  let step = 0;             // number of characters removed so far
+
+  const statusEl = document.getElementById("frag-status");
+  const stepDisplay = document.getElementById("frag-step-display");
+  const slider = document.getElementById("frag-step-slider");
+  const orderSelect = document.getElementById("frag-order-select");
+  const prevBtn = document.getElementById("frag-prev");
+  const nextBtn = document.getElementById("frag-next");
+  const resetBtn = document.getElementById("frag-reset");
+
+  function buildAdjacency(data) {
+    const adj = {};
+    data.nodes.forEach(n => { adj[n.id] = new Set(); });
+    data.edges.forEach(e => {
+      if (!adj[e.source] || !adj[e.target]) return;
+      adj[e.source].add(e.target);
+      adj[e.target].add(e.source);
+    });
+    return adj;
+  }
+
+  // connected components restricted to a set of still-alive node ids
+  function connectedComponents(aliveSet) {
+    const seen = new Set();
+    const comps = [];
+    aliveSet.forEach(start => {
+      if (seen.has(start)) return;
+      const comp = [];
+      const queue = [start];
+      seen.add(start);
+      while (queue.length) {
+        const cur = queue.shift();
+        comp.push(cur);
+        (adjacency[cur] || new Set()).forEach(nb => {
+          if (aliveSet.has(nb) && !seen.has(nb)) {
+            seen.add(nb);
+            queue.push(nb);
+          }
+        });
+      }
+      comps.push(comp);
+    });
+    return comps;
+  }
+
+  function currentOrder() {
+    return currentOrderKey === "degree" ? orders.order_degree : orders.order_betweenness;
+  }
+
+  function renderNetworkPane() {
+    const order = currentOrder();
+    const removed = new Set(order.slice(0, step));
+    const aliveIds = net.nodes.map(n => n.id).filter(id => !removed.has(id));
+    const aliveSet = new Set(aliveIds);
+    const comps = connectedComponents(aliveSet);
+    const giant = comps.length ? comps.reduce((a, b) => (b.length > a.length ? b : a)) : [];
+    const giantSet = new Set(giant);
+
+    // the node removed on THIS step (if any) and the edges that used to
+    // connect it to everyone else — drawn as a distinct "just severed"
+    // trace so the removal is visible, not just a silent redraw
+    const justRemovedId = step > 0 ? order[step - 1] : null;
+    const severedX = [], severedY = [];
+    if (justRemovedId && nodeById[justRemovedId]) {
+      const jr = nodeById[justRemovedId];
+      net.edges.forEach(e => {
+        let otherId = null;
+        if (e.source === justRemovedId) otherId = e.target;
+        else if (e.target === justRemovedId) otherId = e.source;
+        if (!otherId) return;
+        const other = nodeById[otherId];
+        if (!other) return;
+        severedX.push(jr.x, other.x, null);
+        severedY.push(jr.y, other.y, null);
+      });
+    }
+    const severedTrace = {
+      x: severedX, y: severedY, mode: "lines",
+      line: { color: "#ff3b3b", width: 1.6, dash: "dot" },
+      opacity: 0.85,
+      hoverinfo: "skip", type: "scatter",
+    };
+
+    const edgeX = [], edgeY = [];
+    net.edges.forEach(e => {
+      if (!aliveSet.has(e.source) || !aliveSet.has(e.target)) return;
+      const s = nodeById[e.source], t = nodeById[e.target];
+      edgeX.push(s.x, t.x, null);
+      edgeY.push(s.y, t.y, null);
+    });
+    const edgeTrace = {
+      x: edgeX, y: edgeY, mode: "lines",
+      line: { color: "rgba(58,13,16,0.15)", width: 0.5 },
+      hoverinfo: "skip", type: "scatter",
+    };
+
+    const nodeColors = net.nodes.map(n => {
+      if (n.id === justRemovedId) return "#ff3b3b";
+      if (!aliveSet.has(n.id)) return DEAD_COLOR;
+      return giantSet.has(n.id) ? GIANT_COLOR : NON_GIANT_COLOR;
+    });
+    const nodeSizes = net.nodes.map(n => {
+      const base = 4 + Math.sqrt((n.in || 0) + (n.out || 0)) * 2.6;
+      if (n.id === justRemovedId) return base * 1.3; // keep it visible, marked as just-removed
+      return aliveSet.has(n.id) ? base : base * 0.4;
+    });
+    const nodeSymbols = net.nodes.map(n => (n.id === justRemovedId ? "x" : "circle"));
+    const hoverText = net.nodes.map(n => {
+      if (n.id === justRemovedId) return `<b>${n.name}</b><br>just removed (step ${step})`;
+      if (!aliveSet.has(n.id)) return `<b>${n.name}</b><br>removed`;
+      const inGiant = giantSet.has(n.id) ? "in the giant component" : "cut off from the giant component";
+      return `<b>${n.name}</b><br>${inGiant}`;
+    });
+
+    const nodeTrace = {
+      x: net.nodes.map(n => n.x),
+      y: net.nodes.map(n => n.y),
+      mode: "markers",
+      marker: { color: nodeColors, size: nodeSizes, symbol: nodeSymbols, line: { color: "#ffffff", width: 0.4 } },
+      text: hoverText,
+      hoverinfo: "text",
+      type: "scatter",
+    };
+
+    const layout = {
+      paper_bgcolor: "#ffffff",
+      plot_bgcolor: "#ffffff",
+      font: { color: "#3a0d10", family: "Inter, sans-serif", size: 12 },
+      xaxis: { visible: false, fixedrange: false },
+      yaxis: { visible: false, fixedrange: false, scaleanchor: "x" },
+      margin: { l: 10, r: 10, t: 10, b: 10 },
+      dragmode: "pan",
+      showlegend: false,
+      hoverlabel: { bgcolor: "#3a0d10", bordercolor: "#ff3b3b", font: { color: "#f7f0e6" } },
+    };
+
+    Plotly.react("frag-network", [edgeTrace, severedTrace, nodeTrace], layout, {
+      displaylogo: false, scrollZoom: true,
+      modeBarButtonsToRemove: ["select2d", "lasso2d", "autoScale2d", "toggleSpikelines"],
+      responsive: true,
+    });
+
+    return giant.length;
+  }
+
+  function renderLineChartPane() {
+    const traces = [
+      {
+        x: Array.from({ length: orders.n_total }, (_, i) => i + 1),
+        y: orders.sizes_degree, mode: "lines", name: "By degree",
+        line: { color: CURVE_COLORS.degree, width: currentOrderKey === "degree" ? 2.5 : 1.5 },
+        opacity: currentOrderKey === "degree" ? 1 : 0.35,
+      },
+      {
+        x: Array.from({ length: orders.n_total }, (_, i) => i + 1),
+        y: orders.sizes_betweenness, mode: "lines", name: "By betweenness",
+        line: { color: CURVE_COLORS.betweenness, width: currentOrderKey === "betweenness" ? 2.5 : 1.5 },
+        opacity: currentOrderKey === "betweenness" ? 1 : 0.35,
+      },
+      {
+        x: Array.from({ length: orders.n_total }, (_, i) => i + 1),
+        y: orders.sizes_random_avg, mode: "lines", name: "Random (avg)",
+        line: { color: CURVE_COLORS.random, width: 1.5, dash: "dot" },
+        opacity: 0.6,
+      },
+    ];
+
+    // current-step marker
+    const curveArr = currentOrderKey === "degree" ? orders.sizes_degree : orders.sizes_betweenness;
+    if (step > 0) {
+      traces.push({
+        x: [step], y: [curveArr[step - 1]],
+        mode: "markers", name: "Current step",
+        marker: { color: "#f7f0e6", size: 10, symbol: "circle", line: { color: CURVE_COLORS[currentOrderKey], width: 2.5 } },
+        showlegend: false,
+      });
+    }
+
+    const layout = {
+      paper_bgcolor: "transparent",
+      plot_bgcolor: "transparent",
+      font: { color: "#f7f0e6", family: "Inter, sans-serif", size: 11 },
+      xaxis: { title: "removed", gridcolor: "rgba(247,240,230,0.08)", zeroline: false },
+      yaxis: { title: "giant component", gridcolor: "rgba(247,240,230,0.08)", zeroline: false },
+      margin: { l: 50, r: 15, t: 15, b: 40 },
+      legend: { orientation: "h", y: -0.22, font: { size: 10 } },
+      hoverlabel: { bgcolor: "#3a0d10", bordercolor: "#ff3b3b", font: { color: "#f7f0e6" } },
+    };
+
+    Plotly.react("frag-linechart", traces, layout, {
+      displaylogo: false, displayModeBar: false, responsive: true,
+    });
+  }
+
+  function renderStatus(giantSize) {
+    const order = currentOrder();
+    if (step === 0) {
+      statusEl.textContent = `Nobody removed yet — full network, ${net.nodes.length} characters, all one web.`;
+      return;
+    }
+    const lastRemovedId = order[step - 1];
+    const lastRemovedName = nodeById[lastRemovedId] ? nodeById[lastRemovedId].name : lastRemovedId;
+    statusEl.innerHTML =
+      `Removed <span class="removed-name">${lastRemovedName}</span> (#${step}) — ` +
+      `giant component now <strong style="color:var(--white)">${giantSize}</strong> characters.`;
+  }
+
+  function render() {
+    const giantSize = renderNetworkPane();
+    renderLineChartPane();
+    renderStatus(giantSize);
+    stepDisplay.textContent = `${step} / ${orders.n_total}`;
+    slider.value = step;
+    prevBtn.disabled = step === 0;
+    nextBtn.disabled = step === orders.n_total;
+  }
+
+  function setStep(newStep) {
+    step = Math.max(0, Math.min(orders.n_total, newStep));
+    render();
+  }
+
+  Promise.all([
+    fetch("../assets/data/week3b_network.json").then(r => r.json()),
+    fetch("../assets/data/week3d_removal_orders.json").then(r => r.json()),
+  ]).then(([networkData, orderData]) => {
+    net = networkData;
+    orders = orderData;
+    net.nodes.forEach(n => { nodeById[n.id] = n; });
+    adjacency = buildAdjacency(net);
+    slider.max = orders.n_total;
+    requestAnimationFrame(() => setStep(0));
+  }).catch(err => {
+    statusEl.textContent = "Could not load simulation data (" + err.message + ").";
+  });
+
+  prevBtn.addEventListener("click", () => setStep(step - 1));
+  nextBtn.addEventListener("click", () => setStep(step + 1));
+  resetBtn.addEventListener("click", () => setStep(0));
+  slider.addEventListener("input", () => setStep(Number(slider.value)));
+  orderSelect.addEventListener("change", () => {
+    currentOrderKey = orderSelect.value;
+    render();
+  });
+})();
+</script>
+
+</body>
+</html>
+
